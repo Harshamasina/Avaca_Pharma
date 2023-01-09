@@ -1,3 +1,5 @@
+// import { FaRegCopyright } from "react-icons/fa";
+
 function Patents(){
     return(
         <div>

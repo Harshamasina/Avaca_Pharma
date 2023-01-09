@@ -1,3 +1,5 @@
+// import { TfiGallery } from "react-icons/tfi";
+
 function Gallery(){
     return(
         <div>

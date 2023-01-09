@@ -1,0 +1,212 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+  }
+
+.color-nav{
+	border-bottom: #3d5a80 0.5px solid !important;
+	background: transparent !important;
+	z-index: 9 !important;
+	top: 0 !important;
+	width: 100% !important;
+	position: fixed !important;
+}
+
+.color-nav-scroll{
+	background: #3d5a80;
+	border-bottom: #3d5a80 0.5px solid !important;
+	z-index: 9 !important;
+	top: 0 !important;
+	width: 100% !important;
+	position: fixed !important;
+}
+
+
+.navbar-collapse{
+	/* background-color: #15B39D !important; */
+	color: white !important;
+	opacity: 1;
+	position: relative !important;
+
+}
+	.navbar_link{
+		font-size: 0.8em !important;
+		color: #e0fbfc !important;
+		/* color: #15B39D !important; */
+		text-transform: uppercase;
+		letter-spacing: 1px;
+		font-weight: 500 !important;
+		transition: all 0.4s ease;
+		display: inline-block;
+	  position: relative;
+	}
+	#basic-nav-dropdown{
+		font-size: 1em !important;
+		color: #e0fbfc !important;
+		/* color: #15B39D !important; */
+		text-transform: uppercase;
+		letter-spacing: 1px;
+		font-weight: 500 !important;
+		transition: all 0.4s ease;
+		display: inline-block;
+	  position: relative;
+	}
+
+	.toggle{
+		background-color: #3d5a80 !important;
+	}
+	@media screen and (max-width:600px) {
+		.navbar_link{
+			margin-left: 5%;
+		}	
+		.nav-link{
+			color: #e0fbfc !important;
+		}
+		.color-nav{
+			background-color: #3d5a80 !important;
+			width: 100% !important;
+			position: absolute;
+
+		}
+		.color-nav-scroll{
+			background: #3d5a80;
+			border-bottom: #3d5a80 0.5px solid !important;
+			z-index: 9 !important;
+			top: 0 !important;
+			width: 100% !important;
+			/* position: fixed !important; */
+			position: absolute;
+		}
+		.navbar-toggler{
+			margin-right: 3% !important;
+		}
+		#basic-nav-dropdown{
+			color: #3d5a80 !important;
+
+		}
+		
+	}
+	@media screen and (max-width:768px) and (min-width:601px) {
+		.navbar_link{
+			margin-left: 5%;
+		}
+		.color-nav{
+			background-color: #3d5a80 !important;
+			position: absolute;
+		}
+		.nav-link{
+			color: #e0fbfc !important;
+		}
+		#basic-nav-dropdown{
+			color: #6CC8C2 !important;
+
+		}
+		.navbar-toggler{
+			margin-right: 3% !important;
+		}
+	
+	}
+	/* #basic-nav-dropdown{
+		color: white !important;
+	} */
+
+	.dropdown-menu{
+		background-color: #e0fbfc !important;
+	}
+	
+	.navbar_link::after{
+	  content: '';
+	  position: absolute;
+	  width: 100%;
+	  transform: scaleX(0);
+	  height: 2px;
+	  bottom: 0;
+	  left: 0;
+	  background-color: #ee6c4d;
+	  transform-origin: bottom right;
+	  transition: transform 0.25s ease-out;
+	}
+	#basic-nav-dropdown:hover::after{
+	  content: '';
+	  position: absolute;
+	  width: 100%;
+	  transform: scaleX(0);
+	  height: 2px;
+	  bottom: 0;
+	  left: 0;
+	  background-color: #ee6c4d;
+	  transform-origin: bottom right;
+	  transition: transform 0.25s ease-out;
+	}
+	.dropdown-item::after{
+		content: '';
+		position: absolute;
+		width: 100%;
+		transform: scaleX(0);
+		height: 2px;
+		bottom: 0;
+		left: 0;
+		background-color: #ee6c4d;
+		transform-origin: bottom right;
+		transition: transform 0.25s ease-out;
+	}
+	#basic-nav-dropdown:hover{
+		color: #ee6c4d !important;
+	}
+		
+	a:hover { color: #ee6c4d !important;  }
+	a:hover::after { width: 100%; }
+	
+    .navbar_link:hover::after{
+		transform: scaleX(1);
+		  transform-origin: bottom left;
+		color: #ee6c4d !important;
+		border-bottom: #ee6c4d 2px solid !important;
+		/* transition: all 0.4s ease; */
+	}
+	
+.nav-link.active{
+	color:#ee6c4d !important;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    display: none !important;
+}
+
+.mainNavbar{
+	height: 200px;
+	width: 100%;
+	background-color: #ee6c4d !important;
+	color:#4e545f ;
+	display: flex;
+	justify-content: space-around;
+	min-height: 8vh;
+	/* position: absolute; */
+	align-items: center;
+	/* position: sticky; */
+  }
+  
+
+ @media screen and (max-width: 1080px) {
+	body{
+	  overflow-x: hidden;
+	}
+	 .hamburger-toggle{
+	   display: block;
+	 }
+	 .link{
+	   position: absolute;
+	   right: 0px;
+	   display: flex;
+	   flex-direction: column;
+	   height: 90vh;
+	   align-items: center;
+	   width: 100%;
+	   top: 3vh;
+	   background-color: #282C34;
+	   font-size: 30px;
+	   transform: translate(100%);
+	   transition: transform 0.5s ease-in;
+	 }
+  }

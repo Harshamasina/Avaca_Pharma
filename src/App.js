@@ -1,12 +1,16 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Navbar from './Components/Navbar/Navbar';
+import { BrowserRouter } from 'react-router-dom';
+import NavBar from './Components/Navbar/NavBar';
+import Footer from './Components/Footer/Footer';
 
 function App() {
   return (
     <div className="App">
-      <Navbar></Navbar>
-      <h1>Welcome To Avaca Pharma</h1>
+        <BrowserRouter>
+          <NavBar></NavBar>
+          <Footer></Footer>
+        </BrowserRouter>
     </div>
   );
 }

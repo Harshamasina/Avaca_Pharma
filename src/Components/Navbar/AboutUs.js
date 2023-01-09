@@ -1,3 +1,5 @@
+// import { BsPeople } from "react-icons/bs";
+
 function AboutUS(){
     return(
         <div>
