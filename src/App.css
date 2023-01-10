@@ -15,7 +15,7 @@ body{
     width:15rem;
     height: 4rem;
     display: inline;
- }
+  }
 
 .landingpage{
     width: 100%;
@@ -806,6 +806,10 @@ body{
   color: #293241;
 }
 
+.CareersInfo:hover{
+  background-color: #e0fbfc;
+}
+
 .CareersInfo h2{
   display: flex;
   font-weight: bold;
@@ -861,6 +865,125 @@ body{
   }
 }
 
+.LeadershipContainer{
+  display: flex;
+  flex-direction: row;
+  margin-left: 19%;
+  width: 70%;
+}
+
+.LeaderImg{
+  height: 250px;
+  width: 300px;
+}
+
+.LeaderContent{
+  margin-left: 3%;
+}
+
+.LeaderContent h1 {
+  color: #3d5a80;
+  font-size: 1.2vw;
+  font-weight: bold;
+}
+
+.LeaderContent h2 {
+  color: #3d5a80;
+  font-size: 1.2vw;
+}
+
+.LeaderContent p{
+  font-size: 1.2vw;
+}
+
+@media screen and (max-width: 600px) {
+  .LeaderImg{
+    height: 100px;
+    width: 250px;
+  }
+  .LeaderContent h1{
+    font-size: 1rem;
+  }
+  .LeaderContent h2{
+    font-size: 1rem;
+  }
+  .LeaderContent p{
+    font-size: 1rem;
+    text-align: justify;
+  }
+}
+
+.MediaContainer1{
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  margin-left: 10%;
+}
+
+.MediaContainer2{
+  width: 80%;
+  display: flex;
+  flex-direction: row-reverse;
+  margin-left: 10%;
+  margin-top: 2%;
+}
+
+.MediaImg{
+  width: 400px;
+  height: 130px;
+  margin-top: 6%;
+}
+
+.MediaContent{
+  margin-left: 2%;
+}
+
+.MediaContent a{
+  text-decoration: none !important;
+  color: #3d5a80;
+}
+
+.MediaContent h2{
+  color: #3d5a80;
+  font-weight: bold;
+}
+
+.MediaContent h5{
+  color: #3d5a80;
+}
+
+.MediaContent p{
+  font-size: 1.2vw;
+}
+
+@media screen and (max-width: 600px) {
+  .MediaContainer1{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+  }
+  .MediaContainer2{
+    width: 80%;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .MediaImg{
+    width: 300px;
+    height: 100px;
+    margin-bottom: 2%;
+  }
+  .MediaContent h2{
+    font-size: 1rem;
+  }
+  .MediaContent h5{
+    font-size: 1rem;
+  }
+  .MediaContent p{
+    font-size: 1rem;
+    text-align: justify;
+  }
+
+}
 
 
 

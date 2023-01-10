@@ -707,7 +707,7 @@ function Infra(){
                             <tr>
                                 <td>22</td>
                                 <td>Vacuum oven</td>
-                                <td>FRD-IN/024</td>
+                                <td>ARD-IN/024</td>
                                 <td>Vihan techno services</td>
                                 <td>HIPL-028A</td>
                             </tr>
