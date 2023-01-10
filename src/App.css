@@ -802,3 +802,65 @@ body{
   margin-top: 2%;
 }
 
+.CareersInfo{
+  color: #293241;
+}
+
+.CareersInfo h2{
+  display: flex;
+  font-weight: bold;
+  color: #f2f2f2;
+  background-color: #3d5a80;
+}
+
+.CareersInfo div {
+  margin-left: 3%;
+}
+
+.CareersInfo h4{
+  color: #3d5a80;
+  font-weight: bold;
+}
+
+.CareersInfo h5{
+  color: #3d5a80;
+  font-weight: bold;
+}
+
+.CareersInfo ul{
+  font-size: 1.2vw;
+}
+
+.CareersInfo span{
+  font-weight: bold;
+  color: #293241;
+}
+
+@media screen and (max-width: 600px) {
+  .CareersText{
+    font-size: 1rem;
+    text-align: justify;
+  }
+  .CareersText span{
+    font-size: 0.8rem;
+  }
+  .CareersText a{
+    font-size: 1rem;
+  }
+  .CareersText{
+    font-size: 1rem;
+  }
+  .CareersDetails h2{
+    font-size: 1rem;
+  }
+  .CareersInfo ul{
+    font-size: 1rem;
+  }
+  .CareersInfo h4{
+    font-size: 1rem;
+  }
+}
+
+
+
+

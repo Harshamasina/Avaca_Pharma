@@ -3,7 +3,6 @@ import { BsMinecartLoaded } from "react-icons/bs";
 import { GiGears } from "react-icons/gi";
 import { RiServiceLine } from "react-icons/ri";
 
-
 function Services(){
     return(
         <>
