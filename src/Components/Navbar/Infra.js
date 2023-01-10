@@ -1,5 +1,5 @@
 import Table from 'react-bootstrap/Table';
-// import { BsBuilding } from "react-icons/bs";
+import { BsBuilding } from "react-icons/bs";
 
 function Infra(){
     return(
@@ -14,7 +14,9 @@ function Infra(){
                     </div>
                 </div>
             </div>
-
+            <div>
+                <BsBuilding className="PageIcon"></BsBuilding>
+            </div>
             <div className="PageHeading">
                 <h1 class="jt --debug">
                     <span class="jt__row">

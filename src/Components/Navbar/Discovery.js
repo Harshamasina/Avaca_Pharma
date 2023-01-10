@@ -1,4 +1,4 @@
-// import { SiResearchgate } from "react-icons/si";
+import { MdOutlineScience } from "react-icons/md";
 
 function Discovery(){
     return(
@@ -13,7 +13,9 @@ function Discovery(){
                             </div>
                      </div>
             </div>
-            
+            <div>
+                <MdOutlineScience className="PageIcon"></MdOutlineScience>
+            </div>
             <div className="PageHeading">
                 <h1 class="jt --debug">
                     <span class="jt__row">

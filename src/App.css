@@ -26,6 +26,7 @@ body{
     justify-content: space-evenly;
     box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
     position: relative;
+    top:-35px;
     transition: 0.5s;
   }
   
@@ -471,7 +472,8 @@ body{
   justify-content: center;
   flex-direction: column;
   color: #ee6c4d;
-  margin: 2%;
+  /* margin: 2%; */
+  margin-bottom: 1%;
 }
 
 .jt {
@@ -749,3 +751,54 @@ body{
     /* margin-left: 80% !important; */
   }
 }
+
+.PageIcon{
+  width: 60px;
+  height: 55px;
+  color: #ee6c4d;
+  margin-left: 48%;
+  margin-top: 1%;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 600px) {
+  .PageIcon{
+    width: 30px;
+    height: 30px;
+  }
+}
+
+.CareersText{
+  width: 65%;
+  color: #293241;
+  text-align: center;
+  margin-left: 18%;
+  font-size: 1.2vw;
+  font-weight: 450;
+}
+
+.CareersText span{
+  color: #3d5a80;
+  font-size: 1.5vw;
+  font-weight: 500;
+}
+
+.CareersText a{
+  color: #3d5a80;
+  font-size: 1.5vw;
+  font-weight: 500;
+}
+
+.CareersDetails h2{
+  color: #3d5a80;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.CareersDetailsContainer{
+  border: 1px solid #98c1d9;
+  width: 70%;
+  margin-left: 15%;
+  margin-top: 2%;
+}
+

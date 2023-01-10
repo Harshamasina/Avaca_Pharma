@@ -2,7 +2,7 @@ import Logo from './Logo';
 import './Navbar.css';
 import { Navbar, Nav } from 'react-bootstrap';
 import { Link, Route, Routes } from "react-router-dom";
-// import { useState } from 'react';
+import { useState } from 'react';
 import Home from './Home';
 import AboutUs from './AboutUs';
 import Discovery from './Discovery';
@@ -16,15 +16,15 @@ import Careers from './Careers';
 import ContactUs from './ContactUs';
 
 function NavBar(){
-        // const [changeNavbar, setChangeNavbar] = useState(false);
-        // const changeBackground = () => {
-        //     if(window.scrollY >= 80){
-        //         setChangeNavbar(true);
-        //     }else{
-        //         setChangeNavbar(false);
-        //     }
-        // }
-        // window.addEventListener('scroll', changeBackground);
+        const [changeNavbar, setChangeNavbar] = useState(false);
+        const changeBackground = () => {
+            if(window.scrollY >= 80){
+                setChangeNavbar(true);
+            }else{
+                setChangeNavbar(false);
+            }
+        }
+        window.addEventListener('scroll', changeBackground);
     return(
         <>
             <div>
@@ -33,7 +33,7 @@ function NavBar(){
                  variant={"dark"} 
                  expand="lg" 
                 //  className='color-nav-scroll'
-                 className='color-nav-scroll'
+                 className={changeNavbar ? 'color-nav-scroll' : 'color-nav'}
                  >
                     <Logo></Logo>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" className='toggle'></Navbar.Toggle>
