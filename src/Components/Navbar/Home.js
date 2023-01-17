@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import HomeContent from "../Body/HomeContent";
+import ModalPopUp from "../Body/ModalPopUp";
 // import { CgOrganisation } from "react-icons/cg";
 
 function Home(){
@@ -27,6 +28,7 @@ function Home(){
                     <Link className='homeBtn' to="/patents">Get Started</Link>
             </div>
             <HomeContent></HomeContent>
+            <ModalPopUp></ModalPopUp>
         </>
     )
 }

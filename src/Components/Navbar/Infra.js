@@ -37,7 +37,7 @@ function Infra(){
             <div>
                 <div className='InfraTableContainer'>
                     <h2>Formulation R&D Infrastructure</h2>
-                    <Table striped bordered hover size='sm' className='InfaTable shadow-lg'>
+                    <Table striped bordered hover className='InfaTable shadow-lg'>
                         <thead>
                             <tr>
                                 <th>SNO</th>
@@ -525,7 +525,7 @@ function Infra(){
 
                 <div className='InfraTableContainer'>
                     <h2>Analytical R&D Infrastructure</h2>
-                    <Table striped bordered hover size='sm' className='InfaTable shadow-lg'>
+                    <Table striped bordered hover className='InfaTable shadow-lg'>
                         <thead>
                             <tr>
                                 <th>SNO</th>
