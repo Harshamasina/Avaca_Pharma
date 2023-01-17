@@ -13,10 +13,11 @@ function Gallery(){
                     </div>
                 </div>
             </div>
-            
+
             <div>
                 <TfiGallery className="PageIcon"></TfiGallery>
             </div>
+
             <div className="PageHeading">
                 <h1 class="jt --debug">
                     <span class="jt__row">
@@ -33,7 +34,9 @@ function Gallery(){
                     </span>
                 </h1>
             </div>
+
             <div className="GalleryContent"><h2>Welcome to <span>AvacaPharma</span> R&D</h2></div>
+            
             <div className="grid-wrapper">
                 <div>
                     <div><img src="https://avaca-pharma-assets.s3.ap-south-1.amazonaws.com/Gallery+-+1.jpg" alt="gallery"></img></div>
@@ -81,6 +84,7 @@ function Gallery(){
                     <div><img src="https://avaca-pharma-assets.s3.ap-south-1.amazonaws.com/Gallery+-+16.jpg" alt="gallery"></img></div>
                 </div>
             </div>
+
             <div className="VideoContainer">
                 <h2>WATCH AVACAPHARMA COMMERCIAL OPERATIONS (GMP)</h2>
                 <iframe src="https://player.vimeo.com/video/332239306?h=f9bd29e595" width="1200" height="650" frameborder="0" title="Vimeo" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
@@ -88,4 +92,5 @@ function Gallery(){
         </>
     )
 }
+
 export default Gallery;

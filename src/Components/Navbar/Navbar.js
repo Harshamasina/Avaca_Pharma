@@ -14,6 +14,7 @@ import Media from './Media';
 import Gallery from './Gallery';
 import Careers from './Careers';
 import ContactUs from './ContactUs';
+import Error from '../Body/Error';
 
 function NavBar(){
         const [changeNavbar, setChangeNavbar] = useState(false);
@@ -74,6 +75,7 @@ function NavBar(){
                     <Route path='/careers' element={<Careers></Careers>}></Route>
                     <Route path='/contactus' element={<ContactUs></ContactUs>}></Route>
                     <Route path='/' element={<Home></Home>}></Route>
+                    <Route path='*' element={<Error></Error>}></Route>
                 </Routes>
             </div>
         </>
