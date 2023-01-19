@@ -10,12 +10,29 @@ body{
   color: #f2f2f2;
   background: #3d5a80;
 }
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+} 
+
+::-webkit-scrollbar-thumb {
+  background: #3d5a80;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #ee6c4d;
+  width: 15px;
+}
  
- .logo{
-    width:15rem;
-    height: 4rem;
-    display: inline;
-  }
+.logo{
+  width:15rem;
+  height: 4rem;
+  display: inline;
+}
 
 .landingpage{
     width: 100%;

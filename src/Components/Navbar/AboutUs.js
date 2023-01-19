@@ -6,6 +6,7 @@ import { MdOutlineContentCopy } from "react-icons/md";
 import Accordion from 'react-bootstrap/Accordion';
 
 function AboutUS(){
+    document.title = 'AvacaPharma - About Us';
     return(
         <>
             <div className='landingpage'>

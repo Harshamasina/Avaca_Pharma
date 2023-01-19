@@ -4,6 +4,7 @@ import { GiGears } from "react-icons/gi";
 import { RiServiceLine } from "react-icons/ri";
 
 function Services(){
+    document.title = 'AvacaPharma - Services';
     return(
         <>
             <div className='landingpage'>

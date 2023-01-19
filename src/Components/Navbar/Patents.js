@@ -1,6 +1,7 @@
 import { FaRegCopyright } from "react-icons/fa";
 
 function Patents(){
+    document.title = 'AvacaPharma - Patents';
     return(
         <>
             <div className='landingpage'>

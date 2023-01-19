@@ -1,6 +1,7 @@
 import { IoPersonAddOutline } from "react-icons/io5";
 
 function Careers(){
+    document.title = 'AvacaPharma - Careers';
     return(
         <>
             <div className='landingpage'>

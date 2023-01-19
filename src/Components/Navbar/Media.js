@@ -1,6 +1,7 @@
 import { HiOutlineNewspaper } from "react-icons/hi";
 
 function Media(){
+    document.title = 'AvacaPharma - Media';
     return(
         <>
             <div className='landingpage'>

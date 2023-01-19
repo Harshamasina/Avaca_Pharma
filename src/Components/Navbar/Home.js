@@ -4,6 +4,7 @@ import ModalPopUp from "../Body/ModalPopUp";
 // import { CgOrganisation } from "react-icons/cg";
 
 function Home(){
+    document.title = 'AvacaPharma - Home';
     return(
         <>
             <div className='landingpage'>

@@ -1,6 +1,7 @@
 import { TfiGallery } from "react-icons/tfi";
 
 function Gallery(){
+    document.title = 'AvacaPharma - Gallery';
     return(
         <>
             <div className='landingpage'>

@@ -1,6 +1,7 @@
 import { MdOutlineScience } from "react-icons/md";
 
 function Discovery(){
+    document.title = 'AvacaPharma - Discovery';
     return(
         <>
             <div className='landingpage'>

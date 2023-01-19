@@ -1,6 +1,7 @@
 import { MdOutlineLeaderboard } from "react-icons/md";
 
 function Leadership(){
+    document.title = 'AvacaPharma - Leadership';
     return(
         <>
             <div className='landingpage'>

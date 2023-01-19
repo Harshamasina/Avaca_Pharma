@@ -2,6 +2,7 @@ import Table from 'react-bootstrap/Table';
 import { BsBuilding } from "react-icons/bs";
 
 function Infra(){
+    document.title = 'AvacaPharma - Infrastructure';
     return(
         <>
             <div className='landingpage'>

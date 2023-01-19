@@ -54,7 +54,7 @@ function NavBar(){
                             <Nav.Link className='navbar_link' as={Link} to="/media" eventKey="8">Media</Nav.Link>
                             <Nav.Link className='navbar_link' as={Link} to="/gallery" eventKey="9">Gallery</Nav.Link>
                             <Nav.Link className='navbar_link' as={Link} to="/careers" eventKey="10">Careers</Nav.Link>
-                            <Nav.Link className='navbar_link' as={Link} to="/contactus" eventKey="11">Contact Us</Nav.Link>
+                            <Nav.Link className='navbar_link' as={Link} to="/contactus" eventKey="11">Contact</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Navbar>

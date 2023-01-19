@@ -1,6 +1,7 @@
 import { RiQuestionAnswerLine } from "react-icons/ri";
 
 function ContactUs(){
+    document.title = 'AvacaPharma - Contact';
     return(
         <>
             <div className='landingpage'>
