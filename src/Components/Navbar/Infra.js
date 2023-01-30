@@ -520,6 +520,78 @@ function Infra(){
                                 <td>Rem</td>
                                 <td>1-MLH</td>
                             </tr>
+
+                            <tr>
+                                <td>60</td>
+                                <td>Manual Capsule filling Machine</td>
+                                <td>FRD-EQ/014</td>
+                                <td>Anchor mark Pvt. Ltd</td>
+                                <td>MCF-300</td>
+                            </tr>
+
+                            <tr>
+                                <td>61</td>
+                                <td>Biosafety cabinet</td>
+                                <td>FRD-EQ/015</td>
+                                <td>Pharmatek</td>
+                                <td>Class-II/ A2</td>
+                            </tr>
+
+                            <tr>
+                                <td>62</td>
+                                <td>LUX meter</td>
+                                <td>FRD-IN/047</td>
+                                <td>HTC</td>
+                                <td>LX-101A</td>
+                            </tr>
+
+                            <tr>
+                                <td>63</td>
+                                <td>Magnetic Stirrer with hot plate</td>
+                                <td>FRD-IN/046</td>
+                                <td>Pharmatek</td>
+                                <td>Class-II/ A2</td>
+                            </tr>
+
+                            <tr>
+                                <td>64</td>
+                                <td>Pressure vessel 5Liter</td>
+                                <td>FRD-EQ/016</td>
+                                <td>Chempro & Pharmach Equipments</td>
+                                <td>5 Liter</td>
+                            </tr>
+
+                            <tr>
+                                <td>65</td>
+                                <td>Stand mixer planetary drive </td>
+                                <td>FRD-EQ/017</td>
+                                <td>Galactic international</td>
+                                <td>SM01510BLK</td>
+                            </tr>
+
+                            <tr>
+                                <td>66</td>
+                                <td>Analytical Balance</td>
+                                <td>FRD-IN/049</td>
+                                <td>Sartorius</td>
+                                <td>BSA224S-CW/ 220g</td>
+                            </tr>
+
+                            <tr>
+                                <td>67</td>
+                                <td>PH METER</td>
+                                <td>FRD-IN/050</td>
+                                <td>Mettler Toledo</td>
+                                <td>S210</td>
+                            </tr>
+
+                            <tr>
+                                <td>68</td>
+                                <td>Dissolution Test Apparatus (DS 8000)</td>
+                                <td>FRD-IN/051</td>
+                                <td>Lab India, analytical instruments pvt.Ltd.</td>
+                                <td>DS 8000</td>
+                            </tr>
                         </tbody>
                     </Table>
                 </div>
@@ -875,18 +947,145 @@ function Infra(){
 
                             <tr>
                                 <td>43</td>
-                                <td>Analytical Balance</td>
+                                <td>Vortex Mixer</td>
                                 <td>ARD-IN/045</td>
-                                <td>Shimadzu</td>
-                                <td>AUW220D</td>
+                                <td>Neuation Technologies</td>
+                                <td>iSwix-VT</td>
                             </tr>
 
                             <tr>
                                 <td>44</td>
-                                <td>Orbital shaker</td>
+                                <td>Vortex Mixer</td>
                                 <td>ARD-IN/046</td>
+                                <td>Neuation Technologies</td>
+                                <td>iSwix-VT</td>
+                            </tr>
+                            <tr>
+                                <td>45</td>
+                                <td>Analytical Balance</td>
+                                <td>ARD-IN/047</td>
+                                <td>Shimadzu</td>
+                                <td>AUW220D</td>
+                            </tr>
+                            
+                            <tr>
+                                <td>46</td>
+                                <td>Orbital shaker</td>
+                                <td>ARD-IN/048</td>
                                 <td>JP Selecta</td>
                                 <td>ROTATERM (3000435)</td>
+                            </tr>
+
+                            <tr>
+                                <td>47</td>
+                                <td>Semi-Micro Balance</td>
+                                <td>ARD-IN/049</td>
+                                <td>Mettler Toledo</td>
+                                <td>MS205DU</td>
+                            </tr>
+
+                            <tr>
+                                <td>48</td>
+                                <td>Ultrasonic bath with chiller</td>
+                                <td>ARD-IN/050</td>
+                                <td>PCI Analytics Pvt. Ltd.</td>
+                                <td>USB 50L</td>
+                            </tr>
+
+                            <tr>
+                                <td>49</td>
+                                <td>High Performance Liquid Chromatography With UV/Visible</td>
+                                <td>ARD-IN/051</td>
+                                <td>Shimadzu</td>
+                                <td>i-Series LC-2050C</td>
+                            </tr>
+
+                            <tr>
+                                <td>50</td>
+                                <td>High Performance Liquid Chromatography With PDA</td>
+                                <td>ARD-IN/052</td>
+                                <td>Shimadzu</td>
+                                <td>i-Series LC-2050C 3D</td>
+                            </tr>
+
+                            <tr>
+                                <td>51</td>
+                                <td>Vaccum pump</td>
+                                <td>ARD-IN/053</td>
+                                <td>PCI Analytic Pvt. Ltd.</td>
+                                <td>PCI-75-S</td>
+                            </tr>
+
+                            <tr>
+                                <td>52</td>
+                                <td>Column Washing Single Piston Pump</td>
+                                <td>ARD-IN/054</td>
+                                <td>Peerless</td>
+                                <td>WP-2000</td>
+                            </tr>
+
+                            <tr>
+                                <td>53</td>
+                                <td>Photo stability Chamber</td>
+                                <td>ARD-IN/055</td>
+                                <td>Newtronic</td>
+                                <td>NLPS4SI</td>
+                            </tr>
+
+                            <tr>
+                                <td>54</td>
+                                <td>Vortex Mixer</td>
+                                <td>ARD-IN/056</td>
+                                <td>Lutron</td>
+                                <td>LX-102</td>
+                            </tr>
+
+                            <tr>
+                                <td>55</td>
+                                <td>UV Meter</td>
+                                <td>ARD-IN/057</td>
+                                <td>Lutron</td>
+                                <td>YK-37UVSD</td>
+                            </tr>
+
+                            <tr>
+                                <td>56</td>
+                                <td>SS Weight 2 mg</td>
+                                <td>ARD-IN/058</td>
+                                <td>Wensar</td>
+                                <td>iSwix-VT</td>
+                            </tr>
+
+                            <tr>
+                                <td>57</td>
+                                <td>SS Weight 5 mg</td>
+                                <td>ARD-IN/059</td>
+                                <td>Wensar</td>
+                                <td>iSwix-VT</td>
+                            </tr>
+
+                            <tr>
+                                <td>58</td>
+                                <td>SS Weight 10 mg</td>
+                                <td>ARD-IN/060</td>
+                                <td>Wensar</td>
+                                <td>-</td>
+                            </tr>
+
+                            <tr>
+                                <td>59</td>
+                                <td>Indion lab ultra plus</td>
+                                <td>ARD-IN/061</td>
+                                <td>INDION</td>
+                                <td>LAB Q SMART-50L</td>
+                            </tr>
+
+                            <tr>
+                                <td>60</td>
+                                <td>Indion lab ultra plus Q smart Type -II 50 LPH</td>
+                                <td>ARD-IN/062</td>
+                                <td>INDION</td>
+                                <td>LAB Q SMART-50L</td>
                             </tr>
                         </tbody>
                     </Table>

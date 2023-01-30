@@ -7,12 +7,12 @@ function Discovery(){
             <div className='landingpage'>
               <img src="https://avaca-pharma-assets.s3.ap-south-1.amazonaws.com/Blue+Research.jpg"className='video-bg' alt="Blue DNA"/>
                 {/* <div className='bg-overlay'></div> */}
-                    <div className='fg-text'>
-                            <div>
-                                <h1 className='fg-text-h1'>Complex Molecules to grams to Multi Kilos</h1>
-                                <p className='fg-text-p'>Provides Support to Discovery and Process Chemistry</p>
-                            </div>
-                     </div>
+                <div className='fg-text'>
+                    <div>
+                        <h1 className='fg-text-h1'>Complex Molecules to grams to Multi Kilos</h1>
+                        <p className='fg-text-p'>Provides Support to Discovery and Process Chemistry</p>
+                    </div>
+                </div>
             </div>
             <div>
                 <MdOutlineScience className="PageIcon"></MdOutlineScience>
@@ -36,7 +36,7 @@ function Discovery(){
 
             <div className="DiscoveryContainer">
                 <div className="DiscoveryHeading">
-                    <h3><span>Discovery </span>CHEMISTRY AT A GLANCE:</h3>
+                    <h3><span>DISCOVERY </span>CHEMISTRY AT A GLANCE:</h3>
                 </div>
                 <div className="DiscoverUL1">
                     <ul>

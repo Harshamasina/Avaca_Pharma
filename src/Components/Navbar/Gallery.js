@@ -1,7 +1,6 @@
 import { TfiGallery } from "react-icons/tfi";
 
 function Gallery(){
-    document.title = 'AvacaPharma - Gallery';
     return(
         <>
             <div className='landingpage'>
@@ -85,6 +84,24 @@ function Gallery(){
                     <div><img src="https://avaca-pharma-assets.s3.ap-south-1.amazonaws.com/Gallery+-+16.jpg" alt="gallery"></img></div>
                 </div>
             </div>
+
+            {/* <div className="gallery">
+                <img src="https://avaca-pharma-assets.s3.ap-south-1.amazonaws.com/Gallery+-+1.jpg" alt="gallery"></img>
+                <img src="https://avaca-pharma-assets.s3.ap-south-1.amazonaws.com/Gallery+-+2.jpg" alt="gallery"></img>
+                <img src="https://avaca-pharma-assets.s3.ap-south-1.amazonaws.com/Gallery+-+3.jpg" alt="gallery"></img>
+                <img src="https://avaca-pharma-assets.s3.ap-south-1.amazonaws.com/Gallery+-+4.jpg" alt="gallery"></img>
+                <img src="https://avaca-pharma-assets.s3.ap-south-1.amazonaws.com/Gallery+-+5.jpg" alt="gallery"></img>
+                <img src="https://avaca-pharma-assets.s3.ap-south-1.amazonaws.com/Gallery+-+7.jpg" alt="gallery"></img>
+                <img src="https://avaca-pharma-assets.s3.ap-south-1.amazonaws.com/Gallery+-+8.jpg" alt="gallery"></img>
+                <img src="https://avaca-pharma-assets.s3.ap-south-1.amazonaws.com/Gallery+-+9.jpg" alt="gallery"></img>
+                <img src="https://avaca-pharma-assets.s3.ap-south-1.amazonaws.com/Gallery+-+10.jpg" alt="gallery"></img>
+                <img src="https://avaca-pharma-assets.s3.ap-south-1.amazonaws.com/Gallery+-+11.jpg" alt="gallery"></img>
+                <img src="https://avaca-pharma-assets.s3.ap-south-1.amazonaws.com/Gallery+-+12.jpg" alt="gallery"></img>
+                <img src="https://avaca-pharma-assets.s3.ap-south-1.amazonaws.com/Gallery+-+13.jpg" alt="gallery"></img>
+                <img src="https://avaca-pharma-assets.s3.ap-south-1.amazonaws.com/Gallery+-+14.jpg" alt="gallery"></img>
+                <img src="https://avaca-pharma-assets.s3.ap-south-1.amazonaws.com/Gallery+-+15.jpg" alt="gallery"></img>
+                <img src="https://avaca-pharma-assets.s3.ap-south-1.amazonaws.com/Gallery+-+16.jpg" alt="gallery"></img>
+            </div> */}
 
             <div className="VideoContainer">
                 <h2>WATCH AVACAPHARMA COMMERCIAL OPERATIONS (GMP)</h2>

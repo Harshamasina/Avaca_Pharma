@@ -33,6 +33,106 @@ function ContactUs(){
                     </span>
                 </h1>
             </div>
+            <div className="Contact">
+                <div className="ContactContainer">
+                    <form method="POST">
+                        <div className="ContactContent">
+                            <div className="input-box">
+                                <label for="name">
+                                    <input 
+                                        type="text" 
+                                        name="name" 
+                                        placeholder="Your Name"
+                                        autoComplete="off"
+                                        required>
+                                    </input>
+                                </label>
+                            </div>
+                            
+                            <div className="input-box">
+                                <label for="Email">
+                                    <input 
+                                        type="email" 
+                                        name="email"  
+                                        placeholder="Email Address" 
+                                        required>
+                                    </input>
+                                </label>
+                            </div>
+                            
+                            <div className="input-box">
+                                <label for="Phone">
+                                    <input 
+                                        type="tel" 
+                                        name="phone" 
+                                        placeholder="Contact Phone" 
+                                        required>
+                                    </input>
+                                </label>
+                            </div>
+
+                            <div className="input-box">
+                                <label for="subject">
+                                    <input 
+                                        type="text" 
+                                        name="subject" 
+                                        placeholder="Subject"
+                                        autoComplete="off"
+                                        required>
+                                    </input>
+                                </label>
+                            </div>
+
+                            <div className="input-box">
+                                <label for="message">
+                                    <textarea 
+                                        type="text" 
+                                        name="message" 
+                                        placeholder="Your Message"
+                                        autoComplete="off"
+                                        required>
+                                    </textarea>
+                                </label>
+                            </div>
+                        </div>
+                        
+                        <div className="button-container">
+                            <input className="button-container-Input"
+                                type="submit" 
+                                name="register" 
+                                value="Send Message">
+                            </input>
+                        </div>
+                    </form>
+                </div>
+                <div className="ContactAddress">
+                    <div>
+                        <h4>R&D Center : </h4>
+                        <ul>
+                            <li>Plot No.153, Phase III,</li>
+                            <li>Industrial Park,</li>
+                            <li>Pashmaylaram,</li>
+                            <li>Medak District - 502307</li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h4>Contact Details : </h4>
+                        <ul>
+                            <li><span>Phone : </span>(+91)-40-23545946</li>
+                            <li><span>FAX : </span>(+91)-40-23545949</li>
+                            <li>INFO@CELLIXBIOPHARMA.COM</li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <ul>
+                            <li><span>Phone : </span>(+91) 8455-295832</li>
+                            <li>OPERATIONS@AVACAPHARMA.COM</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </>
     )
 }

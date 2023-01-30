@@ -5,8 +5,8 @@
   }
 
 .color-nav{
-	border-bottom: #3d5a80 0.5px solid !important;
-	background: transparent !important;
+	/* border-bottom: #3d5a80 0.5px solid !important; */
+	background: #293241 !important;
 	z-index: 9 !important;
 	top: 0 !important;
 	width: 100% !important;

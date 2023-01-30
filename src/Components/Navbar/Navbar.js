@@ -19,7 +19,7 @@ import Error from '../Body/Error';
 function NavBar(){
         const [changeNavbar, setChangeNavbar] = useState(false);
         const changeBackground = () => {
-            if(window.scrollY >= 80){
+            if(window.scrollY >= 800){
                 setChangeNavbar(true);
             }else{
                 setChangeNavbar(false);
@@ -34,7 +34,7 @@ function NavBar(){
                  variant={"dark"} 
                  expand="lg" 
                 //  className='color-nav-scroll'
-                 className={changeNavbar ? 'color-nav-scroll' : 'color-nav'}
+                 className={changeNavbar ? 'color-nav' : 'color-nav-scroll'}
                  >
                     <Logo></Logo>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" className='toggle'></Navbar.Toggle>

@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import HomeContent from "../Body/HomeContent";
-import ModalPopUp from "../Body/ModalPopUp";
+// import ModalPopUp from "../Body/ModalPopUp";
 // import { CgOrganisation } from "react-icons/cg";
 
 function Home(){
@@ -8,7 +8,7 @@ function Home(){
     return(
         <>
             <div className='landingpage'>
-              <video src="https://avaca-pharma-assets.s3.ap-south-1.amazonaws.com/Laboratory.mp4" autoPlay muted loop className='video-bg' type="video/mp4"/>
+              <video src="https://avaca-pharma-assets.s3.ap-south-1.amazonaws.com/Laboratory+Yellow+Blue.mp4" autoPlay muted loop className='video-bg' type="video/mp4"/>
                 {/* <div className='bg-overlay'></div> */}
                     <div className='home-text'>
                             <div>
@@ -29,7 +29,7 @@ function Home(){
                     <Link className='homeBtn' to="/patents">Get Started</Link>
             </div>
             <HomeContent></HomeContent>
-            <ModalPopUp></ModalPopUp>
+            {/* <ModalPopUp></ModalPopUp> */}
         </>
     )
 }
