@@ -104,8 +104,8 @@ function Gallery(){
             </div> */}
 
             <div className="VideoContainer">
-                <h2>WATCH AVACAPHARMA COMMERCIAL OPERATIONS (GMP)</h2>
-                <iframe src="https://player.vimeo.com/video/332239306?h=f9bd29e595" width="1200" height="650" frameborder="0" title="Vimeo" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+                <a href="https://player.vimeo.com/video/332239306?h=f9bd29e595"><h2>WATCH AVACAPHARMA COMMERCIAL OPERATIONS (GMP)</h2></a>
+                {/* <iframe src="https://player.vimeo.com/video/332239306?h=f9bd29e595" width="1200" height="650" frameborder="0" title="Vimeo" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe> */}
             </div>
         </>
     )

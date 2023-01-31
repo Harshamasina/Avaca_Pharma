@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter } from 'react-router-dom';
 import NavBar from './Components/Navbar/NavBar';
 import Footer from './Components/Footer/Footer';
+import GoToTopButton from './Components/Body/GoToTopBtn';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
           <NavBar></NavBar>
           <Footer></Footer>
         </BrowserRouter>
+        <GoToTopButton></GoToTopButton>
     </div>
   );
 }

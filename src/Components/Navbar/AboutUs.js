@@ -82,7 +82,7 @@ function AboutUS(){
             </div>
 
             <div className="AboutUsAcc">
-                <Accordion className="AUAcc" defaultActiveKey="0" flush>
+                <Accordion className="AUAcc" flush>
                     <Accordion.Item eventKey="0">
                         <Accordion.Header>FACILITIES</Accordion.Header>
                         <Accordion.Body className="AuAccBody">

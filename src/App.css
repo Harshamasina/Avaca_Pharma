@@ -184,6 +184,17 @@ body{
       justify-content: center;
    }
   }
+
+  @media screen and (max-width:768px) and (min-width:601px) {
+  .Carouselh1{
+    font-size: 5em !important;
+    text-align: center;
+    justify-content: center;
+  }
+  .Carouselp{
+    font-size: 1em !important;
+  }
+}
   
   .Carouselspan{
     text-align: center;
@@ -350,6 +361,19 @@ body{
 @media screen and (max-width: 600px){
   .legal{
     margin-left: -2% !important;
+    font-size: 0.6rem !important;
+  }
+}
+
+@media screen and (max-width:768px) and (min-width:601px) {
+  .legal{
+    font-size: 0.5rem !important;
+  }
+  .footer address{
+    font-size: 0.65em !important;
+  }
+  .navbar_link{
+    font-size: 0.6em !important;
   }
 }
 
@@ -442,6 +466,12 @@ body{
   }
 }
 
+@media screen and (max-width:768px) and (min-width:601px) {
+  .HCTable h4{
+    font-size: 0.8rem;
+  }  
+}
+
 
 .fg-text{
   width: 60%;
@@ -501,6 +531,15 @@ body{
   }
 }
 
+@media screen and (max-width:768px) and (min-width:601px) {
+  .fg-text-h1{
+    font-size: 2.5em !important;
+  }
+  .fg-text-p{
+    font-size: 1em !important;
+  }
+}
+
 .ErrorLink{
   font-family: Arial, Helvetica, sans-serif;
   color: #cc6360;
@@ -524,8 +563,16 @@ body{
     font-size: 1rem !important;
     margin-top: 64.3%
   }
+  .jt{
+    font-size: 3vw !important;
+  }
 }
 
+@media screen and (max-width:768px) and (min-width:601px) {
+  .PageHeading{
+    margin-left: 3% !important;
+  } 
+}
 
 
 .PageHeading{
@@ -540,7 +587,7 @@ body{
 
 .jt {
   position: relative;
-  font-size: 6vmin;
+  font-size: 3.5vw;
   font-family: 'Staatliches', sans-serif;
   text-transform: uppercase;
   font-display: swap;
@@ -669,12 +716,17 @@ body{
     text-align: justify;
   }
 
+  .DiscoverUL1 ul{
+    text-align: left !important;
+  }
+
   .DiscoveryContainer p{
     font-size: 1rem;
     text-align: justify;
   }
-  .DiscoverUL2{
+  .DiscoverUL2 ul{
     font-size: 1rem;
+    text-align: left !important;
   }
 }
 
@@ -754,7 +806,7 @@ body{
   }
 
   .servicesContainer span{
-    font-size: 4vw;
+    font-size: 1rem;
   }
 
   .servicesContainer ul{
@@ -789,6 +841,13 @@ body{
   }
 }
 
+@media screen and (max-width:768px) and (min-width:601px) {
+  .servicesIcon{
+    width: 35px;
+    height: 30px;
+  }
+}
+
 .InfraTableContainer h2{
   text-align: center;
   color: #3d5a80;
@@ -802,6 +861,12 @@ body{
   margin-left: 10% !important;
   text-align: center;
   color: #293241;
+}
+
+.InfaTable thead{
+  position: sticky;
+  top: 75px;
+  background: white;
 }
 
 .InfaTable tr{
@@ -887,10 +952,12 @@ body{
 
 .CareersInfo{
   color: #293241;
+  transition: all .2s ease-in;
 }
 
 .CareersInfo:hover{
-  background-color: #e0fbfc;
+  transform: scale(1.001);
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2), -1px -1px 8px rgba(0, 0, 0, 0.2);
 }
 
 .CareersInfo h2{
@@ -946,6 +1013,7 @@ body{
   }
   .CareersInfo ul{
     font-size: 1rem;
+    text-align: left !important;
   }
   .CareersInfo h4{
     font-size: 1rem;
@@ -997,6 +1065,13 @@ body{
   .LeaderContent p{
     font-size: 1rem;
     text-align: justify;
+  }
+}
+
+@media screen and (max-width:768px) and (min-width:601px) {
+  .LeaderImg{
+    height: 120px;
+    width: 250px;
   }
 }
 
@@ -1068,6 +1143,19 @@ body{
   .MediaContent p{
     font-size: 1rem;
     text-align: justify;
+  }
+}
+
+@media screen and (max-width:768px) and (min-width:601px) {
+  .MediaContent h2{
+    font-size: 1em !important;
+  }
+  .MediaContent h5{
+    font-size: 1em !important;
+  }
+  .MediaImg{
+    width: 250px;
+    height: 80px;
   }
 }
 
@@ -1254,7 +1342,7 @@ body{
 
 .accordion-button:hover {
   color: #293241;
-  background-color: #e0fbfc;
+  background-color: #eee;
 }
 
 .AuAccBody h3{
@@ -1360,6 +1448,18 @@ body{
   .AuAccBody img{
     max-width: 100%;
     height: 30vh;
+  }
+}
+
+/* @media screen and (max-width:768px) and (min-width:601px) {
+  body{
+    font-size: 2rem !important;
+  }
+} */
+
+@media screen and (max-width:768px) and (min-width:601px) {
+  .AboutUsTableContent h2{
+    font-size: 2em;
   }
 }
 
@@ -1705,3 +1805,30 @@ body{
     font-size: 0.7rem !important;
   }
 }
+
+.top-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.2rem;
+  width: 4rem;
+  color: #305c8a;
+  position: fixed;
+  bottom: 5rem;
+  right: 2rem;
+  z-index: 999;
+}
+
+.top-btn:hover{
+  cursor: pointer;
+  font-size: 2.3rem;
+  color: #ee6c4d;
+}
+
+@media screen and (max-width: 600px) {
+  .top-btn{
+    right: 0.2em;
+    width: 2rem;
+  }
+}
+
