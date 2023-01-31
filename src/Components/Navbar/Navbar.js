@@ -15,6 +15,8 @@ import Gallery from './Gallery';
 import Careers from './Careers';
 import ContactUs from './ContactUs';
 import Error from '../Body/Error';
+import Terms from '../Body/Terms';
+import Privacy from '../Body/privacy';
 
 function NavBar(){
         const [changeNavbar, setChangeNavbar] = useState(false);
@@ -76,6 +78,8 @@ function NavBar(){
                     <Route path='/contactus' element={<ContactUs></ContactUs>}></Route>
                     <Route path='/' element={<Home></Home>}></Route>
                     <Route path='*' element={<Error></Error>}></Route>
+                    <Route path='/terms' element={<Terms></Terms>}></Route>
+                    <Route path='/privacy' element={<Privacy></Privacy>}></Route>
                 </Routes>
             </div>
         </>

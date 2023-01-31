@@ -1,0 +1,35 @@
+function Terms(){
+    return(
+        <>
+            <div className="Terms">
+                <img src="https://avaca-pharma-assets.s3.ap-south-1.amazonaws.com/Terms.jpg" alt="Terms"></img>
+                <h1>Terms & Conditions</h1>
+            </div>
+            <div className="TermsContent">
+                <h2>PLEASE READ THESE TERMS AND CONDITIONS CAREFULLY BEFORE USING THE SITE</h2>
+                <p>AvacaPharma owns and controls this website. Your access to and use of our website and its content is conditioned upon your acceptance and compliance with these terms.</p>
+                <p>Our <span>Privacy Notice</span> sets out the terms on which we process any personal data we collect from you, or that you provide to us. By using our site, we understand that you consent to such processing and you warrant that all data provided by you is accurate.</p>
+                <p>This site is made available for use free of charge and we may update or change the site in parts or in total from time to time. Therefore, we do not guarantee that our site, or any content on it, will always be available or be uninterrupted. We may suspend, withdraw, restrict the availability of all or any part of this site for business and operational reasons. We will try to give you reasonable notice of any suspension or withdrawal.</p>
+                <p>You are responsible for ensuring that all persons who access our site through your internet connection are aware of these terms of use, <span>Privacy Notice</span>, and that they comply with them.</p>
+                <p>The content of our website is protected by worldwide copyright laws and/or other intellectual property rights reserved by us, and such rights are not licensed hereunder. You are authorised to view, download, and reproduce the materials on our websites for your internal information and personal use only, provided that you do not alter the notices, images, or text surrounding the images, and you include the following copyright notice: “©AvacaPharma Limited, All rights reserved.” No further publication or commercial use is allowed without our express written permission. If you print off, copy or download any part of our site in breach of these terms of use, your right to use our site will cease immediately and you must, at our option, return or destroy any copies of the materials you may have made.</p>
+                <p>The contents on this site is provided for general information only. It is not intended to amount to advice on which you should rely. You must obtain professional or specialist advice before taking, or refraining from, any action on the basis of the contents on our site.</p>
+                <p>Although we make reasonable efforts to update the information on this site, we make no representations, warranties or guarantees, whether express or implied, that the content on our site is accurate, complete or up to date. Where our site contains links to other sites and resources provided by third parties, such links are provided for your information only. Such links should not be interpreted as approved by us and any information you may share with or obtain from them should be with caution. You are advised to read their terms of use and privacy notices before transacting with them.</p>
+                <p>We do not exclude or limit in any way our liability to you where it would be unlawful to do so. This includes liability for death or personal injury caused by our negligence or the negligence of our employees, agents or subcontractors and for fraud or fraudulent misrepresentation. If you are a business user, we exclude all implied conditions, warranties, representations or other terms that may apply to our site or any content on it.  We will not be liable to you for any loss or damage, whether in contract, tort (including negligence), breach of statutory duty, or otherwise, even if foreseeable, arising under or in connection with: use of, or inability to use, our site; or use of or reliance on any content displayed on our site.  In particular, we will not be liable for: loss of profits, sales, business, or revenue; business interruption; loss of anticipated savings; loss of business opportunity, goodwill or reputation; or any indirect or consequential loss or damage.</p>
+                <p>Whilst we try our best to ensure security at all times, we do not guarantee that our site will be fully secured or free from bugs or viruses. You are responsible for configuring your information technology, computer programmes and platform to access our site. You should use your own virus protection software. For details on our use of cookies, please click here to access our privacy notice. The following actions are not allowed on this website:</p>
+                <ul>
+                    <li>You must not misuse our site by knowingly introducing viruses, trojans, worms, logic bombs or other material that is malicious or technologically harmful.</li>
+                    <li>You must not attempt to gain unauthorised access to our site, the server on which our site is stored, or any server, computer or database connected to our site.</li>
+                    <li>You must not attack our site via a denial-of-service attack or a distributed denial-of service attack.</li>
+                    <li>You must not establish a link in such a way as to suggest any form of association, approval or endorsement on our part where none exists.</li>
+                    <li>You must not establish a link to our site from any website that is not owned by you.</li>
+                    <li>Our site must not be framed on any other site, nor may you create a link to any part of our site other than the home page. </li>
+                </ul>
+                <p>By breaching this provision, you would commit a criminal offence under the Computer Misuse Act 1990. We will report any such breach to the relevant law enforcement authorities and we will cooperate with those authorities by disclosing your identity to them. In the event of such a breach, your right to use our site will cease immediately.</p>
+                <p>You may link to our home page, provided you do so in a way that is fair and legal and does not damage our reputation or take advantage of it. We reserve the right to withdraw linking permission without notice. If you wish to link to or make any use of content on our site other than that set out above and in our privacy policy, please contact us on: ComplianceHelpdesk@benevolent.ai.</p>
+                <p>AvacaPharma is a trade mark of AvacaPharma Limited. You are not permitted to use them without our approval, unless it is part of material you are using as permitted under these terms and conditions. Please visit our privacy policy page Here for further details on our provisions and your rights on the use of your personal information.</p>
+                <i>Last updated in February 2023.</i>
+            </div>
+        </>
+    );
+}
+export default Terms;

@@ -80,11 +80,11 @@ function Footer(){
                         <li className="nav__item">
                             <ul class="nav__ul">
                                 <li>
-                                    <Link className="navbar_link" to="/home">Privacy Policy</Link>
+                                    <Link className="navbar_link" to="/privacy">Privacy Policy</Link>
                                 </li>
                                 
                                 <li>
-                                    <Link className="navbar_link" to="/home">Terms of Use</Link>
+                                    <Link className="navbar_link" to="/terms">Terms of Use</Link>
                                 </li>
                                 
                                 <li>
