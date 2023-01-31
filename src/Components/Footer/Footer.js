@@ -9,7 +9,6 @@ function Footer(){
                     <div className="footer__addr">
                     <NavLink to="Home"><img className="footer-logo" src="https://avaca-pharma-assets.s3.ap-south-1.amazonaws.com/Avaca+Pharma+Main+Logo.png" alt="Logo"></img></NavLink>                            
                         <h2>Contact</h2>
-                        
                         <address>
                             R&D Center:<br></br>
                             Plot No.153, Phase III,<br></br>
