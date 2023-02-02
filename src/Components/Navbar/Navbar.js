@@ -17,7 +17,7 @@ import ContactUs from './ContactUs';
 import Error from '../Body/Error';
 import Terms from '../Body/Terms';
 import Privacy from '../Body/privacy';
-import Pipeline from './Pipeline';
+// import Pipeline from './Pipeline';
 
 function NavBar(){
         const [changeNavbar, setChangeNavbar] = useState(false);
@@ -50,7 +50,7 @@ function NavBar(){
                             <Nav.Link className='navbar_link' as={Link} to="/home" eventKey="1">Home</Nav.Link>
                             <Nav.Link className='navbar_link' as={Link} to="/aboutus" eventKey="2">About Us</Nav.Link>
                             <Nav.Link className='navbar_link' as={Link} to="/discovery" eventKey="3">Discovery</Nav.Link>
-                            <Nav.Link className='navbar_link' as={Link} to="/pipeline" eventKey="4">Pipeline</Nav.Link>
+                            {/* <Nav.Link className='navbar_link' as={Link} to="/pipeline" eventKey="4">Pipeline</Nav.Link> */}
                             <Nav.Link className='navbar_link' as={Link} to="/patents" eventKey="5">Patents</Nav.Link>
                             <Nav.Link className='navbar_link' as={Link} to="/services" eventKey="6">Services</Nav.Link>
                             <Nav.Link className='navbar_link' as={Link} to="/infra" eventKey="7">Infrastructure</Nav.Link>
@@ -70,7 +70,7 @@ function NavBar(){
                     <Route path='/home' element={<Home></Home>}></Route>
                     <Route path='/aboutus' element={<AboutUs></AboutUs>}></Route>
                     <Route path='/discovery' element={<Discovery></Discovery>}></Route>
-                    <Route path='/pipeline' element={<Pipeline></Pipeline>}></Route>
+                    {/* <Route path='/pipeline' element={<Pipeline></Pipeline>}></Route> */}
                     <Route path='/patents' element={<Patents></Patents>}></Route>
                     <Route path='/services' element={<Services></Services>}></Route>
                     <Route path='/infra' element={<Infrastructure></Infrastructure>}></Route>

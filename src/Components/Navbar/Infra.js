@@ -34,7 +34,6 @@ function Infra(){
                     </span>
                 </h1>
             </div>
-
             <div>
                 <div className='InfraTableContainer'>
                     <h2>Formulation R&D Infrastructure</h2>
