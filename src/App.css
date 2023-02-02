@@ -1773,21 +1773,16 @@ body{
 }
 
 .WebGallery{
-  -webkit-column-count: 5;
-  -moz-column-count: 5;
   column-count: 5;
-  -webkit-column-width: 25%;
-  -moz-column-width: 25%;
-  column-width: 25%;
+  column-width: 20%;
   padding: 0 12px;
-}
+} 
 
 .WebGallery .pics{
-  -webkit-transition: all 350ms ease;
   transition: all 350ms ease;
   cursor: pointer;
   margin-bottom: 12px; 
-}
+} 
 
 .pics img{
   border-radius: 5px !important;
@@ -1799,19 +1794,13 @@ body{
 
 @media (max-width: 991px){
   .WebGallery{
-    -webkit-column-count: 1;
-    -moz-column-count: 2;
     column-count: 2;
   }
 }
 
 @media (max-width: 480px){
   .WebGallery{
-    -webkit-column-count: 1;
-    -moz-column-count: 1;
     column-count: 1;
-    -webkit-column-width: 100%;
-    -moz-column-width: 100%;
     column-width: 33%;
   }
 }

@@ -6,7 +6,7 @@ function Gallery(){
     let data = [
         {
             id: 1,
-            imgSrc: 'https://avaca-pharma-assets.s3.ap-south-1.amazonaws.com/Avaca+Lab+-+1.jpg',
+            imgSrc: 'https://avaca-pharma-assets.s3.ap-south-1.amazonaws.com/Avaca+Lab+-+1+Crop.jpg',
         },
         {
             id: 2,
@@ -238,7 +238,7 @@ function Gallery(){
                 {data.map((item, index) => {
                     return(
                         <div className="pics" key={index} onClick={() => getImg(item.imgSrc)}>
-                            <img src={item.imgSrc} alt="LabPics" style={{width: '100%'}} loading="lazy"></img>
+                            <img src={item.imgSrc} alt={index} style={{width: '100%'}} loading="lazy"></img>
                         </div>
                     );
                 })}
