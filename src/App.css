@@ -1773,12 +1773,15 @@ body{
 }
 
 .WebGallery{
+  -moz-column-count: 5;
+  -moz-column-width: 20%;
   column-count: 5;
   column-width: 20%;
   padding: 0 12px;
 } 
 
 .WebGallery .pics{
+  -moz-transition: all 350ms ease;
   transition: all 350ms ease;
   cursor: pointer;
   margin-bottom: 12px; 
@@ -1794,12 +1797,15 @@ body{
 
 @media (max-width: 991px){
   .WebGallery{
+    -moz-column-count: 2;
     column-count: 2;
   }
 }
 
 @media (max-width: 480px){
   .WebGallery{
+    -moz-column-count: 1;
+    -moz-column-width: 33%;
     column-count: 1;
     column-width: 33%;
   }
