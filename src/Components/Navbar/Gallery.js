@@ -148,6 +148,46 @@ function Gallery(){
             id: 36,
             imgSrc: 'https://avaca-pharma-assets.s3.ap-south-1.amazonaws.com/Avaca+Lab+-+36.jpg',
         },
+        {
+            id: 37,
+            imgSrc: 'https://avaca-pharma-assets.s3.ap-south-1.amazonaws.com/Avaca+Lab+-+37.jpg',
+        },
+        {
+            id: 38,
+            imgSrc: 'https://avaca-pharma-assets.s3.ap-south-1.amazonaws.com/Avaca+Lab+-+38.jpg',
+        },
+        {
+            id: 39,
+            imgSrc: 'https://avaca-pharma-assets.s3.ap-south-1.amazonaws.com/Avaca+Lab+-+39.jpg',
+        },
+        {
+            id: 40,
+            imgSrc: 'https://avaca-pharma-assets.s3.ap-south-1.amazonaws.com/Avaca+Lab+-+40.jpg',
+        },
+        {
+            id: 41,
+            imgSrc: 'https://avaca-pharma-assets.s3.ap-south-1.amazonaws.com/Avaca+Lab+-+41.jpg',
+        },
+        {
+            id: 42,
+            imgSrc: 'https://avaca-pharma-assets.s3.ap-south-1.amazonaws.com/Avaca+Lab+-+42.jpg',
+        },
+        {
+            id: 43,
+            imgSrc: 'https://avaca-pharma-assets.s3.ap-south-1.amazonaws.com/Avaca+Lab+-+43.jpg',
+        },
+        {
+            id: 45,
+            imgSrc: 'https://avaca-pharma-assets.s3.ap-south-1.amazonaws.com/Avaca+Lab+-+45.jpg',
+        },
+        {
+            id: 46,
+            imgSrc: 'https://avaca-pharma-assets.s3.ap-south-1.amazonaws.com/Avaca+Lab+-+46.jpg',
+        },
+        {
+            id: 47,
+            imgSrc: 'https://avaca-pharma-assets.s3.ap-south-1.amazonaws.com/Avaca+Lab+-+47.jpg',
+        },
     ]
     const [model, setModel] = useState(false);
     const [tempImgSrc, setTempImgSrc] = useState('');
@@ -155,6 +195,7 @@ function Gallery(){
         setTempImgSrc(imgSrc);
         setModel(true);
     }
+
     return(
         <>
             <div className='landingpage'>
