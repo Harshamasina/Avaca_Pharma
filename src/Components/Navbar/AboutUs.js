@@ -10,7 +10,14 @@ function AboutUS(){
     return(
         <>
             <div className='landingpage'>
-            <video src="https://avaca-pharma-assets.s3.ap-south-1.amazonaws.com/Chemistry.mp4" autoPlay muted loop className='video-bg' type="video/mp4"/>
+            <video src="https://avaca-pharma-assets.s3.ap-south-1.amazonaws.com/Chemistry.mp4" 
+                autoPlay 
+                muted 
+                loop 
+                className='video-bg' 
+                type="video/mp4"
+                poster="https://avaca-pharma-assets.s3.ap-south-1.amazonaws.com/Poster+About+US.png"
+            />
                 {/* <div className='bg-overlay'></div> */}
                 <div className='fg-text'>
                     <div>

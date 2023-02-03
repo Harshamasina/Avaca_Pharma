@@ -4,10 +4,10 @@ import { IoCloseOutline } from "react-icons/io5";
 
 function Gallery(){
     let data = [
-        {
-            id: 1,
-            imgSrc: 'https://avaca-pharma-assets.s3.ap-south-1.amazonaws.com/Avaca+Lab+-+1+Crop.jpg',
-        },
+        // {
+        //     id: 1,
+        //     imgSrc: 'https://avaca-pharma-assets.s3.ap-south-1.amazonaws.com/Avaca+Lab+-+1+Crop.jpg',
+        // },
         {
             id: 2,
             imgSrc: 'https://avaca-pharma-assets.s3.ap-south-1.amazonaws.com/Avaca+Lab+-+2.jpg',
@@ -40,10 +40,10 @@ function Gallery(){
             id: 9,
             imgSrc: 'https://avaca-pharma-assets.s3.ap-south-1.amazonaws.com/Avaca+Lab+-+9.jpg',
         },
-        {
-            id: 10,
-            imgSrc: 'https://avaca-pharma-assets.s3.ap-south-1.amazonaws.com/Avaca+Lab+-+10.jpg',
-        },
+        // {
+        //     id: 10,
+        //     imgSrc: 'https://avaca-pharma-assets.s3.ap-south-1.amazonaws.com/Avaca+Lab+-+10.jpg',
+        // },
         {
             id: 11,
             imgSrc: 'https://avaca-pharma-assets.s3.ap-south-1.amazonaws.com/Avaca+Lab+-+11.jpg',
@@ -199,7 +199,15 @@ function Gallery(){
     return(
         <>
             <div className='landingpage'>
-            <video src="https://avaca-pharma-assets.s3.ap-south-1.amazonaws.com/oil+abstarct.mp4" autoPlay muted loop className='video-bg' type="video/mp4"/>
+            <video 
+                src="https://avaca-pharma-assets.s3.ap-south-1.amazonaws.com/oil+abstarct.mp4" 
+                autoPlay 
+                muted 
+                loop 
+                className='video-bg' 
+                type="video/mp4"
+                poster="https://avaca-pharma-assets.s3.ap-south-1.amazonaws.com/Poster+Gallery.png"
+            />
                 {/* <div className='bg-overlay'></div> */}
                 <div className='fg-text'>
                     <div>

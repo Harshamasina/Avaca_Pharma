@@ -5,7 +5,14 @@ function Leadership(){
     return(
         <>
             <div className='landingpage'>
-                <video src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/Bulbs.mp4" autoPlay muted loop className='video-bg' type="video/mp4"/>
+                <video src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/Bulbs.mp4" 
+                    autoPlay 
+                    muted 
+                    loop 
+                    className='video-bg' 
+                    type="video/mp4"
+                    poster=""
+                />
                 <div className='fg-text'>
                     <div>
                         <h1 className='fg-text-h1'>SCIENCE BACKED DATA DRIVEN DECISION MAKING FOR PRODUCT AND DEVELOPMENT</h1>

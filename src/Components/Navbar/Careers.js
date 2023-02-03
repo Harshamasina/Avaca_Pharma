@@ -5,7 +5,14 @@ function Careers(){
     return(
         <>
             <div className='landingpage'>
-                <video src="https://avaca-pharma-assets.s3.ap-south-1.amazonaws.com/Careers.mp4" autoPlay muted loop className='video-bg' type="video/mp4"/>
+                <video src="https://avaca-pharma-assets.s3.ap-south-1.amazonaws.com/Careers.mp4" 
+                    autoPlay 
+                    muted 
+                    loop 
+                    className='video-bg' 
+                    type="video/mp4"
+                    poster="https://avaca-pharma-assets.s3.ap-south-1.amazonaws.com/Poster+Careers.png"
+                />
                 {/* <div className='bg-overlay'></div> */}
                 <div className='fg-text'>
                     <div>
