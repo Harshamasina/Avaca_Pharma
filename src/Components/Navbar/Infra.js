@@ -600,10 +600,10 @@ function Infra(){
                     <Table striped bordered hover className='InfaTable shadow-lg'>
                         <thead>
                             <tr>
-                                <th>SNO</th>
-                                <th>NAME</th>
-                                <th>NUMBER</th>
-                                <th>MAKE</th>
+                                <th>SNo</th>
+                                <th>Instrument</th>
+                                <th>Number</th>
+                                <th>Make</th>
                                 <th>Model/Capacity</th>
                             </tr>
                         </thead>

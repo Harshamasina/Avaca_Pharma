@@ -5,8 +5,8 @@
   }
 
 .color-nav{
-	border-bottom: #3d5a80 0.5px solid !important;
-	background: #3d5a80 !important;
+	border-bottom: #293241 0.5px solid !important;
+	background: #293241 !important;
 	z-index: 9 !important;
 	top: 0 !important;
 	width: 100% !important;
@@ -160,7 +160,7 @@
 	
     .navbar_link:hover::after{
 		transform: scaleX(1);
-		  transform-origin: bottom left;
+		transform-origin: bottom left;
 		color: #ee6c4d !important;
 		border-bottom: #ee6c4d 2px solid !important;
 		/* transition: all 0.4s ease; */

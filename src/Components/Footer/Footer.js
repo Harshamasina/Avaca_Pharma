@@ -18,10 +18,9 @@ function Footer(){
                             Telangana, India.<br></br>
                             <br></br>
                             Phone: (+91)-40-23545946<br></br>
-                            Fax:(+91)-40-23545949<br></br>
                             info@cellixbiopharma.com<br></br>
                             R&D<br></br>
-                            Phone:+91 8455-295832<br></br>
+                            Phone:+91 84552-95832<br></br>
                             operations@avacapharma.com<br></br>
                         </address>
                     </div>

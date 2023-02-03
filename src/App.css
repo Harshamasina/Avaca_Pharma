@@ -207,12 +207,11 @@ body{
       'Lucida Sans', Arial, sans-serif;
     font-size: 30px;
     font-weight: bold;
-    border: #3d5a80 1px solid;
+    border: #e0fbfc 1.5px solid;
     text-decoration: none;
     width: 300px;
     padding: 25px;
     text-align: center;
-    border-radius: 5px;
     color: #e0fbfc;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     -webkit-transition-duration: 0.3s;
@@ -220,12 +219,13 @@ body{
     -webkit-transition-property: box-shadow, transform;
     transition-property: box-shadow, transform;
     margin-bottom: 3%;
+    margin-top: 5%;
   }
   
   .homeBtn:hover, .homeBtn:focus, .homeBtn:active{
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-    color: #3d5a80 !important;
-    background-color: #98c1d9;
+    color: #ee6c4d !important;
+    background-color: #e0fbfc;
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
   }

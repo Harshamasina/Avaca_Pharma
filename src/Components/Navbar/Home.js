@@ -8,7 +8,7 @@ function Home(){
     return(
         <>
             <div className='landingpage'>
-              <video src="https://avaca-pharma-assets.s3.ap-south-1.amazonaws.com/Color+Balls.mp4" autoPlay muted loop className='video-bg' type="video/mp4"/>
+              <video src="https://avaca-pharma-assets.s3.ap-south-1.amazonaws.com/Formulas+2160p+(Converted).mp4" autoPlay muted loop='true' className='video-bg' type="video/mp4"/>
                 {/* <div className='bg-overlay'></div> */}
                     <div className='home-text'>
                             <div>
@@ -26,7 +26,7 @@ function Home(){
                                 <p className='Carouselp'>The total cGMP space of 6000 Sq. ft. in a  1.2-acre location, of which Formulation occupies 3000 sq. ft. and  Analytical Operations 3000 sq. ft. with provisions for expansion</p>
                             </div>
                      </div>
-                    <Link className='homeBtn' to="/patents">Get Started</Link>
+                    <Link className='homeBtn' to="/patents">Know More</Link>
             </div>
             <HomeContent></HomeContent>
             {/* <ModalPopUp></ModalPopUp> */}
