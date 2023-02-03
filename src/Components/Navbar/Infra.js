@@ -6,7 +6,7 @@ function Infra(){
     return(
         <>
             <div className='landingpage'>
-              <img src="https://avaca-pharma-assets.s3.ap-south-1.amazonaws.com/research-g7a7fd73e3_1920.jpg"className='video-bg' alt="Blue DNA"/>
+            <video src="https://avaca-pharma-assets.s3.ap-south-1.amazonaws.com/Maufactuing.mp4" autoPlay muted loop className='video-bg' type="video/mp4"/>
                 {/* <div className='bg-overlay'></div> */}
                 <div className='fg-text'>
                     <div>
@@ -40,10 +40,10 @@ function Infra(){
                     <Table striped bordered hover className='InfaTable shadow-lg'>
                         <thead>
                             <tr>
-                                <th>SNO</th>
-                                <th>NAME</th>
-                                <th>NUMBER</th>
-                                <th>MAKE</th>
+                                <th>SNo</th>
+                                <th>Instrument</th>
+                                <th>Number</th>
+                                <th>Make</th>
                                 <th>Model/Capacity</th>
                             </tr>
                         </thead>

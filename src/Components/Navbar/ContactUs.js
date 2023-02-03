@@ -10,7 +10,7 @@ function ContactUs(){
     return(
         <>
             <div className='landingpage'>
-              <img src="https://avaca-pharma-assets.s3.ap-south-1.amazonaws.com/Blue+Data.jpg"className='video-bg' alt="Blue DNA"/>
+            <video src="https://avaca-pharma-assets.s3.ap-south-1.amazonaws.com/Blue+Globe.mp4" autoPlay muted loop className='video-bg' type="video/mp4"/>
                 {/* <div className='bg-overlay'></div> */}
                 <div className='fg-text'>
                     <div>

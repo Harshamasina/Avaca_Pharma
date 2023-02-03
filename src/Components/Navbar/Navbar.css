@@ -14,7 +14,7 @@
 }
 
 .color-nav-scroll{
-	background: #3d5a80;
+	background: transparent;
 	border-bottom: #3d5a80 0.5px solid !important;
 	z-index: 9 !important;
 	top: 0 !important;
