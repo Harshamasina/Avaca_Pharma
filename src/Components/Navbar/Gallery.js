@@ -199,7 +199,7 @@ function Gallery(){
     return(
         <>
             <div className='landingpage'>
-            <video src="https://avaca-pharma-assets.s3.ap-south-1.amazonaws.com/Paint+Abstact.mp4" autoPlay muted loop className='video-bg' type="video/mp4"/>
+            <video src="https://avaca-pharma-assets.s3.ap-south-1.amazonaws.com/oil+abstarct.mp4" autoPlay muted loop className='video-bg' type="video/mp4"/>
                 {/* <div className='bg-overlay'></div> */}
                 <div className='fg-text'>
                     <div>
