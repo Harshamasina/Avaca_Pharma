@@ -22,7 +22,7 @@ import Privacy from '../Body/privacy';
 function NavBar(){
         const [changeNavbar, setChangeNavbar] = useState(false);
         const changeBackground = () => {
-            if(window.scrollY >= 800){
+            if(window.scrollY >= 80){
                 setChangeNavbar(true);
             }else{
                 setChangeNavbar(false);
@@ -40,29 +40,30 @@ function NavBar(){
                  className={changeNavbar ? 'color-nav' : 'color-nav-scroll'}
                  >
                     <Logo></Logo>
-                    <Navbar.Toggle aria-controls="responsive-navbar-nav" className='toggle'></Navbar.Toggle>
-                    <Navbar.Collapse>
+                    <Navbar.Brand href="#"></Navbar.Brand>
+                    <Navbar.Toggle aria-controls="responsive-navbar-nav" className='toggle' />
+                    <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav
                             className="ms-auto my-2 my-xxl-0 gap-2 me-3"
                             style={{ maxHeight: '100%',fontSize:'17px'}}
                             responsive-navbar-nav
                         >
-                            <Nav.Link className='navbar_link' as={Link} to="/home" eventKey="1">Home</Nav.Link>
-                            <Nav.Link className='navbar_link' as={Link} to="/aboutus" eventKey="2">About Us</Nav.Link>
-                            <Nav.Link className='navbar_link' as={Link} to="/discovery" eventKey="3">Discovery</Nav.Link>
+                            <Nav.Link className='navbar_link' as={Link} to="/home" eventKey="0">Home</Nav.Link>
+                            <Nav.Link className='navbar_link' as={Link} to="/aboutus" eventKey="1">About Us</Nav.Link>
+                            <Nav.Link className='navbar_link' as={Link} to="/discovery" eventKey="2">Discovery</Nav.Link>
                             {/* <Nav.Link className='navbar_link' as={Link} to="/pipeline" eventKey="4">Pipeline</Nav.Link> */}
-                            <Nav.Link className='navbar_link' as={Link} to="/patents" eventKey="5">Patents</Nav.Link>
-                            <Nav.Link className='navbar_link' as={Link} to="/services" eventKey="6">Services</Nav.Link>
-                            <Nav.Link className='navbar_link' as={Link} to="/infra" eventKey="7">Infrastructure</Nav.Link>
-                            <Nav.Link className='navbar_link' as={Link} to="/leadership" eventKey="8">Leadership</Nav.Link>
-                            <Nav.Link className='navbar_link' as={Link} to="/media" eventKey="9">Media</Nav.Link>
-                            <Nav.Link className='navbar_link' as={Link} to="/gallery" eventKey="10">Gallery</Nav.Link>
-                            <Nav.Link className='navbar_link' as={Link} to="/careers" eventKey="11">Careers</Nav.Link>
-                            <Nav.Link className='navbar_link' as={Link} to="/contactus" eventKey="12">Contact</Nav.Link>
+                            <Nav.Link className='navbar_link' as={Link} to="/patents" eventKey="3">Patents</Nav.Link>
+                            <Nav.Link className='navbar_link' as={Link} to="/services" eventKey="4">Services</Nav.Link>
+                            <Nav.Link className='navbar_link' as={Link} to="/infra" eventKey="5">Infrastructure</Nav.Link>
+                            <Nav.Link className='navbar_link' as={Link} to="/leadership" eventKey="6">Leadership</Nav.Link>
+                            <Nav.Link className='navbar_link' as={Link} to="/media" eventKey="7">Media</Nav.Link>
+                            <Nav.Link className='navbar_link' as={Link} to="/gallery" eventKey="8">Gallery</Nav.Link>
+                            <Nav.Link className='navbar_link' as={Link} to="/careers" eventKey="9">Careers</Nav.Link>
+                            <Nav.Link className='navbar_link' as={Link} to="/contactus" eventKey="10">Contact</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Navbar>
-                <hr></hr>
+                <div className='navspan'></div>
             </div>
 
             <div>
