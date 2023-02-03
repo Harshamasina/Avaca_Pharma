@@ -19,8 +19,8 @@ function Services(){
                 {/* <div className='bg-overlay'></div> */}
                 <div className='fg-text'>
                     <div>
-                        <h1 className='fg-text-h1'>UNDERSTANDING CUSTOMER'S REQUIREMENTS SUCH AS QUALITY AND REGULATORY COMPLIANCE</h1>
-                        <p className='fg-text-p'>Avaca Pharma has it all covered for you. Our focused strategies place your products first.</p>
+                        <h1 className='fg-text-h1'>Innovate model is a highly efficient way of translating ground breaking science into product opportunities not only in terms of timelines but also costs</h1>
+                        {/* <p className='fg-text-p'>Avaca Pharma has it all covered for you. Our focused strategies place your products first.</p> */}
                     </div>
                 </div>
             </div>

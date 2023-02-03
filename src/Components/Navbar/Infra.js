@@ -17,8 +17,7 @@ function Infra(){
                 {/* <div className='bg-overlay'></div> */}
                 <div className='fg-text'>
                     <div>
-                        <h1 className='fg-text-h1'>Formulation and Analytical R&D Infrastructure</h1>
-                        <p className='fg-text-p'>Scroll down to access the equipment in both formulation and analytical R&D Laboratories</p>
+                        <h1 className='fg-text-h1'>Avaca Pharma is a trusted R&D and manufacturing partner to the global life sciences industry. From concept to commercial, we transform your ideas into solutions for better health.</h1>
                     </div>
                 </div>
             </div>

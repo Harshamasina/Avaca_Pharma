@@ -16,8 +16,8 @@ function Media(){
                 {/* <div className='bg-overlay'></div> */}
                 <div className='fg-text'>
                     <div>
-                        <h1 className='fg-text-h1'>STREAMLINED OPERATIONAL SUPPORT AND MATERIAL FLOW</h1>
-                        <p className='fg-text-p'>Modernizing commercial supply operations</p>
+                        <h1 className='fg-text-h1'>MEDIA</h1>
+                        {/* <p className='fg-text-p'>Modernizing commercial supply operations</p> */}
                     </div>
                 </div>
             </div>

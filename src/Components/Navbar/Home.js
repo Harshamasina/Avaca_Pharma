@@ -25,14 +25,16 @@ function Home(){
                                 </div>
                                 
                                 <div>
-                                    <h1 className='Carouselh1'>Commercial Operations</h1>
-                                    <p className='Carouselp'>Avaca Pharma is leader in application of science and data driven methodologies</p>
+                                    <h1 className='Carouselh1'>Avaca Pharma is a leader in the application of science and data driven methodologies</h1>
                                 </div>
                                 
                                 <div>
-                                    <h1 className='Carouselh1'>The R&D form Dosage Capability</h1>
-                                    <p className='Carouselp'>The total cGMP space of 6000 Sq. ft. in a  1.2-acre location, of which Formulation occupies 3000 sq. ft. and  Analytical Operations 3000 sq. ft. with provisions for expansion</p>
+                                    <h1 className='Carouselh1'>Integrated Formulation Dosage Forms Development and Analytical Facility</h1>
                                 </div>
+
+                                {/* <div>
+                                    <h1 className='Carouselh1'>Novel Drug Discovery and Medicinal Chemistry Capabilities</h1>
+                                </div> */}
                         </div>
                         <Link className='homeBtn' to="/patents">Know More</Link>
                 </div>

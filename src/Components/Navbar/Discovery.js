@@ -16,8 +16,8 @@ function Discovery(){
                 {/* <div className='bg-overlay'></div> */}
                 <div className='fg-text'>
                     <div>
-                        <h1 className='fg-text-h1'>Complex Molecules to grams to Multi Kilos</h1>
-                        <p className='fg-text-p'>Provides Support to Discovery and Process Chemistry</p>
+                        <h1 className='fg-text-h1'>Highly differentiated products requires early translation of breakthrough science</h1>
+                        {/* <p className='fg-text-p'>Provides Support to Discovery and Process Chemistry</p> */}
                     </div>
                 </div>
             </div>

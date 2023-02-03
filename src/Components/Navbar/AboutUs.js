@@ -21,8 +21,8 @@ function AboutUS(){
                 {/* <div className='bg-overlay'></div> */}
                 <div className='fg-text'>
                     <div>
-                        <h1 className='fg-text-h1'>AVACAPHARMA MAKES YOUR BUSINESS SIMPLE AND CUSTOMIZABLE</h1>
-                        <p className='fg-text-p'>An integrated R&D business model to support your product development</p>
+                        <h1 className='fg-text-h1'>We're always striving for innovations in drug development</h1>
+                        <p className='fg-text-p'>We look to the future and work tirelessly to test new drugs, treatments and therapies.</p>
                     </div>
                 </div>
             </div>
