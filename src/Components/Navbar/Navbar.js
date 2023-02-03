@@ -22,7 +22,7 @@ import Privacy from '../Body/privacy';
 function NavBar(){
         const [changeNavbar, setChangeNavbar] = useState(false);
         const changeBackground = () => {
-            if(window.scrollY >= 80){
+            if(window.scrollY >= 300){
                 setChangeNavbar(true);
             }else{
                 setChangeNavbar(false);
@@ -63,7 +63,7 @@ function NavBar(){
                         </Nav>
                     </Navbar.Collapse>
                 </Navbar>
-                <div className='navspan'></div>
+                {/* <div className='navspan'></div> */}
             </div>
 
             <div>
