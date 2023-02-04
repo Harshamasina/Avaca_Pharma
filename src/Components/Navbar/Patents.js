@@ -1,10 +1,18 @@
 import { FaRegCopyright } from "react-icons/fa";
 import Table from 'react-bootstrap/Table';
+import { Helmet } from 'react-helmet';
 
 function Patents(){
-    document.title = 'AvacaPharma - Patents';
     return(
         <>
+            <Helmet>
+                <title>Patents | AvacaPharma</title>
+                <meta name="description" content="Patents filed by AvacaPharma in 2022 AND 2023" />
+                <meta name="keywords" content="patents, cellix bio avacapharma patents, WO2023002338, US20230020927, 
+                    WO2022190030, WO2022175829, WO2022157564, WO2022157563, WO2022157587, WO2022130040, WO2022123511, ALLERGIC DISEASES OF SKIN, ORAL MUCOSITIS AND ULCERS, 
+                    GASTRITIS, GASTRIC ULCERS, SKIN DISEASES" 
+                />
+            </Helmet>
             <div className='landingpage'>
                 <video src="https://avaca-pharma-assets.s3.ap-south-1.amazonaws.com/DNA.mp4" 
                     autoPlay 

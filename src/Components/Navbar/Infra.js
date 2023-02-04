@@ -1,10 +1,15 @@
 import Table from 'react-bootstrap/Table';
 import { BsBuilding } from "react-icons/bs";
+import { Helmet } from 'react-helmet';
 
 function Infra(){
-    document.title = 'AvacaPharma - Infrastructure';
     return(
         <>
+            <Helmet>
+                <title>Infrastructure | AvacaPharma</title>
+                <meta name="description" content="Lab Equipments and Infrastructure in AvacaPharma Laboratories" />
+                <meta name="keywords" content="Infrastructure of AvacaPharma, Formulation R&D, Analytical R&D, Instrument in AvacaPharma" />
+            </Helmet>
             <div className='landingpage'>
             <video src="https://avaca-pharma-assets.s3.ap-south-1.amazonaws.com/Maufactuing.mp4" 
                 autoPlay 

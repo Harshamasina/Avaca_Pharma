@@ -1,9 +1,12 @@
 import { RiQuestionAnswerLine } from "react-icons/ri";
+import { Helmet } from 'react-helmet';
 
 function ContactUs(){
-    document.title = 'AvacaPharma - Contact';
     return(
         <>
+            <Helmet>
+                <title>Contact | AvacaPharma</title>
+            </Helmet>
             <div className='landingpage'>
             <video src="https://avaca-pharma-assets.s3.ap-south-1.amazonaws.com/Blue+Globe.mp4" 
                 autoPlay 

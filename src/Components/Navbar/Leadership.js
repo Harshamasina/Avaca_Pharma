@@ -1,9 +1,14 @@
 import { MdOutlineLeaderboard } from "react-icons/md";
+import { Helmet } from 'react-helmet';
 
 function Leadership(){
-    document.title = 'AvacaPharma - Leadership';
     return(
         <>
+            <Helmet>
+                <title>Leadership | AvacaPharma</title>
+                <meta name="description" content="Mahesh Kandula CEO and MD of AvacaPharma" />
+                <meta name="keywords" content="Mahesh Kandula, CEO of avacapharma, MD of avacapharma, Cellix Bio CEO, Cellix Bio Pharma CEO"/>
+            </Helmet>
             <div className='landingpage'>
                 <video src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/Bulbs.mp4" 
                     autoPlay 

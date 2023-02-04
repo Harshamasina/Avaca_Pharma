@@ -4,11 +4,16 @@ import HomeContent from "../Body/HomeContent";
 // import ModalPopUp from "../Body/ModalPopUp";
 import { CgOrganisation } from "react-icons/cg";
 import ParallaxContent from '../Body/ParallaxContent';
+import { Helmet } from 'react-helmet';
 
 function Home(){
-    document.title = 'AvacaPharma - Home';
     return(
         <>
+                <Helmet>
+                    <title>Home | AvacaPharma</title>
+                    <meta name='description' content="AvacaPharma's Home Page"/>
+                    <meta name='keywords' content="AvacaPharma Home, AvacaPharma Home page, What is AvacaPharma"/>
+                </Helmet>
                 <div className='landingpage'>
                     <video src="https://avaca-pharma-assets.s3.ap-south-1.amazonaws.com/Formulas+2160p+(Converted).mp4" 
                         autoPlay 

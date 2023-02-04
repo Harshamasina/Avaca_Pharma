@@ -1,9 +1,12 @@
 import { IoPersonAddOutline } from "react-icons/io5";
+import { Helmet } from 'react-helmet';
 
 function Careers(){
-    document.title = 'AvacaPharma - Careers';
     return(
         <>
+            <Helmet>
+                <title>Careers | AvacaPharma</title>
+            </Helmet>  
             <div className='landingpage'>
                 <video src="https://avaca-pharma-assets.s3.ap-south-1.amazonaws.com/Careers.mp4" 
                     autoPlay 

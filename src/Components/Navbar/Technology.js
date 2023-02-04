@@ -1,8 +1,16 @@
 import { MdOutlineBiotech } from "react-icons/md";
+import { Helmet } from 'react-helmet';
 
 const Technology = () => {
     return(
-        <div>
+        <>
+            <Helmet>
+                <title>Technology | AvacaPharma</title>
+                <meta name="description" content="Technology used by AvacaPharma"/>
+                <meta name="keywords" content="AvacaPharma technology, Synergix AI, Augumented Intelligence, 
+                    Cellix Bio Pharma Technology, Cellix Bio Technology,"
+                />
+            </Helmet>
             <div className='landingpage'>
                 <video src="https://avaca-pharma-assets.s3.ap-south-1.amazonaws.com/Brain+1440p.mp4" 
                     autoPlay 
@@ -40,7 +48,7 @@ const Technology = () => {
                     </span>
                 </h1>
             </div>
-        </div>
+        </>
     );
 }
 export default Technology;

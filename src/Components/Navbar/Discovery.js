@@ -1,12 +1,21 @@
 import React from 'react';
 import { Parallax } from 'react-parallax';
 import { MdOutlineScience } from "react-icons/md";
+import { Helmet } from 'react-helmet';
 
 function Discovery(){
-    document.title = 'AvacaPharma - Discovery';
     const img = "https://avaca-pharma-assets.s3.ap-south-1.amazonaws.com/Blue+Data.jpg";
     return(
         <>
+            <Helmet>
+                <title>Discovery | AvacaPharma</title>
+                <meta name="description" content="Discover AvacaPharma at a glance"/>
+                <meta name="keywords" content="Discovery AvacaPharma, 
+                    Medicinal Chemistry, 
+                    synthetic Team, Avaca Analytical Team, potency, DMPK related issues, safety-related issues,
+                    selectivity, off-target activity, physicochemical properties"
+                />
+            </Helmet>
             <div className='landingpage'>
             <video src="https://avaca-pharma-assets.s3.ap-south-1.amazonaws.com/Virus.mp4" 
                 autoPlay 

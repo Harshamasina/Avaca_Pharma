@@ -4,12 +4,19 @@ import { SlChemistry } from "react-icons/sl";
 import { BsMinecartLoaded } from "react-icons/bs";
 import { GiGears } from "react-icons/gi";
 import { RiServiceLine } from "react-icons/ri";
+import { Helmet } from 'react-helmet';
 
 function Services(){
     const img = "https://avaca-pharma-assets.s3.ap-south-1.amazonaws.com/Blue+Glass.PNG";
-    document.title = 'AvacaPharma - Services';
     return(
         <>
+            <Helmet>
+                <title>Services | AvacaPharma</title>
+                <meta name='description' content="Services by AvacaPharma" />
+                <meta name='keywords' content='CDMO program, Medicinal Chemistry Services, services by AvacaPharma, Services cellix bio Pharma, 
+                    FORMULATION DEVELOPMENT, ANALYTICAL DEVELOPMENT, COMMERCIAL SUPPLY' 
+                />
+            </Helmet>
             <div className='landingpage'>
             <video src="https://avaca-pharma-assets.s3.ap-south-1.amazonaws.com/Labaratory.mp4" 
                 autoPlay 

@@ -1,9 +1,13 @@
 import { HiOutlineNewspaper } from "react-icons/hi";
+import { Helmet } from 'react-helmet';
 
 function Media(){
     document.title = 'AvacaPharma - Media';
     return(
         <>
+            <Helmet>
+                <title>Media | AvacaPharma</title>
+            </Helmet>
             <div className='landingpage'>
                 <video src="https://avaca-pharma-assets.s3.ap-south-1.amazonaws.com/Media.mp4" 
                     autoPlay 

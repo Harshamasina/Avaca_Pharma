@@ -4,11 +4,24 @@ import { BsGear } from "react-icons/bs";
 import { MdOutlineContentCopy } from "react-icons/md";
 // import { CiMoneyCheck1 } from "react-icons/ci";
 import Accordion from 'react-bootstrap/Accordion';
+import { Helmet } from 'react-helmet';
 
 function AboutUS(){
-    document.title = 'AvacaPharma - About Us';
     return(
         <>
+            <Helmet>
+                <title>About Us | AvacaPharma</title>
+                <meta name="description" content="About AvacaPharma"/>
+                <meta name="keywords" content="What is AvacaPharma,
+                    About Us AvacaPharma 
+                    Introduction to AvacaPharma, 
+                    AvacaPharma Vision, 
+                    AvacaPharma Mission, 
+                    AvacaPharma Values,
+                    AvacaPharma ARD,
+                    AvacaPharma FRD" 
+                />
+            </Helmet>
             <div className='landingpage'>
             <video src="https://avaca-pharma-assets.s3.ap-south-1.amazonaws.com/Chemistry.mp4" 
                 autoPlay 

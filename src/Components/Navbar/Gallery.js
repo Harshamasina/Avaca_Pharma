@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { RiGalleryLine } from "react-icons/ri";
 import { IoCloseOutline } from "react-icons/io5";
+import { Helmet } from 'react-helmet';
 
 function Gallery(){
     let data = [
@@ -198,6 +199,9 @@ function Gallery(){
 
     return(
         <>
+            <Helmet>
+                <title>Gallery | AvacaPharma</title>
+            </Helmet>
             <div className='landingpage'>
             <video 
                 src="https://avaca-pharma-assets.s3.ap-south-1.amazonaws.com/oil+abstarct.mp4" 
