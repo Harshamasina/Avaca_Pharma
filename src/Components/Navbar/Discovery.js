@@ -57,10 +57,11 @@ function Discovery(){
                         <li>Analytical Chemistry is an integrated part of all projects and offered singularly, for unique requirements too</li>
                     </ul>
                 </div>
+                <div className="DiscoveryContainer"></div>
                 <p>The synthetic team is skilled to undertake challenges in synthetic organic chemistry, involving various types of chemistry - heterocyclic, asymmetric, microwave, enzymatic, multi-step synthesis, carbohydrate, nucleotide & nucleoside - to deliver compounds to customer requirements.</p>
             </div>
                 <div className="DiscoveryParallax">
-                    <Parallax bgImage={ img } strength={400} bgImageAlt="parallaximg" blur={3}>
+                    <Parallax bgImage={ img } strength={400} bgImageAlt="parallaximg" blur={1}>
                         <div className='ParallaxContainer'>
                             <div className="ParallaxDiv">
                                 <div className="DiscoverUL2">

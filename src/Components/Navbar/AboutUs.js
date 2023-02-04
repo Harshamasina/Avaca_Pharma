@@ -49,7 +49,7 @@ function AboutUS(){
             </div>
 
             <div className="AboutUsText">
-                <p><span>AvacaPharma, </span>a next generation pharmaceutical development and commercialization organization.</p>
+                <p>AvacaPharma a next generation pharmaceutical development and commercialization organization.</p>
             </div>
 
             <div className="AboutUsTable">

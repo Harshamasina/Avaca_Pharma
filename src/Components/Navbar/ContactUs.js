@@ -2,11 +2,6 @@ import { RiQuestionAnswerLine } from "react-icons/ri";
 
 function ContactUs(){
     document.title = 'AvacaPharma - Contact';
-    function ContactForm(){
-        return(
-            window.alert("Message sent successfully")
-        );
-    }
     return(
         <>
             <div className='landingpage'>
@@ -112,7 +107,6 @@ function ContactUs(){
                             <input className="CUForm"
                                 type="submit" 
                                 name="register"
-                                onClick={ContactForm}
                                 value="Send Message">
                             </input>
                         </div>

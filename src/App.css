@@ -4,7 +4,6 @@ body{
   margin: 0px;
   padding: 0px;
   overflow-x: hidden;
-  /* background-color: #FFFAFA !important; */
 }
 
 ::selection {
@@ -99,8 +98,9 @@ body{
       width: 102% !important;
     }
     .homeBtn{
-      margin-bottom: 2% !important;
-      width: 40vh !important;
+      /* margin-bottom: 1% !important; */
+      margin-top: 2%;
+      width: 35vh !important;
       font-size: 1em !important;
     }
   }
@@ -209,7 +209,7 @@ body{
     font-weight: bold;
     border: #e0fbfc 1.5px solid;
     text-decoration: none;
-    width: 300px;
+    width: 400px;
     padding: 25px;
     text-align: center;
     color: #e0fbfc;
@@ -219,7 +219,7 @@ body{
     -webkit-transition-property: box-shadow, transform;
     transition-property: box-shadow, transform;
     margin-bottom: 3%;
-    margin-top: 5%;
+    margin-top: 7%;
   }
   
   .homeBtn:hover, .homeBtn:focus, .homeBtn:active{
@@ -362,6 +362,13 @@ body{
     margin-left: -2% !important;
     font-size: 0.6rem !important;
   }
+  .footer address{
+    font-size: 2vh !important;
+  }
+  .footer-logo{
+    width: 250px !important;
+    height: 100px !important;
+  }
 }
 
 @media screen and (max-width:768px) and (min-width:601px) {
@@ -443,12 +450,12 @@ body{
 
 @media screen and (max-width: 600px) {
   .HCInro{
-    font-size: 3vw;
+    font-size: 3vh;
     text-align: justify;
   }
   
   .HCInro span{
-    font-size: 3.2vw;
+    font-size: 6vh;
   }
 
   .HCTable{
@@ -457,11 +464,11 @@ body{
   }
 
   .HCTable h4{
-    font-size: small !important;
+    font-size: 3vh !important;
   }
   
   .HCTable p{
-    font-size: 2.5vw;
+    font-size: 3vh;
   }
 }
 
@@ -687,7 +694,7 @@ body{
 
 .DiscoverUL1{
   color: #293241;
-  font-size: 1.5vw;
+  font-size: 1.2vw;
   font-weight: 475;
 }
 
@@ -713,28 +720,29 @@ body{
 
 @media screen and (max-width: 600px) {
   .DiscoveryHeading span{
-    font-size: 1rem;
+    font-size: 3vh !important;
   }
 
   .DiscoveryHeading h3{
-    font-size: 1rem;  
+    font-size: 3vh !important;  
   }
 
   .DiscoverUL1{
-    font-size: 1rem;
+    font-size: 3vh !important;
     text-align: justify;
   }
 
   .DiscoverUL1 ul{
     text-align: left !important;
+    font-size: 3vh !important;
   }
 
   .DiscoveryContainer p{
-    font-size: 1rem;
+    font-size: 3vh !important;
     text-align: justify;
   }
   .DiscoverUL2 ul{
-    font-size: 1rem;
+    font-size: 1.8vh !important;
     text-align: left !important;
   }
 }
@@ -811,15 +819,15 @@ body{
 
 @media screen and (max-width: 600px) {
   .servicesContainer h3{
-    font-size: 4vw;
+    font-size: 3vh !important;
   }
 
   .servicesContainer span{
-    font-size: 1rem;
+    font-size: 3vh !important;
   }
 
   .servicesContainer ul{
-    font-size: 1rem;
+    font-size: 3vh !important;
     text-align: justify;
   }
 
@@ -830,7 +838,7 @@ body{
 
   .servicesTable h3{
     text-align: center;
-    font-size: 4vw;
+    font-size: 3vh !important;
     margin: 3%;
   }
 
@@ -840,12 +848,12 @@ body{
   }
 
   .servicesTable p{
-    font-size: 1rem;
+    font-size: 3vh !important;
     text-align: justify;
   }
 
   .servicesTable ul{
-    font-size: 1rem;
+    font-size: 3vh !important;
     text-align: center;
   }
 }
@@ -905,8 +913,11 @@ body{
     /* margin-left: 80% !important; */
   }
   .InfaTable tr{
-  font-size: 2.1vw;
-}
+    font-size: 2.2vw;
+  }
+  .InfraTableContainer h2{
+    font-size: 3vh !important;
+  }
 }
 
 .PageIcon{
@@ -920,8 +931,8 @@ body{
 
 @media screen and (max-width: 600px) {
   .PageIcon{
-    width: 30px;
-    height: 30px;
+    width: 50px;
+    height: 50px;
   }
 }
 
@@ -1001,31 +1012,34 @@ body{
 
 @media screen and (max-width: 600px) {
   .CareersText{
-    font-size: 1rem;
+    font-size: 2.5vh !important;
     text-align: justify;
   }
   .CareersText span{
-    font-size: 0.8rem;
+    font-size: 2.5vh !important;
   }
   .CareersText a{
-    font-size: 1rem;
+    font-size: 2.5vh !important;
   }
   .CareersText{
-    font-size: 1rem;
+    font-size: 2.5vh !important;
   }
   .CareersDetails{
     width: 100% !important;
     margin-left: 0% !important;
   }
   .CareersDetails h2{
-    font-size: 1rem;
+    font-size: 3vh !important;
   }
   .CareersInfo ul{
-    font-size: 1rem;
+    font-size: 2.5vh !important;
     text-align: left !important;
   }
   .CareersInfo h4{
-    font-size: 1rem;
+    font-size: 3vh !important;
+  }
+  .CareersInfo span{
+    font-size: 2.5vh !important;
   }
 }
 
@@ -1144,13 +1158,13 @@ body{
     margin-bottom: 2%;
   }
   .MediaContent h2{
-    font-size: 1rem;
+    font-size: 3.5vh !important;
   }
   .MediaContent h5{
-    font-size: 1rem;
+    font-size: 3vh !important;
   }
   .MediaContent p{
-    font-size: 1rem;
+    font-size: 3vh !important;
     text-align: justify;
   }
 }
@@ -1180,7 +1194,7 @@ body{
 .AboutUsText span{
   color: #3d5a80;
   font-weight: 600;
-  font-size: 1.5vw;
+  font-size: 2vw;
 }
 
 .AboutUsTable{
@@ -1282,47 +1296,43 @@ body{
     margin-left: 0% !important;
   }
   .accordion-button {
-    font-size: 1rem !important;
-  }
-
-  .AboutUsText span{
-    font-size: 1rem;
-    width: 80%;
+    font-size: 3vh !important;
   }
   .AboutUsText p{
-    font-size: 1rem;
+    font-size: 3vh;
   }
   .AboutUsTable{
     display: flex;
     flex-direction: column;
   }
   .AboutUsTableContent h2{
-    font-size: 1rem;
+    font-size: 3vh;
   }
   .AboutUsTableContent p{
-    font-size: 1rem;
+    font-size: 3vh;
     text-align: justify;
   }
   .AboutUsTableContent ul{
-    font-size: 1rem;
+    font-size: 3vh !important;
+    text-align: left !important;
   }
 
   .AuAccBody h3{
     color: #ee6c4d;
-    font-size: 1rem;
+    font-size: 3vh !important;
   }
   .AuAccBody h4{
     color: #3d5a80;
-    font-size: 1rem;
+    font-size: 3vh !important;
   }
   .AuAccBody p{
     color: #293241;
-    font-size: 1rem;
+    font-size: 3vh !important;
     text-align: justify;
   }
   .AuAccBody ul{
     color: #293241;
-    font-size: 1rem;
+    font-size: 3vh !important;
     list-style-type: none;
     text-align: justify;
   }
@@ -1350,7 +1360,7 @@ body{
 
 @media screen and (max-width:768px) and (min-width:601px) {
   .AboutUsTableContent h2{
-    font-size: 2em;
+    font-size: 3vh;
   }
 }
 
@@ -1533,7 +1543,7 @@ body{
     font-size: 1rem;
   }
   .ContactAddress h4, ul, span{
-    font-size: 0.8rem !important;
+    font-size: 3vh !important;
     text-align: center;
   }
 }
@@ -1591,6 +1601,10 @@ body{
   box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2), -1px -1px 8px rgba(0, 0, 0, 0.2);
 }
 
+.wipoNo{
+  font-weight: 625;
+}
+
 @media only screen and (max-width: 768px) {
   .PatentsTableContainer Table {
       width: 90%;
@@ -1628,7 +1642,7 @@ body{
 
 @media screen and (max-width: 600px) {
   .PatentsTableContainer h3{
-    font-size: 1rem;
+    font-size: 3vh !important;
   }
   .auto-index td{
     font-size: 0.7rem !important;
@@ -1768,13 +1782,23 @@ body{
   color: #305c8a;
 }
 
+@media screen and (max-width: 600px) {
+  .GalleryContent h2{
+    font-size: 3vh !important;
+  }
+  .GalleryContent span{
+    font-size: 3vh !important;
+  }
+}
+
 .VideoContainer{
   text-align: center;
   margin-top: 2%;
 }
 
-.VideoContainer h2{
-  color: #305c8a;
+.VideoContainer a{
+  color: #3d5a80 !important;
+  text-decoration: none !important;
 }
 
 .VideoContainer h2:hover{
@@ -1874,13 +1898,20 @@ body{
 }
 
 .ParallaxContainer1{
-  height: 400px;
+  height: 500px;
 }
 
 .ParallaxContainer3{
   height: 700px;
 }
 
+.ParallaxContainer4{
+  height: 600px;
+}
+
+.ParallaxContainer5{
+  height: 700px;
+}
 
 .ParallaxDiv{
   left: 50%;
@@ -1931,11 +1962,29 @@ body{
 
 .Parallaxlink:hover{
   background: #e0fbfc;
-  text-decoration: underline 2px solid #ee6c4d;
     color: #050801;
     box-shadow: 0 0 5px #e0fbfc,
                 0 0 25px #e0fbfc,
                 0 0 50px #e0fbfc,
                 0 0 200px #e0fbfc;
      -webkit-box-reflect:below 1px linear-gradient(transparent, #0005);
+}
+
+@media screen and (max-width: 600px) {
+  .ParallaxContainer4{
+    height: 500px;
+  }
+  .ParallaxDiv h2{
+    font-size: 3vh;
+  }
+  .ParallaxDiv p{
+    font-size: 2vh;
+    text-align: justify;
+  }
+  .Parallaxlink{
+    font-size: 2.5vh;
+  }
+  .Parallaxh2{
+    font-size: 3vh;
+  }
 }

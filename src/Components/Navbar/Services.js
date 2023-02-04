@@ -48,7 +48,7 @@ function Services(){
             </div>
 
             <div className="servicesContainer">
-                <h3><span>AvacaPharma </span>has developed a unique CDMO program to deliver the best client experience. Come experience our difference!</h3>
+                <h3>AvacaPharma has developed a unique CDMO program to deliver the best client experience. Come experience our difference!</h3>
                 <h3>Medicinal Chemistry Services</h3>
             </div>
             <div className="DiscoveryParallax">
@@ -72,7 +72,6 @@ function Services(){
                 </Parallax>
             </div>
             <div className="servicesTableContainer">
-                
                 <div className="servicesTable">
                     <SlChemistry className="servicesIcon"></SlChemistry>
                     <h3>FORMULATION DEVELOPMENT</h3>

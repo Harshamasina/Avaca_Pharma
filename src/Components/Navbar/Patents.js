@@ -45,7 +45,7 @@ function Patents(){
             <div className="PatentsTableContainer">
                 <h3>Patents filed by AvacaPharma</h3>
                 <div>
-                    <Table striped bordered hover className="auto-index">
+                    <Table striped hover className="auto-index">
                         <thead>
                             <tr id="header">
                                 <th>Sno</th>
@@ -57,63 +57,63 @@ function Patents(){
                         <tbody>
                             <tr>
                                 <td></td>
-                                <td>WO2023002338</td>
+                                <td className="wipoNo">WO2023002338</td>
                                 <td>COMPOSITIONS, METHODS OF MAKING AND USING SAME FOR THE DELIVERY OF ULCEROGENIC DRUGS THEREOF</td>
                                 <td>26.01.2023</td>
                             </tr>
 
                             <tr>
                                 <td></td>
-                                <td>US20230020927</td>
+                                <td className="wipoNo">US20230020927</td>
                                 <td>treatment of allergic conditions/diseases of skin</td>
                                 <td>19.01.2023</td>
                             </tr>
 
                             <tr>
                                 <td></td>
-                                <td>WO2022190030</td>
+                                <td className="wipoNo">WO2022190030</td>
                                 <td>TREATMENT OF SKIN DISEASES</td>
                                 <td>15.09.2022</td>
                             </tr>
 
                             <tr>
                                 <td></td>
-                                <td>WO2022175829</td>
+                                <td className="wipoNo">WO2022175829</td>
                                 <td>treatment of allergic diseases of skin</td>
                                 <td>25.08.2022</td>
                             </tr>
 
                             <tr>
                                 <td></td>
-                                <td>WO2022157564</td>
+                                <td className="wipoNo">WO2022157564</td>
                                 <td>treatment of oral mucositis, gastritis, gastric ulcers</td>
                                 <td>28.07.2022</td>
                             </tr>
 
                             <tr>
                                 <td></td>
-                                <td>WO2022157563</td>
+                                <td className="wipoNo">WO2022157563</td>
                                 <td>treatment of mucositis, oral mucositis</td>
                                 <td>28.07.2022</td>
                             </tr>
 
                             <tr>
                                 <td></td>
-                                <td>WO2022157587</td>
+                                <td className="wipoNo">WO2022157587</td>
                                 <td>treatment of oral mucositis and ulcers</td>
                                 <td>28.07.2022</td>
                             </tr>
 
                             <tr>
                                 <td></td>
-                                <td>WO2022130040</td>
+                                <td className="wipoNo">WO2022130040</td>
                                 <td>treatment of urticaria, atopic dermatitis, pruritus</td>
                                 <td>23.06.2022</td>
                             </tr>
 
                             <tr>
                                 <td></td>
-                                <td>WO2022123511</td>
+                                <td className="wipoNo">WO2022123511</td>
                                 <td>treatment of allergic diseases</td>
                                 <td>16.06.2022</td>
                             </tr>

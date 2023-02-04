@@ -7,9 +7,9 @@ function HomeContent(){
     return(
         <>
             <div className="HCInro">
-                <p>An innovative R&D <span>organization</span></p>
+                <p>An innovative R&D organization</p>
                 <p>Advancing drug discovery by applying the precise medicinal chemistry approaches to deliver superior drug candidates</p>
-                <p><span>Avaca Pharma</span> is developing novel formulation and process technologies which gives continuous manufacturing capabilities for all dosage forms</p>
+                <p>Avaca Pharma is developing novel formulation and process technologies which gives continuous manufacturing capabilities for all dosage forms</p>
             </div>
 
             <div className="HCTable">

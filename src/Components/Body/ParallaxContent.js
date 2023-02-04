@@ -9,7 +9,7 @@ const ParallaxContent = () => {
         <div>
             <div style={{ textAlign: 'center', marginTop: '2%' }}>
                 <Parallax bgImage={ img1 } strength={400} bgImageAlt="parallaximg" blur={3}>
-                    <div className='ParallaxContainer'>
+                    <div className='ParallaxContainer4'>
                         <div className="ParallaxDiv">
                             <h2>DISCOVER OUR TECHNOLOGY</h2>
                             <p>To create distinct medications, Structure's platform combines the most recent developments in computational chemistry, data integration, and molecular interaction visualisation. With this technology at our disposal, we want to create oral small molecule therapeutics that have biologic-like activity and selectivity while overcoming the present drawbacks of biologic and peptide medications.</p>

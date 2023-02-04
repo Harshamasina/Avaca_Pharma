@@ -10,27 +10,27 @@ function Gallery(){
         // },
         {
             id: 2,
-            imgSrc: 'https://avaca-pharma-assets.s3.ap-south-1.amazonaws.com/Avaca+Lab+-+2.jpg',
+            imgSrc: 'https://avaca-pharma-assets.s3.ap-south-1.amazonaws.com/Avaca+Lab+-+2_2.jpg',
         },
         {
             id: 3,
-            imgSrc: 'https://avaca-pharma-assets.s3.ap-south-1.amazonaws.com/Avaca+Lab+-+3.jpg',
+            imgSrc: 'https://avaca-pharma-assets.s3.ap-south-1.amazonaws.com/Avaca+Lab+-+3_2.jpg',
         },
         {
             id: 4,
-            imgSrc: 'https://avaca-pharma-assets.s3.ap-south-1.amazonaws.com/Avaca+Lab+-+4.jpg',
+            imgSrc: 'https://avaca-pharma-assets.s3.ap-south-1.amazonaws.com/Avaca+Lab+-+4_2.jpg',
         },
         {
             id: 5,
-            imgSrc: 'https://avaca-pharma-assets.s3.ap-south-1.amazonaws.com/Avaca+Lab+-+5.jpg',
+            imgSrc: 'https://avaca-pharma-assets.s3.ap-south-1.amazonaws.com/Avaca+Lab+-+5_2.jpg',
         },
         {
             id: 6,
-            imgSrc: 'https://avaca-pharma-assets.s3.ap-south-1.amazonaws.com/Avaca+Lab+-+6.jpg',
+            imgSrc: 'https://avaca-pharma-assets.s3.ap-south-1.amazonaws.com/Avaca+Lab+-+6_2.jpg',
         },
         {
             id: 7,
-            imgSrc: 'https://avaca-pharma-assets.s3.ap-south-1.amazonaws.com/Avaca+Lab+-+7.jpg',
+            imgSrc: 'https://avaca-pharma-assets.s3.ap-south-1.amazonaws.com/Avaca+Lab+-+7_2.jpg',
         },
         {
             id: 8,
@@ -253,7 +253,7 @@ function Gallery(){
             </div>
 
             <div className="VideoContainer">
-                <a href="https://player.vimeo.com/video/332239306?h=f9bd29e595" target="_blank" rel="noreferrer"><h2>WATCH AVACAPHARMA COMMERCIAL OPERATIONS (GMP)</h2></a>
+                <h2><a href="https://player.vimeo.com/video/332239306?h=f9bd29e595" target="_blank" rel="noreferrer">WATCH AVACAPHARMA COMMERCIAL OPERATIONS (GMP)</a></h2>
             </div>
         </>
     )
