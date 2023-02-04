@@ -1,22 +1,23 @@
+import React from 'react';
 import { Link } from "react-router-dom";
 import HomeContent from "../Body/HomeContent";
 // import ModalPopUp from "../Body/ModalPopUp";
 import { CgOrganisation } from "react-icons/cg";
-
+import ParallaxContent from '../Body/ParallaxContent';
 
 function Home(){
     document.title = 'AvacaPharma - Home';
     return(
         <>
                 <div className='landingpage'>
-                <video src="https://avaca-pharma-assets.s3.ap-south-1.amazonaws.com/Formulas+2160p+(Converted).mp4" 
-                    autoPlay 
-                    muted 
-                    loop='true' 
-                    className='video-bg' 
-                    type="video/mp4"
-                    poster="https://avaca-pharma-assets.s3.ap-south-1.amazonaws.com/Poster+Home.png"
-                />
+                    <video src="https://avaca-pharma-assets.s3.ap-south-1.amazonaws.com/Formulas+2160p+(Converted).mp4" 
+                        autoPlay 
+                        muted 
+                        loop='true' 
+                        className='video-bg' 
+                        type="video/mp4"
+                        poster="https://avaca-pharma-assets.s3.ap-south-1.amazonaws.com/Poster+Home.png"
+                    />
                     {/* <div className='bg-overlay'></div> */}
                         <div className='home-text'>
                                 <div>
@@ -41,6 +42,7 @@ function Home(){
                 <CgOrganisation className="PageIcon"></CgOrganisation>
                 <HomeContent></HomeContent>
                 {/* <ModalPopUp></ModalPopUp> */}
+                <ParallaxContent></ParallaxContent>
         </>
     )
 }

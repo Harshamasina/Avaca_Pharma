@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { TfiGallery } from "react-icons/tfi";
+import { RiGalleryLine } from "react-icons/ri";
 import { IoCloseOutline } from "react-icons/io5";
 
 function Gallery(){
@@ -218,7 +218,7 @@ function Gallery(){
             </div>
 
             <div>
-                <TfiGallery className="PageIcon"></TfiGallery>
+                <RiGalleryLine className="PageIcon"></RiGalleryLine>
             </div>
 
             <div className="PageHeading">

@@ -17,12 +17,13 @@ import ContactUs from './ContactUs';
 import Error from '../Body/Error';
 import Terms from '../Body/Terms';
 import Privacy from '../Body/privacy';
+import Technology from './Technology';
 // import Pipeline from './Pipeline';
 
 function NavBar(){
         const [changeNavbar, setChangeNavbar] = useState(false);
         const changeBackground = () => {
-            if(window.scrollY >= 300){
+            if(window.scrollY >= 250){
                 setChangeNavbar(true);
             }else{
                 setChangeNavbar(false);
@@ -51,15 +52,15 @@ function NavBar(){
                             <Nav.Link className='navbar_link' as={Link} to="/home" eventKey="0">Home</Nav.Link>
                             <Nav.Link className='navbar_link' as={Link} to="/aboutus" eventKey="1">About Us</Nav.Link>
                             <Nav.Link className='navbar_link' as={Link} to="/discovery" eventKey="2">Discovery</Nav.Link>
-                            {/* <Nav.Link className='navbar_link' as={Link} to="/pipeline" eventKey="4">Pipeline</Nav.Link> */}
-                            <Nav.Link className='navbar_link' as={Link} to="/patents" eventKey="3">Patents</Nav.Link>
-                            <Nav.Link className='navbar_link' as={Link} to="/services" eventKey="4">Services</Nav.Link>
-                            <Nav.Link className='navbar_link' as={Link} to="/infra" eventKey="5">Infrastructure</Nav.Link>
-                            <Nav.Link className='navbar_link' as={Link} to="/leadership" eventKey="6">Leadership</Nav.Link>
-                            <Nav.Link className='navbar_link' as={Link} to="/media" eventKey="7">Media</Nav.Link>
-                            <Nav.Link className='navbar_link' as={Link} to="/gallery" eventKey="8">Gallery</Nav.Link>
-                            <Nav.Link className='navbar_link' as={Link} to="/careers" eventKey="9">Careers</Nav.Link>
-                            <Nav.Link className='navbar_link' as={Link} to="/contactus" eventKey="10">Contact</Nav.Link>
+                            <Nav.Link className='navbar_link' as={Link} to="/technology" eventKey="4">technology</Nav.Link>
+                            <Nav.Link className='navbar_link' as={Link} to="/patents" eventKey="5">Patents</Nav.Link>
+                            <Nav.Link className='navbar_link' as={Link} to="/services" eventKey="6">Services</Nav.Link>
+                            <Nav.Link className='navbar_link' as={Link} to="/infra" eventKey="7">Infrastructure</Nav.Link>
+                            <Nav.Link className='navbar_link' as={Link} to="/leadership" eventKey="8">Leadership</Nav.Link>
+                            <Nav.Link className='navbar_link' as={Link} to="/media" eventKey="9">Media</Nav.Link>
+                            <Nav.Link className='navbar_link' as={Link} to="/gallery" eventKey="10">Gallery</Nav.Link>
+                            <Nav.Link className='navbar_link' as={Link} to="/careers" eventKey="11">Careers</Nav.Link>
+                            <Nav.Link className='navbar_link' as={Link} to="/contactus" eventKey="12">Contact</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Navbar>
@@ -71,7 +72,7 @@ function NavBar(){
                     <Route path='/home' element={<Home></Home>}></Route>
                     <Route path='/aboutus' element={<AboutUs></AboutUs>}></Route>
                     <Route path='/discovery' element={<Discovery></Discovery>}></Route>
-                    {/* <Route path='/pipeline' element={<Pipeline></Pipeline>}></Route> */}
+                    <Route path='/technology' element={<Technology></Technology>}></Route>
                     <Route path='/patents' element={<Patents></Patents>}></Route>
                     <Route path='/services' element={<Services></Services>}></Route>
                     <Route path='/infra' element={<Infrastructure></Infrastructure>}></Route>

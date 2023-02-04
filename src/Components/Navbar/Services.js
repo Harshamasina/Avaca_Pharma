@@ -1,9 +1,12 @@
+import React from 'react';
+import { Parallax } from 'react-parallax';
 import { SlChemistry } from "react-icons/sl";
 import { BsMinecartLoaded } from "react-icons/bs";
 import { GiGears } from "react-icons/gi";
 import { RiServiceLine } from "react-icons/ri";
 
 function Services(){
+    const img = "https://avaca-pharma-assets.s3.ap-south-1.amazonaws.com/Blue+Glass.PNG";
     document.title = 'AvacaPharma - Services';
     return(
         <>
@@ -47,18 +50,27 @@ function Services(){
             <div className="servicesContainer">
                 <h3><span>AvacaPharma </span>has developed a unique CDMO program to deliver the best client experience. Come experience our difference!</h3>
                 <h3>Medicinal Chemistry Services</h3>
-                <ul>
-                    <li>Design and synthesis of novel chemical entities in drug discovery programs such as target to hit, hit to lead and lead optimization SAR studies</li>
-                    <li>Designing novel chemical entities (in collaboration with Silico Molecular Modelling Group)</li>
-                    <li>Biological profiling of the designed compounds (In collaboration with our in-vitro and in-vivo biology groups)</li>
-                    <li>Structural directed design in drug discovery program (in collaboration with the X-ray Crystallography Group)</li>
-                    <li>IPR evaluation of the scaffolds</li>
-                    <li>Complex molecules from grams to multi kilos</li>
-                    <li>Reference compounds and scaffold synthesis</li>
-                    <li>Small molecules; Analogues for lead generation; Lead optimization</li>
-                </ul>
             </div>
-
+            <div className="DiscoveryParallax">
+                <Parallax bgImage={ img } strength={350} bgImageAlt="parallaximg" blur={3}>
+                    <div className='ParallaxContainer3'>
+                        <div className="ParallaxDiv">
+                            <div className="DiscoverUL2">
+                                <ul>
+                                    <li>Design and synthesis of novel chemical entities in drug discovery programs such as target to hit, hit to lead and lead optimization SAR studies</li>
+                                    <li>Designing novel chemical entities (in collaboration with Silico Molecular Modelling Group)</li>
+                                    <li>Biological profiling of the designed compounds (In collaboration with our in-vitro and in-vivo biology groups)</li>
+                                    <li>Structural directed design in drug discovery program (in collaboration with the X-ray Crystallography Group)</li>
+                                    <li>IPR evaluation of the scaffolds</li>
+                                    <li>Complex molecules from grams to multi kilos</li>
+                                    <li>Reference compounds and scaffold synthesis</li>
+                                    <li>Small molecules; Analogues for lead generation; Lead optimization</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </Parallax>
+            </div>
             <div className="servicesTableContainer">
                 
                 <div className="servicesTable">

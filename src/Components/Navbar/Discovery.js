@@ -1,7 +1,10 @@
+import React from 'react';
+import { Parallax } from 'react-parallax';
 import { MdOutlineScience } from "react-icons/md";
 
 function Discovery(){
     document.title = 'AvacaPharma - Discovery';
+    const img = "https://avaca-pharma-assets.s3.ap-south-1.amazonaws.com/Blue+Data.jpg";
     return(
         <>
             <div className='landingpage'>
@@ -55,21 +58,31 @@ function Discovery(){
                     </ul>
                 </div>
                 <p>The synthetic team is skilled to undertake challenges in synthetic organic chemistry, involving various types of chemistry - heterocyclic, asymmetric, microwave, enzymatic, multi-step synthesis, carbohydrate, nucleotide & nucleoside - to deliver compounds to customer requirements.</p>
-                <div className="DiscoverUL2">
-                    <ul>
-                        <li>Complex molecules from grams to multi kilos</li>
-                        <li>Reference compounds and scaffold synthesis</li>
-                        <li>Small molecules; Analogues for lead generation; Lead optimization</li>
-                        <li>Focused libraries : 50-200</li>
-                        <li>Large libraries : greater than 1,000</li>
-                        <li>Multi-step stereoselective synthesis of chiral molecules</li>
-                        <li>Expertise in handling photo-chemical reactions</li>
-                        <li>Chemoenzymatic and resolution techniques for chiral molecules</li>
-                    </ul>
-                </div>
-                <p>The medicinal chemistry team has a performance history of solving the various problems often encountered during the optimization discovery process, such as potency, selectivity, off-target activity, physicochemical properties, DMPK related issues, safety-related issues and such. They have accumulated expertise in various therapeutic areas over the years, including, but not limited to, oncology, metabolic disorders, inflammation and CNS.</p>
-                <p>The analytical team provides support to discovery and process chemistry groups as an integrated service or a stand-alone option for our customers. Our unique approach allows us to identify and evaluate the chemical in our analytical testing laboratories rapidly and effectively communicate the resulting data to help our customers understand the product's chemistry.</p>
             </div>
+                <div className="DiscoveryParallax">
+                    <Parallax bgImage={ img } strength={400} bgImageAlt="parallaximg" blur={3}>
+                        <div className='ParallaxContainer'>
+                            <div className="ParallaxDiv">
+                                <div className="DiscoverUL2">
+                                    <ul>
+                                        <li>Complex molecules from grams to multi kilos</li>
+                                        <li>Reference compounds and scaffold synthesis</li>
+                                        <li>Small molecules; Analogues for lead generation; Lead optimization</li>
+                                        <li>Focused libraries : 50-200</li>
+                                        <li>Large libraries : greater than 1,000</li>
+                                        <li>Multi-step stereoselective synthesis of chiral molecules</li>
+                                        <li>Expertise in handling photo-chemical reactions</li>
+                                        <li>Chemoenzymatic and resolution techniques for chiral molecules</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </Parallax>
+                </div>
+                <div className="DiscoveryContainer">
+                    <p>The medicinal chemistry team has a performance history of solving the various problems often encountered during the optimization discovery process, such as potency, selectivity, off-target activity, physicochemical properties, DMPK related issues, safety-related issues and such. They have accumulated expertise in various therapeutic areas over the years, including, but not limited to, oncology, metabolic disorders, inflammation and CNS.</p>
+                    <p>The analytical team provides support to discovery and process chemistry groups as an integrated service or a stand-alone option for our customers. Our unique approach allows us to identify and evaluate the chemical in our analytical testing laboratories rapidly and effectively communicate the resulting data to help our customers understand the product's chemistry.</p>
+                </div>
         </>
     )
 }
