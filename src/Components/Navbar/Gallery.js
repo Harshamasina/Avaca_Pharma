@@ -215,8 +215,7 @@ function Gallery(){
                 {/* <div className='bg-overlay'></div> */}
                 <div className='fg-text'>
                     <div>
-                        <h1 className='fg-text-h1'>SCALABLE R&D OPERATIONS</h1>
-                        <p className='fg-text-p'>Your product is our responsibility</p>
+                        <h1 className='fg-text-h1'>Scientific expertise, Technology, Innovation and Problem solving along with our strong fundamentals on sustainability, compliance and IP security</h1>
                     </div>
                 </div>
             </div>
