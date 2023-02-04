@@ -4,6 +4,7 @@ body{
   margin: 0px;
   padding: 0px;
   overflow-x: hidden;
+  /* background-color: #FFFAFA !important; */
 }
 
 ::selection {
@@ -98,10 +99,14 @@ body{
       width: 102% !important;
     }
     .homeBtn{
-      /* margin-bottom: 1% !important; */
-      margin-top: 2%;
+      margin-bottom: 1% !important;
       width: 35vh !important;
       font-size: 1em !important;
+    }
+    .footer-logo{
+      width:30vh;
+      height: 8vh;
+      display: inline;
     }
   }
   @media screen and (max-width:768px) and (min-width:601px){
@@ -209,7 +214,7 @@ body{
     font-weight: bold;
     border: #e0fbfc 1.5px solid;
     text-decoration: none;
-    width: 400px;
+    width: 300px;
     padding: 25px;
     text-align: center;
     color: #e0fbfc;
@@ -219,7 +224,7 @@ body{
     -webkit-transition-property: box-shadow, transform;
     transition-property: box-shadow, transform;
     margin-bottom: 3%;
-    margin-top: 7%;
+    margin-top: 5%;
   }
   
   .homeBtn:hover, .homeBtn:focus, .homeBtn:active{
@@ -363,11 +368,7 @@ body{
     font-size: 0.6rem !important;
   }
   .footer address{
-    font-size: 2vh !important;
-  }
-  .footer-logo{
-    width: 250px !important;
-    height: 100px !important;
+    font-size: 0.65em !important;
   }
 }
 
@@ -450,12 +451,12 @@ body{
 
 @media screen and (max-width: 600px) {
   .HCInro{
-    font-size: 3vh;
+    font-size: 2vh !important;
     text-align: justify;
   }
   
   .HCInro span{
-    font-size: 6vh;
+    font-size: 2vh !important;
   }
 
   .HCTable{
@@ -464,17 +465,17 @@ body{
   }
 
   .HCTable h4{
-    font-size: 3vh !important;
+    font-size: 2vh !important;
   }
   
   .HCTable p{
-    font-size: 3vh;
+    font-size: 2vh !important;
   }
 }
 
 @media screen and (max-width:768px) and (min-width:601px) {
   .HCTable h4{
-    font-size: 0.8rem;
+    font-size: 2vh !important;
   }  
 }
 
@@ -566,11 +567,8 @@ body{
 @media screen and (max-width: 600px) {
   .ErrorLink{
     color: #cc6360;
-    font-size: 1rem !important;
+    font-size: 2vh !important;
     margin-top: 64.3%
-  }
-  .jt{
-    font-size: 3vw !important;
   }
 }
 
@@ -720,30 +718,41 @@ body{
 
 @media screen and (max-width: 600px) {
   .DiscoveryHeading span{
-    font-size: 3vh !important;
+    font-size: 2vh !important;
   }
 
   .DiscoveryHeading h3{
-    font-size: 3vh !important;  
+    font-size: 2vh !important;  
   }
 
   .DiscoverUL1{
-    font-size: 3vh !important;
+    font-size: 2vh !important;
     text-align: justify;
   }
 
   .DiscoverUL1 ul{
     text-align: left !important;
-    font-size: 3vh !important;
+    font-size: 2vh !important;
   }
 
   .DiscoveryContainer p{
-    font-size: 3vh !important;
+    font-size: 2vh !important;
     text-align: justify;
   }
   .DiscoverUL2 ul{
-    font-size: 1.8vh !important;
+    font-size: 1.7vh !important;
     text-align: left !important;
+    color: #e0fbfc;
+    font-weight: 500;
+  }
+  .ParallaxContainer3{
+    height: 1000px !important;
+  }
+  .ParallaxContainer4{
+    height: 110vh !important;
+  }
+  .ParallaxContainer{
+    height: 80vh !important;
   }
 }
 
@@ -819,15 +828,15 @@ body{
 
 @media screen and (max-width: 600px) {
   .servicesContainer h3{
-    font-size: 3vh !important;
+    font-size: 2vh !important;
   }
 
   .servicesContainer span{
-    font-size: 3vh !important;
+    font-size: 2vh !important;
   }
 
   .servicesContainer ul{
-    font-size: 3vh !important;
+    font-size: 2vh !important;
     text-align: justify;
   }
 
@@ -838,7 +847,7 @@ body{
 
   .servicesTable h3{
     text-align: center;
-    font-size: 3vh !important;
+    font-size: 2vh !important;
     margin: 3%;
   }
 
@@ -848,12 +857,12 @@ body{
   }
 
   .servicesTable p{
-    font-size: 3vh !important;
+    font-size: 2vh !important;
     text-align: justify;
   }
 
   .servicesTable ul{
-    font-size: 3vh !important;
+    font-size: 2vh !important;
     text-align: center;
   }
 }
@@ -913,10 +922,10 @@ body{
     /* margin-left: 80% !important; */
   }
   .InfaTable tr{
-    font-size: 2.2vw;
+    font-size: 1vh !important;
   }
   .InfraTableContainer h2{
-    font-size: 3vh !important;
+    font-size: 2.2vh !important;
   }
 }
 
@@ -1012,34 +1021,34 @@ body{
 
 @media screen and (max-width: 600px) {
   .CareersText{
-    font-size: 2.5vh !important;
+    font-size: 2vh !important;
     text-align: justify;
   }
   .CareersText span{
-    font-size: 2.5vh !important;
+    font-size: 2vh !important;
   }
   .CareersText a{
-    font-size: 2.5vh !important;
+    font-size: 2vh !important;
   }
   .CareersText{
-    font-size: 2.5vh !important;
+    font-size: 2vh !important;
   }
   .CareersDetails{
     width: 100% !important;
     margin-left: 0% !important;
   }
   .CareersDetails h2{
-    font-size: 3vh !important;
+    font-size: 2vh !important;
   }
   .CareersInfo ul{
-    font-size: 2.5vh !important;
+    font-size: 2vh !important;
     text-align: left !important;
   }
   .CareersInfo h4{
-    font-size: 3vh !important;
+    font-size: 2vh !important;
   }
   .CareersInfo span{
-    font-size: 2.5vh !important;
+    font-size: 2vh !important;
   }
 }
 
@@ -1075,18 +1084,23 @@ body{
 }
 
 @media screen and (max-width: 600px) {
+  .LeadershipContainer{
+    flex-direction: column !important;
+  }
   .LeaderImg{
-    height: 100px;
-    width: 250px;
+    height: 200px;
+    width: 200px;
+    margin-left: 10% !important;
+    margin-bottom: 3% !important;
   }
   .LeaderContent h1{
-    font-size: 1rem;
+    font-size: 2vh !important;
   }
   .LeaderContent h2{
-    font-size: 1rem;
+    font-size: 2vh !important;
   }
   .LeaderContent p{
-    font-size: 1rem;
+    font-size: 2vh !important;
     text-align: justify;
   }
 }
@@ -1158,23 +1172,27 @@ body{
     margin-bottom: 2%;
   }
   .MediaContent h2{
-    font-size: 3.5vh !important;
+    font-size: 2.2vh !important;
   }
   .MediaContent h5{
-    font-size: 3vh !important;
+    font-size: 2.1vh !important;
   }
   .MediaContent p{
-    font-size: 3vh !important;
+    font-size: 2vh !important;
     text-align: justify;
   }
 }
 
 @media screen and (max-width:768px) and (min-width:601px) {
   .MediaContent h2{
-    font-size: 1em !important;
+    font-size: 2.3vh !important;
   }
   .MediaContent h5{
-    font-size: 1em !important;
+    font-size: 2.1vh !important;
+  }
+  .MediaContent p{
+    font-size: 2vh !important;
+    text-align: justify;
   }
   .MediaImg{
     width: 250px;
@@ -1194,7 +1212,7 @@ body{
 .AboutUsText span{
   color: #3d5a80;
   font-weight: 600;
-  font-size: 2vw;
+  font-size: 1.5vw;
 }
 
 .AboutUsTable{
@@ -1296,43 +1314,48 @@ body{
     margin-left: 0% !important;
   }
   .accordion-button {
-    font-size: 3vh !important;
+    font-size: 2vh !important;
+  }
+
+  .AboutUsText span{
+    font-size: 2vh !important;
+    width: 80%;
   }
   .AboutUsText p{
-    font-size: 3vh;
+    font-size: 2vh !important;
   }
   .AboutUsTable{
     display: flex;
     flex-direction: column;
   }
   .AboutUsTableContent h2{
-    font-size: 3vh;
+    font-size: 2.3vh !important;
   }
   .AboutUsTableContent p{
-    font-size: 3vh;
+    font-size: 2vh !important;
     text-align: justify;
   }
   .AboutUsTableContent ul{
-    font-size: 3vh !important;
-    text-align: left !important;
+    font-size: 2vh !important;
+    justify-content: left !important;
   }
 
   .AuAccBody h3{
     color: #ee6c4d;
-    font-size: 3vh !important;
+    font-size: 2vh !important;
   }
   .AuAccBody h4{
     color: #3d5a80;
-    font-size: 3vh !important;
+    font-size: 2vh !important;
   }
   .AuAccBody p{
     color: #293241;
-    font-size: 3vh !important;
+    font-size: 2vh !important;
     text-align: justify;
   }
   .AuAccBody ul{
     color: #293241;
-    font-size: 3vh !important;
+    font-size: 2vh !important;
     list-style-type: none;
     text-align: justify;
   }
@@ -1360,7 +1383,7 @@ body{
 
 @media screen and (max-width:768px) and (min-width:601px) {
   .AboutUsTableContent h2{
-    font-size: 3vh;
+    font-size: 2em;
   }
 }
 
@@ -1472,7 +1495,7 @@ body{
 
 @media screen and (max-width:600px) {
   .CUForm{
-    width: 40vh !important;
+    width: 30vh !important;
     height: 5vh !important;
     font-size: 1em !important;
   }
@@ -1540,10 +1563,10 @@ body{
   }
   .button-container{
     width: 80% !important;
-    font-size: 1rem;
+    font-size: 2vh !important;
   }
   .ContactAddress h4, ul, span{
-    font-size: 3vh !important;
+    font-size: 2.2vh !important;
     text-align: center;
   }
 }
@@ -1601,10 +1624,6 @@ body{
   box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2), -1px -1px 8px rgba(0, 0, 0, 0.2);
 }
 
-.wipoNo{
-  font-weight: 625;
-}
-
 @media only screen and (max-width: 768px) {
   .PatentsTableContainer Table {
       width: 90%;
@@ -1619,6 +1638,10 @@ body{
 .PatentsTableContainer ul{
   list-style-type: none;
   text-align: left;
+}
+
+.wipoNo{
+  font-weight: 600;
 }
 
 .PatentTableImg{
@@ -1642,10 +1665,10 @@ body{
 
 @media screen and (max-width: 600px) {
   .PatentsTableContainer h3{
-    font-size: 3vh !important;
+    font-size: 2.3vh !important;
   }
   .auto-index td{
-    font-size: 0.7rem !important;
+    font-size: 1.2vh !important;
   }
 }
 
@@ -1694,20 +1717,20 @@ body{
     height: 300px;
   }
   .Terms h1{
-    font-size: 3vw;
+    font-size: 2.3vh !important;
   }
   .TermsContent{
     width: 80% !important;
-    font-size: 0.7rem;
+    font-size: 2vh !important;
     text-align: justify;
     margin-left: 9% !important;
   }
   .TermsContent h2{
-    font-size: 2.3vw !important;
+    font-size: 2.1vh !important;
   }
   .TermsContent ul{
     text-align: left !important;
-    font-size: 0.7rem !important;
+    font-size: 2vh !important;
   }
 }
 
@@ -1782,23 +1805,13 @@ body{
   color: #305c8a;
 }
 
-@media screen and (max-width: 600px) {
-  .GalleryContent h2{
-    font-size: 3vh !important;
-  }
-  .GalleryContent span{
-    font-size: 3vh !important;
-  }
-}
-
 .VideoContainer{
   text-align: center;
   margin-top: 2%;
 }
 
-.VideoContainer a{
-  color: #3d5a80 !important;
-  text-decoration: none !important;
+.VideoContainer h2{
+  color: #305c8a;
 }
 
 .VideoContainer h2:hover{
@@ -1909,9 +1922,6 @@ body{
   height: 600px;
 }
 
-.ParallaxContainer5{
-  height: 700px;
-}
 
 .ParallaxDiv{
   left: 50%;
@@ -1948,6 +1958,22 @@ body{
   font-weight: 500;
 }
 
+@media screen and (max-width: 600px) {
+  .ParallaxDiv h2{
+    font-size: 2.5vh !important;
+  }
+  .ParallaxDiv p{
+    font-size: 2.2vh !important;
+    text-align: justify;
+  }
+  .Parallaxlink{
+    font-size: 2.4vh !important;
+  }
+  .Parallaxh2{
+    font-size: 2.5vh !important;
+  }
+}
+
 .Parallaxlink{
   padding: 16px 20px;
   font-size: 1.2vw;
@@ -1962,29 +1988,11 @@ body{
 
 .Parallaxlink:hover{
   background: #e0fbfc;
+  text-decoration: underline 2px solid #ee6c4d;
     color: #050801;
     box-shadow: 0 0 5px #e0fbfc,
                 0 0 25px #e0fbfc,
                 0 0 50px #e0fbfc,
                 0 0 200px #e0fbfc;
      -webkit-box-reflect:below 1px linear-gradient(transparent, #0005);
-}
-
-@media screen and (max-width: 600px) {
-  .ParallaxContainer4{
-    height: 500px;
-  }
-  .ParallaxDiv h2{
-    font-size: 3vh;
-  }
-  .ParallaxDiv p{
-    font-size: 2vh;
-    text-align: justify;
-  }
-  .Parallaxlink{
-    font-size: 2.5vh;
-  }
-  .Parallaxh2{
-    font-size: 3vh;
-  }
 }
