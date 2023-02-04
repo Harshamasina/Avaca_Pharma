@@ -23,7 +23,7 @@ const Technology = () => {
                 {/* <div className='bg-overlay'></div> */}
                 <div className='fg-text'>
                     <div>
-                        <h1 className='fg-text-h1'>Technology</h1>
+                        <h1 className='fg-text-h1'>We embrace novel technologies and innovations that can impact millions of Patients. </h1>
                     </div>
                 </div>
             </div>
@@ -47,6 +47,7 @@ const Technology = () => {
                     </span>
                 </h1>
             </div>
+
             <div className="TechContainer">
                 <p>At AvacaPharma, we develop multiple dosage forms like OSDs, nasal sprays, oral sprays, ophthalmic solutions, emulsions, suspensions, injectable and topicals. At our state-of-the-art facility, we handle complex oral solid dosage forms, oral liquids, spray delivery, pulmonary delivery, topical and parenteral dosage forms like aqueous liquid injectables, non-aqueous liquid injectables, lyophilized injectables and ophthalmic solutions. </p>
                 <p>We specialize in innovative dosage forms, fixed dose combinations and modified-release dosage forms. Our expert team is having extensive experience in developing complex formulations and provide tailored solutions to clinical unmet needs and patient compliance problems and help to optimize the development time and cost improving market access and commercial viability.</p>

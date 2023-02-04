@@ -2000,14 +2000,17 @@ body{
 .TechContainer{
   width: 80%;
   max-width: 80%;
-  font-size: 1.2vw;
   margin-left: 10%;
   color: #293241;
 }
 
+.TechContainer p{
+  font-size: 1.2vw;
+}
+
 .TechContainer h2{
   text-align: center;
-  font-size: 2.5vw;
+  font-size: 2.3vw;
   letter-spacing: 1px;
   color: #305c8a;
 }
@@ -2056,5 +2059,30 @@ body{
 
 .TechContainer ul li:hover span{
   color: #e0fbfc;
+}
+
+@media screen and (max-width: 600px) {
+  .TechContainer p{
+    font-size: 2vh !important;
+    text-align: justify;
+  }
+  .TechContainer ul{
+    text-align: left !important;
+  }
+  .TechContainer h2{
+    font-size: 2.5vh;
+  }
+}
+
+@media screen and (max-width:768px) and (min-width:601px){
+  .TechContainer p{
+    font-size: 2vh !important;
+  }
+  .TechContainer ul{
+    text-align: left !important;
+  }
+  .TechContainer h2{
+    font-size: 2.5vh;
+  }
 }
 
