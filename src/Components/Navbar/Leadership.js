@@ -48,8 +48,8 @@ function Leadership(){
             <div className="LeadershipContainer">
                 <img className="LeaderImg" src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/CellixBio.Leadership.Mahesh.PNG" alt="leader"></img>
                 <div className="LeaderContent">
-                    <h1>MAHESH KANDULA, MANAGING DIRECTOR & CEO</h1>
-                    <h2>Drug Design and Development, Innovation & IP Founder</h2>
+                    <h1>MAHESH KANDULA</h1>
+                    <h2>Inventor, Drug Design and Development</h2>
                     <p>Mahesh brings over 18 years of scientific and entrepreneurial experience in the life science industry. Mr. Kandula has been named an inventor on 180+ United States Patents and Applications and, more than 640+ International Patent Applications. Mr. Kandula received his Master of Technology degree from IIT Kharagpur.</p>
                 </div>
             </div>

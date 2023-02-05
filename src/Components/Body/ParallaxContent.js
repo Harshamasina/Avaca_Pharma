@@ -3,12 +3,12 @@ import { Parallax } from 'react-parallax';
 import { Link } from 'react-router-dom';
 
 const ParallaxContent = () => {
-    const img1 = "https://avaca-pharma-assets.s3.ap-south-1.amazonaws.com/Red+Tube.PNG"
+    // const img1 = "https://avaca-pharma-assets.s3.ap-south-1.amazonaws.com/masks+pills.jpg";
     const img2 = "https://avaca-pharma-assets.s3.ap-south-1.amazonaws.com/Blue+Analysis.jpg";
     return(
         <div>
-            <div style={{ textAlign: 'center', marginTop: '2%' }}>
-                <Parallax bgImage={ img1 } strength={400} bgImageAlt="parallaximg" blur={3}>
+            {/* <div style={{ textAlign: 'center', marginTop: '2%' }}>
+                <Parallax bgImage={ img1 } strength={400} bgImageAlt="parallaximg" blur={1}>
                     <div className='ParallaxContainer4'>
                         <div className="ParallaxDiv">
                             <h2>DISCOVER OUR TECHNOLOGY</h2>
@@ -17,10 +17,10 @@ const ParallaxContent = () => {
                         </div>
                     </div>
                 </Parallax>
-            </div>
+            </div> */}
             <h2 className='Parallaxh2'>Meet Our Team</h2>
             <div style={{ textAlign: 'center', marginTop: '3%' }} >
-                <Parallax bgImage={ img2 } strength={-300} bgImageAlt="parallaximg" blur={3}>
+                <Parallax bgImage={ img2 } strength={-300} bgImageAlt="parallaximg" blur={1}>
                     <div className='ParallaxContainer1'>
                         <div className="ParallaxDiv">
                             <p>The Structured team has access to world-class talent and resources in the world's top two pharmaceutical markets.</p>

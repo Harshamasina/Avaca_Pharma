@@ -1,14 +1,17 @@
 import { MdOutlineBiotech } from "react-icons/md";
+import React from 'react';
+import { Parallax } from 'react-parallax';
 import { Helmet } from 'react-helmet';
 
 const Technology = () => {
+    const img = "https://avaca-pharma-assets.s3.ap-south-1.amazonaws.com/tablets.jpg";
     return(
         <>
             <Helmet>
                 <title>Technology | AvacaPharma</title>
                 <meta name="description" content="Technology used by AvacaPharma"/>
                 <meta name="keywords" content="AvacaPharma technology, Synergix AI, Augumented Intelligence, 
-                    Cellix Bio Pharma Technology, Cellix Bio Technology,"
+                    Cellix Bio Pharma Technology, Cellix Bio Technology, Oral Liquids, Soild orals, Topicals, Parentals"
                 />
             </Helmet>
             <div className='landingpage'>
@@ -23,7 +26,7 @@ const Technology = () => {
                 {/* <div className='bg-overlay'></div> */}
                 <div className='fg-text'>
                     <div>
-                        <h1 className='fg-text-h1'>We embrace novel technologies and innovations that can impact millions of Patients. </h1>
+                        <h1 className='fg-text-h1'>We embrace novel technologies and innovations that can impact millions of Patients</h1>
                     </div>
                 </div>
             </div>
@@ -53,6 +56,15 @@ const Technology = () => {
                 <p>We specialize in innovative dosage forms, fixed dose combinations and modified-release dosage forms. Our expert team is having extensive experience in developing complex formulations and provide tailored solutions to clinical unmet needs and patient compliance problems and help to optimize the development time and cost improving market access and commercial viability.</p>
                 <p>Our team is committed to delivering quality results in a time-bound and cost-effective manner at each stage of the development process. We also evaluate container closure systems, storage, and transportation conditions.</p>
                 <p>ICH-compliant stability studies along with a range of conditions to cover various climatic zones across the globe, help in making decisions early in the drug development cycle.</p>
+            </div>
+                <Parallax bgImage={ img } strength={400} bgImageAlt="parallaximg" blur={1}>
+                    <div className='ParallaxContainer5'>
+                        <div className="ParallaxDivTech">
+                            <h2>Dosage Forms</h2>
+                        </div>
+                    </div>
+                </Parallax>
+            <div className="TechContainer">
                 <h2>Solid Orals</h2>
                 <ul>
                     <li><span>Immediate-release tablets (chewable tablets, orally disintegrating tablets, sublingual tablets and bi-layer tablets)</span></li>

@@ -2,6 +2,7 @@ import { useState } from "react";
 import { RiGalleryLine } from "react-icons/ri";
 import { IoCloseOutline } from "react-icons/io5";
 import { Helmet } from 'react-helmet';
+import Certificate from "../Body/Certificate";
 
 function Gallery(){
     let data = [
@@ -201,6 +202,8 @@ function Gallery(){
         <>
             <Helmet>
                 <title>Gallery | AvacaPharma</title>
+                <meta name="description" content="AvacaPharma's Labaratories"/>
+                <meta name="keywords" content="AvacaPharma Certificates, AvacaPharma Documents, " />
             </Helmet>
             <div className='landingpage'>
             <video 
@@ -240,7 +243,9 @@ function Gallery(){
                     </span>
                 </h1>
             </div>
-            <div className="GalleryContent"><h2>Welcome to <span>AvacaPharma</span> R&D</h2></div>
+            <div className="GalleryContent"><h2>Welcome to AvacaPharma</h2></div>
+            <Certificate></Certificate>
+            <h3 className="Certh3">Infrastructure</h3>
             <div className={model? "model open" : "model"}>
                 <img src={tempImgSrc} alt="LabPics"></img>
                 <IoCloseOutline className="CloseLabIcon" onClick={() => setModel(false)}></IoCloseOutline>

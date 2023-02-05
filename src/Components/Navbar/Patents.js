@@ -26,7 +26,6 @@ function Patents(){
                     <div className='fg-text'>
                         <div>
                             <h1 className='fg-text-h1'>PATENTS FILED BY AVACA PHARMA</h1>
-                            <p className='fg-text-p'>Access the Patents filed by AvacaPharma after it was acquired by Cellix Bio Pharma</p>
                         </div>
                     </div>
                 </div>

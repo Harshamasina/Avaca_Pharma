@@ -7,7 +7,7 @@ import { RiServiceLine } from "react-icons/ri";
 import { Helmet } from 'react-helmet';
 
 function Services(){
-    const img = "https://avaca-pharma-assets.s3.ap-south-1.amazonaws.com/Blue+Glass.PNG";
+    const img = "https://avaca-pharma-assets.s3.ap-south-1.amazonaws.com/dna+circle.jpg";
     return(
         <>
             <Helmet>
@@ -59,7 +59,7 @@ function Services(){
                 <h3>Medicinal Chemistry Services</h3>
             </div>
             <div className="DiscoveryParallax">
-                <Parallax bgImage={ img } strength={350} bgImageAlt="parallaximg" blur={3}>
+                <Parallax bgImage={ img } strength={300} bgImageAlt="parallaximg" blur={1}>
                     <div className='ParallaxContainer3'>
                         <div className="ParallaxDiv">
                             <div className="DiscoverUL2">

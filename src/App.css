@@ -702,8 +702,10 @@ body{
 }
 
 .DiscoverUL2{
-  color: #e0fbfc;
+  color: #293241;
   font-size: 1.5vw;
+  font-weight: 600;
+  letter-spacing: 1px;
 }
 
 .DiscoveryParallax{
@@ -742,8 +744,9 @@ body{
   .DiscoverUL2 ul{
     font-size: 1.7vh !important;
     text-align: left !important;
-    color: #e0fbfc;
+    color: #293241;
     font-weight: 500;
+    letter-spacing: 0px;
   }
   .ParallaxContainer3{
     height: 1000px !important;
@@ -1400,7 +1403,7 @@ body{
   box-sizing: border-box;
   max-width: 700px;
   padding: 28px;
-  margin-left: 33%;
+  /* margin-left: 33%; */
   border-radius: 15px;
 }
 
@@ -1525,6 +1528,7 @@ body{
 .ContactAddress{
   flex: 1;
   margin-top: 1.5%;
+  margin-left: 2% !important;
 }
 
 .ContactAddress div{
@@ -1758,6 +1762,9 @@ body{
     right: 0.2em;
     width: 2rem;
   }
+  .GalleryContent h2{
+    font-size: 2.5vh !important;
+  }
 }
 
 .container {
@@ -1848,6 +1855,37 @@ body{
   }
 }
 
+.Certh3{
+  color: #305c8a;
+  font-size: 2.5vw;
+  text-align: center;
+  margin-bottom: 1%;
+}
+
+.CertGallery{
+  display: flex;
+  flex-direction: row;
+  margin-left: 37%;
+  margin-bottom: 3%;
+}
+
+.CertGallery img{
+  width: 300px;
+  height: 200px;
+  margin-left: 10%;
+}
+
+@media screen and (max-width: 600px) {
+  .CertGallery{
+    flex-direction: column;
+    margin-left: 15%;
+  }
+  .CertGallery img{
+    width: 250px !important;
+    height: 300px !important;
+  }
+}
+
 @media (max-width: 480px){
   .WebGallery{
     -moz-column-count: 1;
@@ -1922,6 +1960,10 @@ body{
   height: 600px;
 }
 
+.ParallaxContainer5{
+  height: 350px !important;
+}
+
 
 .ParallaxDiv{
   left: 50%;
@@ -1936,6 +1978,7 @@ body{
   color: #ee6c4d;
   font-weight: 550;
   display: inline;
+  letter-spacing: 1px;
 }
 
 .Parallaxh2{
@@ -1952,10 +1995,14 @@ body{
 }
 
 .ParallaxDiv p{
-  font-size: 1.5vw;
+  font-size: 1.65vw;
   margin-top: 3%;
-  color: #3d5a80;
+  color: #293241;
   font-weight: 500;
+  letter-spacing: 1px;
+  /* border: 2px solid #ee6c4d; */
+  padding: 25px;
+  /* box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2), -1px -1px 8px rgba(0, 0, 0, 0.2); */
 }
 
 @media screen and (max-width: 600px) {
@@ -1965,6 +2012,8 @@ body{
   .ParallaxDiv p{
     font-size: 2.2vh !important;
     text-align: justify;
+    padding: 0px;
+    letter-spacing: 0px;
   }
   .Parallaxlink{
     font-size: 2.4vh !important;
@@ -2004,6 +2053,21 @@ body{
   color: #293241;
 }
 
+.ParallaxDivTech{
+  left: 50%;
+  top: 50%;
+  position: absolute;
+  padding: 20px;
+  transform: translate(-50%, -50%);
+}
+
+.ParallaxDivTech h2{
+  font-size: 4.5vw;
+  color: #ee6c4d;
+  margin-bottom: 2%;
+  letter-spacing: 1px;
+}
+
 .TechContainer p{
   font-size: 1.2vw;
 }
@@ -2017,6 +2081,8 @@ body{
 
 .TechContainer ul{
   position: relative;
+  font-size: 1.3vw !important;
+  color: #293241;
 }
 
 .TechContainer ul li{

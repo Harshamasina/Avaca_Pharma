@@ -151,7 +151,6 @@ function AboutUS(){
                             <h3>CGMP FORMULATION FACILITY</h3>
                             <h4>Ample formulation development and warehouse space.</h4>
                             <div>
-                                <img src="https://avaca-pharma-assets.s3.ap-south-1.amazonaws.com/AU+-+5.jpg" alt="au"></img>
                                 <ul>
                                     <li>Pre-formulation (solubility, flow, stability profile).</li>
                                     <li>Granulation (horizontal high-shear granulator).</li>
@@ -170,7 +169,6 @@ function AboutUS(){
                             <h3>R&D PROCESSING EQUIPMENT</h3>
                             <h4>Granulation technologies that fit.</h4>
                             <div>
-                                <img src="https://avaca-pharma-assets.s3.ap-south-1.amazonaws.com/AU+-+6.jpg" alt="au"></img>
                                 <ul>
                                     <li>Prism high shear mixer granulator 2/5/10 L (Dry and Wet Powder Mixing).</li>
                                     <li>Prism bin blender: 2/5/10 L (15° inclined position, rotates for with 3 dimension action).</li>
@@ -204,7 +202,6 @@ function AboutUS(){
                             <h3>R&D ANALYTICAL FACILITY</h3>
                             <h4>Ample analytical development space</h4>
                             <div>
-                                <img src="https://avaca-pharma-assets.s3.ap-south-1.amazonaws.com/AU+-+8.PNG" alt="au"></img>
                                 <ul>
                                     <li>Rooms and areas: </li>
                                     <li>Instrumentation (HPLC, IR, KF, columns).</li>
@@ -227,7 +224,6 @@ function AboutUS(){
                             <h3>R&D ANALYTICAL INSTRUMENTS</h3>
                             <h4>Excipient, API, formulation, cleaning, stability testing</h4>
                             <div>
-                                <img src="https://avaca-pharma-assets.s3.ap-south-1.amazonaws.com/AU+-+9.PNG" alt="au"></img>
                                 <ul>
                                     <li>Advanced microcontroller dissolution test apparatus.</li>
                                     <li>Waters High performance liquid chromatography (HPLC): PDA.</li>
@@ -247,7 +243,6 @@ function AboutUS(){
                             <h3>R&D ANALYTICAL CONTROLS</h3>
                             <h4>Method development and validation</h4>
                             <div>
-                                <img src="https://avaca-pharma-assets.s3.ap-south-1.amazonaws.com/AU+-+10.PNG" alt="au"></img>
                                 <ul>
                                     <li>Biometric access controls (facility, lab, instrumentation room).</li>
                                     <li>Dry hot air oven (80 liters).</li>
@@ -267,7 +262,6 @@ function AboutUS(){
                             <h3>ICH STABILITY CHAMBERS</h3>
                             <h4>Stability studies to support product development</h4>
                             <div>
-                                <img src="https://avaca-pharma-assets.s3.ap-south-1.amazonaws.com/AU+-+11.PNG" alt="au"></img>
                                 <ul>
                                     <li>Zone I, II, III, IV, IVb</li>
                                     <li>25 ±2°C / 60 ±5%RH- Long term</li>
@@ -296,7 +290,6 @@ function AboutUS(){
                             <h3>R&D PROCESS FOCUS</h3>
                             <h4>Customer Focused</h4>
                             <div>
-                                <img src="https://avaca-pharma-assets.s3.ap-south-1.amazonaws.com/AU-+13.PNG" alt="au"></img>
                                 <ul>
                                     <li>Understanding customer requirements.</li>
                                     <li>New technology adoption and capability development.</li>

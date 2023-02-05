@@ -9,7 +9,7 @@ function Footer(){
                     <div className="footer__addr">
                     <NavLink to="Home"><img className="footer-logo" src="https://avaca-pharma-assets.s3.ap-south-1.amazonaws.com/Avaca+Pharma+Main+Logo.png" alt="Logo"></img></NavLink>
                         <address>
-                            R&D Center:<br></br>
+                            R&D Center :<br></br>
                             Plot No.153, Phase III,<br></br>
                             Industrial park,<br></br>
                             Pashamylaram,<br></br>
@@ -75,7 +75,7 @@ function Footer(){
                         </li>
                         
                         <li className="nav__item">
-                            <ul class="nav__ul">
+                            <ul className="nav__ul">
                                 <li>
                                     <Link className="navbar_link" to="/privacy">Privacy Policy</Link>
                                 </li>
@@ -88,6 +88,21 @@ function Footer(){
                                     <Link className="navbar_link" to="/home">Sitemap</Link>
                                 </li>
                             </ul>
+                        </li>
+                        
+                        <li className="nav__item">
+                            <address>
+                                Factory : <br></br>
+                                Avaca Pharma Private Limited,<br></br>
+                                CAE1605258,<br></br>
+                                SY NO: 41 - 1A1<br></br>
+                                Dondpadu Road Street,<br></br>
+                                Mukteswarapuram Village,<br></br>
+                                Jaggayyapeta Mandal,<br></br>
+                                Ntr District,<br></br>
+                                Andhra Pradesh,<br></br>
+                                India
+                            </address>
                         </li>
                     </ul>
                     

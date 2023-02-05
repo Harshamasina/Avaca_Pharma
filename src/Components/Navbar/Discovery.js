@@ -4,7 +4,7 @@ import { MdOutlineScience } from "react-icons/md";
 import { Helmet } from 'react-helmet';
 
 function Discovery(){
-    const img = "https://avaca-pharma-assets.s3.ap-south-1.amazonaws.com/Blue+Data.jpg";
+    const img = "https://avaca-pharma-assets.s3.ap-south-1.amazonaws.com/Blue+Doctor.jpg";
     return(
         <>
             <Helmet>

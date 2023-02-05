@@ -44,6 +44,20 @@ function ContactUs(){
                 </h1>
             </div>
             <div className="Contact">
+                <div className="ContactAddress">
+                    <h4>Factory : </h4>
+                    <ul>
+                        <li>Avaca Pharma Private Limited,</li>
+                        <li>CAE1605258,</li>
+                        <li>SY NO: 41 - 1A1</li>
+                        <li>Dondpadu Road Street,</li>
+                        <li>Mukteswarapuram Village,</li>
+                        <li>Jaggayyapeta Mandal,</li>
+                        <li>Ntr District,</li>
+                        <li>Andhra Pradesh,</li>
+                        <li>India</li>
+                    </ul>
+                </div>
                 <div className="ContactContainer">
                     <form method="POST">
                         <div className="ContactContent">
@@ -125,7 +139,6 @@ function ContactUs(){
                             <li>Medak District - 502307</li>
                         </ul>
                     </div>
-
                     <div>
                         <h4>Contact Details : </h4>
                         <ul>
