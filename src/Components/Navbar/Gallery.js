@@ -203,7 +203,7 @@ function Gallery(){
             <Helmet>
                 <title>Gallery | AvacaPharma</title>
                 <meta name="description" content="AvacaPharma's Labaratories"/>
-                <meta name="keywords" content="AvacaPharma Certificates, AvacaPharma Documents, " />
+                <meta name="keywords" content="AvacaPharma Certificates, AvacaPharma Documents, AvacaPharma Employees" />
             </Helmet>
             <div className='landingpage'>
             <video 

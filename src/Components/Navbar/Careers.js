@@ -6,6 +6,10 @@ function Careers(){
         <>
             <Helmet>
                 <title>Careers | AvacaPharma</title>
+                <meta name="description" content="Job openings in avaca pharma" />
+                <meta name="keywords" content="Jobs in avacapharma, Placements in avaca pharma, Analytical R&D Scientist, 
+                    Formulation R&D Scientist Pharma, Scientist - Medicinal Chemistry, Senior Research Associate, Team Leader Medicinal Chemistry" 
+                />
             </Helmet>  
             <div className='landingpage'>
                 <video src="https://avaca-pharma-assets.s3.ap-south-1.amazonaws.com/Careers.mp4" 

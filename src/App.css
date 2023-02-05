@@ -757,6 +757,9 @@ body{
   .ParallaxContainer{
     height: 80vh !important;
   }
+  .ParallaxContainer5{
+    height: 20vh !important;
+  }
 }
 
 .servicesContainer{
@@ -1341,6 +1344,7 @@ body{
   .AboutUsTableContent ul{
     font-size: 2vh !important;
     justify-content: left !important;
+    text-align: left !important;
   }
 
   .AuAccBody h3{
@@ -1961,7 +1965,7 @@ body{
 }
 
 .ParallaxContainer5{
-  height: 350px !important;
+  height: 350px;
 }
 
 
@@ -2137,6 +2141,9 @@ body{
   }
   .TechContainer h2{
     font-size: 2.5vh;
+  }
+  .ParallaxDivTech h2{
+    font-size: 2.6vh !important;
   }
 }
 

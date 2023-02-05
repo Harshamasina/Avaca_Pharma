@@ -7,6 +7,8 @@ function Media(){
         <>
             <Helmet>
                 <title>Media | AvacaPharma</title>
+                <meta name="description" content="AvacaPharma Media" />
+                <meta name="keywords" content="AvacaPharma's Updates, Cellix Bio Pharma AvacaPharma Accquisition, "/>
             </Helmet>
             <div className='landingpage'>
                 <video src="https://avaca-pharma-assets.s3.ap-south-1.amazonaws.com/Media.mp4" 

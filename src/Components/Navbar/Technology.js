@@ -33,7 +33,6 @@ const Technology = () => {
             <div>
                 <MdOutlineBiotech className="PageIcon"></MdOutlineBiotech>
             </div>
-            
             <div className="PageHeading">
                 <h1 class="jt --debug">
                     <span class="jt__row">
