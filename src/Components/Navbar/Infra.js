@@ -663,7 +663,7 @@ function Infra(){
                                 <td>6</td>
                                 <td>Vacuum pump</td>
                                 <td>ARD-IN/006</td>
-                                <td>Imported</td>
+                                <td>PCI Analytics Pvt.Ltd</td>
                                 <td>PCI-15</td>
                             </tr>
 
@@ -671,7 +671,7 @@ function Infra(){
                                 <td>7</td>
                                 <td>pH meter</td>
                                 <td>ARD-IN/007</td>
-                                <td>Mettler Toledo, AG analytical</td>
+                                <td>Mettler Toledo GmbH, Switzerland</td>
                                 <td>PRMG-12/ 2.5,6,12</td>
                             </tr>
 
@@ -679,7 +679,7 @@ function Infra(){
                                 <td>8</td>
                                 <td>Conductivity meter</td>
                                 <td>ARD-IN/008</td>
-                                <td>Mettler Toledo, AG analytical</td>
+                                <td>Mettler Toledo AG Analytical</td>
                                 <td>FP30-standard</td>
                             </tr>
 
@@ -751,7 +751,7 @@ function Infra(){
                                 <td>17</td>
                                 <td>High Performance Liquid Chromatography With PDA</td>
                                 <td>ARD-IN/019</td>
-                                <td>Waters</td>
+                                <td>Waters Corp USA</td>
                                 <td>e2695</td>
                             </tr>
 
@@ -759,7 +759,7 @@ function Infra(){
                                 <td>18</td>
                                 <td>High Performance Liquid Chromatography With UV</td>
                                 <td>ARD-IN/020</td>
-                                <td>Waters</td>
+                                <td>Waters Corp USA</td>
                                 <td>e2695</td>
                             </tr>
 
@@ -767,7 +767,7 @@ function Infra(){
                                 <td>19</td>
                                 <td>High Performance Liquid Chromatography With UV</td>
                                 <td>ARD-IN/021</td>
-                                <td>Arrow</td>
+                                <td>Water Corp USA</td>
                                 <td>e2695</td>
                             </tr>
 
@@ -799,7 +799,7 @@ function Infra(){
                                 <td>23</td>
                                 <td>Elix water system</td>
                                 <td>ARD-IN/025</td>
-                                <td>Merck</td>
+                                <td>Merck Millipore</td>
                                 <td>Reference 10</td>
                             </tr>
 
@@ -807,7 +807,7 @@ function Infra(){
                                 <td>24</td>
                                 <td>Milli - Q water system</td>
                                 <td>ARD-IN/026</td>
-                                <td>Merck</td>
+                                <td>Merck Millipore</td>
                                 <td>Reference A+</td>
                             </tr>
 
