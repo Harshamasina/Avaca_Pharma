@@ -13,8 +13,8 @@ const Certificate = () => {
             imgSrc: 'https://avaca-pharma-assets.s3.ap-south-1.amazonaws.com/CRDA+Plan.png' 
         },
         {
-            id: 1,
-            imgSrc: 'https://avaca-pharma-assets.s3.ap-south-1.amazonaws.com/Factory+CFO.png' 
+            id: 3,
+            imgSrc: 'https://avaca-pharma-assets.s3.ap-south-1.amazonaws.com/Liscense+Factory.png' 
         },
     ]
     const [model, setModel] = useState(false);
