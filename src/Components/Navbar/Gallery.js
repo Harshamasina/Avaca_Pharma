@@ -254,7 +254,7 @@ function Gallery(){
                 {data.map((item, index) => {
                     return(
                         <div className="grid-images" key={index} onClick={() => getImg(item.imgSrc)}>
-                            <img src={item.imgSrc} alt={index} style={{width: '100%'}}></img>
+                            <img src={item.imgSrc} alt={index} style={{width: '100%'}} loading="lazy"></img>
                         </div>
                     );
                 })}

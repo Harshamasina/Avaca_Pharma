@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { RiTeamLine } from "react-icons/ri";
 import { IoCloseOutline } from "react-icons/io5";
+import { Helmet } from 'react-helmet';
 
 const Teams = () => {
     const data = [
@@ -61,6 +62,13 @@ const Teams = () => {
     }
     return(
         <>
+            <Helmet>
+                <title>Teams | AvacaPharma</title>
+                <meta name="description" content="FRD and ARD in AvacaPharma"/>
+                <meta name="keywords" content="Analytical and research department, Formulation and research department,
+                    chemical research and department, ARD, FRD, CRD, AvacaPharma Employees, "
+                />
+            </Helmet>
             <div className='landingpage'>
                 <video src="https://avaca-pharma-assets.s3.ap-south-1.amazonaws.com/connection.mp4" 
                     autoPlay 
@@ -146,7 +154,7 @@ const Teams = () => {
                         return(
                             <div>
                                 <div key={index} onClick={() => getImg(item.imgSrc)} className="grid-images">
-                                    <img src={item.imgSrc} alt={index} style={{width: '100%'}}></img>
+                                    <img src={item.imgSrc} alt={index} style={{width: '100%'}} loading="lazy"></img>
                                 </div>
                             </div>
                         );

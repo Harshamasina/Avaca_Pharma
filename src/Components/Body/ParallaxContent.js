@@ -24,7 +24,7 @@ const ParallaxContent = () => {
                     <div className='ParallaxContainer1'>
                         <div className="ParallaxDiv">
                             <p>The Structured team has access to world-class talent and resources in the world's top two pharmaceutical markets.</p>
-                            <Link to="/gallery" className='Parallaxlink'>Know More</Link>
+                            <Link to="/teams" className='Parallaxlink'>Know More</Link>
                         </div>
                     </div>
                 </Parallax>
