@@ -1154,7 +1154,8 @@ body{
 }
 
 .MediaContent h5{
-  color: #3d5a80;
+  color: #305c8a;
+  font-style: italic;
 }
 
 .MediaContent p{

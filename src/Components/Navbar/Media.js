@@ -47,6 +47,27 @@ function Media(){
             </div>
             <div>
                 <div className="MediaContainer1">
+                    <img className="MediaImg" src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/cellix+bio+media+edit.jpg" alt="media"></img>
+                    <div className="MediaContent">
+                        <div>
+                            <h2><a href="https://www.cellixbio.com/Media">ATOFEX, OUR PIPELINE DRUG FOR ATOPIC DERMATITIS</a></h2>
+                        </div>
+                        <div>
+                            <h5>Cellix Bio, 06-Feb-2023, Hyderabad</h5>
+                        </div>
+                            <div>
+                                <p>Finding the right emollient has been a matter of trial and error, and urea-based lotions are notoriously irritant to the sensitive atopic skin of a child, making the mainstay of daily skin care a burden for patients and families. In eczema flair-ups, the addition of topical steroids, calcineurin inhibitors, and antibiotics, the treatment gets even more complex, often adding to the confusion of the patients. It's not surprising that treatment failure often stems from the misconceptions of current treatment regimens.</p>
+                                <p>With ATOFEX we have taken a multipronged approach to decomplexify treatment and increase patient compliance. ATOFEX is envisaged as an Eczema "EASE & PREVENT" monotherapy for adults and children with mild to moderate Atopic Dermatitis.</p>
+                                <p>Atopic Dermatitis is a complex disease, consequently, ATOFEX is designed to target six of its main pathological pillars. With itch representing the most burdensome symptom, the main objective is fast and efficient itch relief. We have also raised the bar for topical tolerability and are aiming for a pleasant skin feel in a patient group that has been forced to accept that effective treatment usually comes with discomfort. To monitor this aspiration, we have designed a proprietary study questionnaire inspired by the cosmetics industry.</p>
+                                <p>At the heart of our ambition with ATOFEX is fast and efficient itch relief. Not only because it's the primary distress for the patients, but because the "itch-scratch cycle" is a disease driver. To achieve this, we have repositioned H1 receptor antagonist which has documented high safety and tolerability in adults as well as children. Oral H1 receptor antagonist is widely used off-label for the same reason even though the efficacy remains controversial in the lack of convincing trials.</p>
+                                <p>However, recent models have indicated that H1 receptor antagonist might be an immunomodulatory agent that attenuates multiple inflammatory mediators, such as interleukins 1, 4, 5, 6, 10, 12, 13, 31, TNF alfa, and IFN-gamma. Significance has been shown in-vitro on human blood T-cells as well as in-vivo models in mice. A theory has been presented that H1 receptor antagonist might exert its anti-inflammatory property by blocking cPLA. It has also been suggested that Histamine might impair the skin barrier function. An argument for this is the fact that several T-cell-derived cytokines found in skin afflicted by Atopic Dermatitis, can inhibit the epidermal expression of key barrier proteins such as filaggrin, loricrin, and involucrin.</p>
+                                <p>Our studies on topical H1 receptor antagonist for Atopic Dermatitis are based on the thesis that the anti-pruritic, anti-inflammatory, and skin barrier-supporting properties will be manifested in a dose-response dependent way by means of high topical concentration in proximity to the pathological process directly in the skin. We are now starting the phase 2A proof of concept study on mild and moderate pediatric atopic dermatitis. With fast and efficient itch relief and long-term safe anti-inflammation, we hope to provide the first "EASE AND PREVENT" monotherapy solution for both children and adults with Atopic Dermatitis.</p>
+                                <p>Thank you for taking the time to read and please look out for news on our proof-of-concept study on ATOFEX.</p>
+                                <p><a href="https://www.cellixbio.com/Media">Read More</a></p>
+                            </div>
+                        </div>
+                </div>
+                <div className="MediaContainer1">
                     <img className="MediaImg" src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/Media.BS.png" alt="media"></img>
                     <div className="MediaContent">
                         <div>
@@ -66,7 +87,7 @@ function Media(){
                     </div>
                 </div>
 
-                <div className="MediaContainer2">
+                <div className="MediaContainer1">
                     <img className="MediaImg" src="https://avaca-pharma-assets.s3.ap-south-1.amazonaws.com/Avaca+logo+Plain.png" alt="media"></img>
                     <div className="MediaContent">
                         <div>
