@@ -250,11 +250,11 @@ function Gallery(){
                 <img src={tempImgSrc} alt="LabPics"></img>
                 <IoCloseOutline className="CloseLabIcon" onClick={() => setModel(false)}></IoCloseOutline>
             </div> 
-            <div className="WebGallery">
+            <div className="GalleryContaniner">
                 {data.map((item, index) => {
                     return(
-                        <div className="pics" key={index} onClick={() => getImg(item.imgSrc)}>
-                            <img src={item.imgSrc} alt={index} style={{width: '100%'}} loading="lazy"></img>
+                        <div className="grid-images" key={index} onClick={() => getImg(item.imgSrc)}>
+                            <img src={item.imgSrc} alt={index} style={{width: '100%'}}></img>
                         </div>
                     );
                 })}

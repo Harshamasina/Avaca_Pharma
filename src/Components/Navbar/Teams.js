@@ -140,7 +140,7 @@ const Teams = () => {
                     <label for="slide-2"></label>
                 </div>
             </div>
-            <div className="mesorny">
+            <div className="TeamsContainer">
                 {
                     data.map((item, index) => {
                         return(

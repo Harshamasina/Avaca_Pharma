@@ -2165,8 +2165,16 @@ body{
   }
 }
 
-.mesorny{
+.TeamsContainer{
   columns: 3 !important;
+  column-gap: 16px;
+  padding: 10px;
+  box-sizing: border-box;
+  /* margin-top: 5%; */
+}
+
+.GalleryContaniner{
+  columns: 5 !important;
   column-gap: 16px;
   padding: 10px;
   box-sizing: border-box;
@@ -2185,13 +2193,19 @@ body{
 }
 
 @media (max-width: 768px){
-  .mesorny{
+  .TeamsContainer{
+    columns: 2 !important;
+  }
+  .GalleryContaniner{
     columns: 2 !important;
   }
 }
 
 @media (max-width: 600px){
-  .mesorny{
+  .TeamsContainer{
+    columns: 1 !important;
+  }
+  .GalleryContaniner{
     columns: 1 !important;
   }
 }
@@ -2205,7 +2219,7 @@ body{
 
 @media screen and (max-width: 600px) {
   .slider{
-    height: 33vh !important;
+    height: 25vh !important;
   }
   .slide-data h1{
     font-size: 2vh;
