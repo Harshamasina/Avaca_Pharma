@@ -259,7 +259,6 @@ function Gallery(){
                     );
                 })}
             </div>
-
             <div className="VideoContainer">
                 <h2><a href="https://player.vimeo.com/video/332239306?h=f9bd29e595" target="_blank" rel="noreferrer">WATCH AVACAPHARMA COMMERCIAL OPERATIONS (GMP)</a></h2>
             </div>

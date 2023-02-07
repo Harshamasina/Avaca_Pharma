@@ -22,7 +22,7 @@ function GoToTopButton(){
     useEffect(() => {
         window.addEventListener('scroll', listenToScroll);
         return () => window.removeEventListener("scroll", listenToScroll);
-    },[])
+    },[]);
     return(
         <div>
              <div className="top-btn" onClick={goToBtn}>

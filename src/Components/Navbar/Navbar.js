@@ -18,6 +18,7 @@ import Error from '../Body/Error';
 import Terms from '../Body/Terms';
 import Privacy from '../Body/privacy';
 import Technology from './Technology';
+import Teams from './Teams';
 // import Pipeline from './Pipeline';
 
 function NavBar(){
@@ -25,7 +26,7 @@ function NavBar(){
         const changeBackground = () => {
             if(window.scrollY >= 250){
                 setChangeNavbar(true);
-            }else{
+            } else {
                 setChangeNavbar(false);
             }
         }
@@ -59,8 +60,9 @@ function NavBar(){
                             <Nav.Link className='navbar_link' as={Link} to="/leadership" eventKey="8">Leadership</Nav.Link>
                             <Nav.Link className='navbar_link' as={Link} to="/media" eventKey="9">Media</Nav.Link>
                             <Nav.Link className='navbar_link' as={Link} to="/gallery" eventKey="10">Gallery</Nav.Link>
-                            <Nav.Link className='navbar_link' as={Link} to="/careers" eventKey="11">Careers</Nav.Link>
-                            <Nav.Link className='navbar_link' as={Link} to="/contactus" eventKey="12">Contact</Nav.Link>
+                            <Nav.Link className='navbar_link' as={Link} to="/teams" eventKey="11">Teams</Nav.Link>
+                            <Nav.Link className='navbar_link' as={Link} to="/careers" eventKey="12">Careers</Nav.Link>
+                            <Nav.Link className='navbar_link' as={Link} to="/contactus" eventKey="13">Contact</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Navbar>
@@ -79,6 +81,7 @@ function NavBar(){
                     <Route path='/leadership' element={<Leadership></Leadership>}></Route>
                     <Route path='/media' element={<Media></Media>}></Route>
                     <Route path='/gallery' element={<Gallery></Gallery>}></Route>
+                    <Route path='/teams' element={<Teams></Teams>}></Route>
                     <Route path='/careers' element={<Careers></Careers>}></Route>
                     <Route path='/contactus' element={<ContactUs></ContactUs>}></Route>
                     <Route path='/' element={<Home></Home>}></Route>

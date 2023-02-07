@@ -2,7 +2,6 @@ import { HiOutlineNewspaper } from "react-icons/hi";
 import { Helmet } from 'react-helmet';
 
 function Media(){
-    document.title = 'AvacaPharma - Media';
     return(
         <>
             <Helmet>
