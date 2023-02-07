@@ -1,65 +1,42 @@
-import React, { useState } from "react";
+// import React, { useState } from "react";
 import { RiTeamLine } from "react-icons/ri";
-import { IoCloseOutline } from "react-icons/io5";
+// import { IoCloseOutline } from "react-icons/io5";
 import { Helmet } from 'react-helmet';
 
 const Teams = () => {
-    const data = [
-        {
-            id: 1,
-            imgSrc: 'https://avaca-pharma-assets.s3.ap-south-1.amazonaws.com/Team+1+-+1.jpg'
-        },
-        {
-            id: 2,
-            imgSrc: 'https://avaca-pharma-assets.s3.ap-south-1.amazonaws.com/Team+2.jpg'
-        },
-        {
-            id: 3,
-            imgSrc: 'https://avaca-pharma-assets.s3.ap-south-1.amazonaws.com/Team+3.jpg'
-        },
-        {
-            id: 3,
-            imgSrc: 'https://avaca-pharma-assets.s3.ap-south-1.amazonaws.com/Team+10+(2).jpg'
-        },
-        {
-            id: 4,
-            imgSrc: 'https://avaca-pharma-assets.s3.ap-south-1.amazonaws.com/Team+5.jpg'
-        },
-        {
-            id: 5,
-            imgSrc: 'https://avaca-pharma-assets.s3.ap-south-1.amazonaws.com/Team+6.jpg'
-        },
-        {
-            id: 6,
-            imgSrc: 'https://avaca-pharma-assets.s3.ap-south-1.amazonaws.com/Team+7.jpg'
-        },
-        {
-            id: 7,
-            imgSrc: 'https://avaca-pharma-assets.s3.ap-south-1.amazonaws.com/Team+8.jpg'
-        },
-        {
-            id: 8,
-            imgSrc: 'https://avaca-pharma-assets.s3.ap-south-1.amazonaws.com/Team+9.jpg'
-        },
-        {
-            id: 9,
-            imgSrc: 'https://avaca-pharma-assets.s3.ap-south-1.amazonaws.com/Team+4.jpg'
-        },
-        {
-            id: 10,
-            imgSrc: 'https://avaca-pharma-assets.s3.ap-south-1.amazonaws.com/Team+11.jpg'
-        },
-        {
-            id: 11,
-            imgSrc: 'https://avaca-pharma-assets.s3.ap-south-1.amazonaws.com/Team+12.jpg'
-        },
-    ]
-    const [model, setModel] = useState(false);
-    const [tempImgSrc, setTempImgSrc] = useState('');
-    const getImg = (imgSrc) => {
-        setTempImgSrc(imgSrc);
-        setModel(true);
-    }
+    // const data = [
+    //     {
+    //         id: 1,
+    //         imgSrc: 'https://avaca-pharma-assets.s3.ap-south-1.amazonaws.com/Team+1+-+1.jpg',
+    //         desc: 'Analytical Team',
+    //     },
+    //     {
+    //         id: 2,
+    //         imgSrc: 'https://avaca-pharma-assets.s3.ap-south-1.amazonaws.com/Team+10+(2).jpg',
+    //         desc: 'Formulation Team',
+    //     },
+    //     {
+    //         id: 3,
+    //         imgSrc: 'https://avaca-pharma-assets.s3.ap-south-1.amazonaws.com/Team+4.jpg',
+    //         desc: 'Chemical R&D Team',
+    //     },
+    //     {
+    //         id: 4,
+    //         imgSrc: 'https://avaca-pharma-assets.s3.ap-south-1.amazonaws.com/Team+11.jpg',
+    //         desc: 'Q&A Team',
+    //     },
+    //     {
+    //         id: 5,
+    //         imgSrc: 'https://avaca-pharma-assets.s3.ap-south-1.amazonaws.com/Team+12.jpg',
+    //         desc: 'Office Admin Team',
+    //     },
+    // ]
+    // const [model, setModel] = useState(false);
+    // const [tempImgSrc, setTempImgSrc] = useState('');
+    // const getImg = (imgSrc) => {
+    //     setTempImgSrc(imgSrc);
+    //     setModel(true);
+    // }
     return(
         <>
             <Helmet>
@@ -81,7 +58,7 @@ const Teams = () => {
                 {/* <div className='bg-overlay'></div> */}
                 <div className='fg-text'>
                     <div>
-                        <h1 className='fg-text-h1'>Constantly striving to set new benchmarks are at the core of our success</h1>
+                        <h1 className='fg-text-h1'>We profoundly collaborate and work towards building a Global Innovative Company</h1>
                     </div>
                 </div>
             </div>
@@ -104,62 +81,27 @@ const Teams = () => {
                     </span>
                 </h1>
             </div>
-            <div className={model? "model open" : "model"}>
-                <img src={tempImgSrc} alt="LabPics"></img>
-                <IoCloseOutline className="CloseLabIcon" onClick={() => setModel(false)}></IoCloseOutline>
-            </div>
-            <div class="slider">
-                <input type="radio" name="slide" id="slide-1" checked></input>
-                <input type="radio" name="slide" id="slide-2"></input>
-
-                <div class="slides">
-                    <div class="slide slide-1">
-                        <div class="slide-data">
-                            <h1>ANALYTICAL AND RESEARCH DEPARTMENT</h1>
-                        </div>
-                    </div>
-                    <div class="slide slide-2">
-                        <div class="slide-data">
-                            <h1>FORMULATION AND RESEARCH DEPARTMENT</h1>
-                        </div>
-                    </div>
+            <div className="Teams-container">
+                <div className="Teams-img1">
+                    <h3>Analytical Team</h3>
+                    <img src="https://avaca-pharma-assets.s3.ap-south-1.amazonaws.com/Team+1+-+1.jpg" alt="Team 1"></img>
                 </div>
-
-                <div class="arrows arrow-left">
-                    <label for="slide-2">
-                        <span><i class="fas fa-angle-left"></i></span>
-                    </label>
-                    <label for="slide-1">
-                        <span><i class="fas fa-angle-left"></i></span>
-                    </label>
+                <div className="Teams-img1">
+                    <h3>Formulation Team</h3>
+                    <img src="https://avaca-pharma-assets.s3.ap-south-1.amazonaws.com/Team+10+(2).jpg" alt="Team 1"></img>
                 </div>
-
-                <div class="arrows arrow-right">
-                    <label for="slide-2">
-                        <span><i class="fas fa-angle-right"></i></span>
-                    </label>
-                    <label for="slide-1">
-                        <span><i class="fas fa-angle-right"></i></span>
-                    </label>
+                <div className="Teams-img2">
+                    <h3>Chemical R&D Team</h3>
+                    <img src="https://avaca-pharma-assets.s3.ap-south-1.amazonaws.com/Team+4.jpg" alt="Team 1"></img>
                 </div>
-
-                <div class="dots">
-                    <label for="slide-1"></label>
-                    <label for="slide-2"></label>
+                <div className="Teams-img2">
+                    <h3>QA Team</h3>
+                    <img src="https://avaca-pharma-assets.s3.ap-south-1.amazonaws.com/Team+11.jpg" alt="Team 1"></img>
                 </div>
-            </div>
-            <div className="TeamsContainer">
-                {
-                    data.map((item, index) => {
-                        return(
-                            <div>
-                                <div key={index} onClick={() => getImg(item.imgSrc)} className="grid-images">
-                                    <img src={item.imgSrc} alt={index} style={{width: '100%'}} loading="lazy"></img>
-                                </div>
-                            </div>
-                        );
-                    })
-                }
+                <div className="Teams-img2">
+                    <h3>Office Admin</h3>
+                    <img src="https://avaca-pharma-assets.s3.ap-south-1.amazonaws.com/Team+12.jpg" alt="Team 1"></img>
+                </div>
             </div>
         </>
     );
