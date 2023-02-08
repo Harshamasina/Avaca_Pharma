@@ -109,7 +109,6 @@ function AboutUS(){
                             <h3>FACILITIES</h3>
                             <h4>AvacaPharma Research and Development Center (RDC) and Commercial Operations Center (COC)</h4>
                             <div>
-                                <img src="https://avaca-pharma-assets.s3.ap-south-1.amazonaws.com/AU-+1.jpg" alt="au"></img>
                                 <div className="AboutUsDiv">
                                     <p>AvacaPharma Research and Development Center (RDC) at IDA Pashamylaram, Hyderabad, has a total cGMP space of 6000 Sq. ft. in a 1.2-acre location, of which Formulation occupies 3000 sq. ft. and Analytical Operations 3000 sq. ft. with provisions for expansion.</p>
                                     <p>AvacaPharma Commercial Operations Center (COC) is located between Hyderabad and Vijayawada, Andhra Pradesh, and will host commercial manufacturing, packaging, analytical, and warehousing facilities within the 15 acres environmentally friendly campus. The facility will have a total built up cGMP space of 126,685 sq.ft. meeting regulatory compliance standards.</p>

@@ -136,7 +136,7 @@ body{
   
   .Carouselh1{
     /* margin-top: -50vh !important; */
-    font-size: 6em;
+    font-size: 5vw;
     color: #e0fbfc;
     text-align: left !important;
   }
@@ -192,7 +192,7 @@ body{
 
   @media screen and (max-width:768px) and (min-width:601px) {
   .Carouselh1{
-    font-size: 5em !important;
+    font-size: 3.5em !important;
     text-align: center;
     justify-content: center;
   }
@@ -475,9 +475,25 @@ body{
 }
 
 @media screen and (max-width:768px) and (min-width:601px) {
+  .HCInro p{
+    font-size: 3vh !important;
+  }
   .HCTable h4{
+    font-size: 2.5vh !important;
+  }
+  .HCTable p{
     font-size: 2vh !important;
-  }  
+  }
+  .ParallaxContainer1{
+    height: 45vh !important;
+  }
+  .ParallaxDiv p{
+    font-size: 3vh !important;
+  }
+  .Parallaxlink{
+    font-size: 2.5vh !important;
+    color: #305c8a !important;
+  }
 }
 
 
@@ -766,6 +782,24 @@ body{
   }
 }
 
+@media screen and (max-width:768px) and (min-width:601px) {
+  .DiscoveryHeading h3{
+    font-size: 3vh !important;
+  }
+  .DiscoveryHeading span{
+    font-size: 3vh !important;
+  }
+  .DiscoverUL1 ul{
+    font-size: 2vh;
+  }
+  .DiscoveryContainer p{
+    font-size: 2vh !important;
+  }
+  .ParallaxContainer{
+    height: 40vh !important;
+  }
+}
+
 .servicesContainer{
   display: flex;
   flex-direction: column;
@@ -879,8 +913,31 @@ body{
 
 @media screen and (max-width:768px) and (min-width:601px) {
   .servicesIcon{
-    width: 35px;
-    height: 30px;
+    width: 45px;
+    height: 40px;
+    margin-left: 47%;
+  }
+  .servicesContainer h3{
+    font-size: 3vh !important;
+  }
+  .ParallaxContainer3{
+    height: 70vh !important;
+  }
+  .servicesTableContainer{
+    display: flex;
+    flex-direction: column;
+  }
+  .servicesTable h3{
+    font-size: 3vh !important;
+  }
+  .servicesTable p{
+    font-size: 2vh !important;
+  }
+  .servicesTable ul{
+    font-size: 2vh !important;
+  }
+  .DiscoverUL2 ul{
+    font-size: 2vh !important;
   }
 }
 
@@ -936,6 +993,15 @@ body{
   }
   .InfraTableContainer h2{
     font-size: 2.2vh !important;
+  }
+}
+
+@media screen and (max-width:768px) and (min-width:601px) {
+  .InfraTableContainer h2{
+    font-size: 3vh !important;
+  }
+  .InfaTable tr{
+    font-size: 2vh !important;
   }
 }
 
@@ -1062,6 +1128,36 @@ body{
   }
 }
 
+@media screen and (max-width:768px) and (min-width:601px) {
+  .CareersText p{
+    font-size: 2vh !important;
+  }
+  .CareersText span{
+    font-size: 2vh !important;
+  }
+  .CareersText a{
+    font-size: 2vh !important;
+  }
+  .CareersInfo h3{
+    font-size: 3vh !important;
+  }
+  .CareersInfo h4{
+    font-size: 2.5vh !important;
+  }
+  .CareersInfo h5{
+    font-size: 2.2vh !important;
+  }
+  .CareersInfo p{
+    font-size: 2vh !important;
+  }
+  .CareersInfo ul{
+    font-size: 2vh !important;
+  }
+  .CareersInfo span{
+    font-size: 2vh !important;
+  }
+}
+
 .LeadershipContainer{
   display: flex;
   flex-direction: row;
@@ -1085,7 +1181,7 @@ body{
 }
 
 .LeaderContent h2 {
-  color: #3d5a80;
+  color: #305c8a;
   font-size: 1.2vw;
 }
 
@@ -1119,6 +1215,15 @@ body{
   .LeaderImg{
     height: 120px;
     width: 250px;
+  }
+  .LeaderContent h1{
+    font-size: 3vh !important;
+  }
+  .LeaderContent h2{
+    font-size: 2.5vh !important;
+  }
+  .LeaderContent p{
+    font-size: 2vh !important;
   }
 }
 
@@ -1387,15 +1492,30 @@ body{
   }
 }
 
-/* @media screen and (max-width:768px) and (min-width:601px) {
-  body{
-    font-size: 2rem !important;
-  }
-} */
-
 @media screen and (max-width:768px) and (min-width:601px) {
-  .AboutUsTableContent h2{
-    font-size: 2em;
+  .AboutUsText p{
+    font-size: 2.5vh !important;
+  }
+  .AboutUsTableContent p{
+    font-size: 2vh !important;
+  }
+  .AboutUsTableContent ul{
+    font-size: 2vh !important;
+  }
+  .accordion-button {
+    font-size: 2.5vh !important;
+  }
+  .AuAccBody h3{
+    font-size: 2.5vh !important;
+  }
+  .AuAccBody h4{
+    font-size: 2.2vh !important;
+  }
+  .AuAccBody p{
+    font-size: 2vh !important;
+  }
+  .AuAccBody ul{
+    font-size: 2vh !important;
   }
 }
 
@@ -1584,6 +1704,17 @@ body{
   }
 }
 
+@media screen and (max-width:768px) and (min-width:601px) {
+  .Contact{
+    display: flex;
+    flex-direction: column;
+  }
+  .ContactAddress h4, ul, span{
+    font-size: 3vh !important;
+    text-align: center;
+  }
+}
+
 .PatentsTableContainer{
   text-align: center;
   margin-top: 1%;
@@ -1637,9 +1768,12 @@ body{
   box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2), -1px -1px 8px rgba(0, 0, 0, 0.2);
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) and (min-width:601px) {
   .PatentsTableContainer Table {
       width: 90%;
+  }
+  .PatentsTableContainer td{
+    font-size: 2vh !important;
   }
 }
 
@@ -1875,6 +2009,7 @@ body{
   font-size: 2.5vw;
   text-align: center;
   margin-bottom: 1%;
+  letter-spacing: 2px;
 }
 
 .CertGallery{
@@ -1898,6 +2033,18 @@ body{
   .CertGallery img{
     width: 250px !important;
     height: 300px !important;
+  }
+}
+
+@media screen and (max-width:768px) and (min-width:601px) {
+  .CertGallery{
+    margin-left: 20% !important;
+  }
+  .Certh3{
+    font-size: 4vh !important;
+  }
+  .GalleryContent h2{
+    font-size: 3vh !important;
   }
 }
 
@@ -2045,7 +2192,7 @@ body{
 .Parallaxlink{
   padding: 16px 20px;
   font-size: 1.2vw;
-  color: #e0fbfc;
+  color: #305c8a;
   font-weight: 400;
   border: none !important;
   overflow: hidden;
@@ -2168,9 +2315,13 @@ body{
   }
   .TechContainer ul{
     text-align: left !important;
+    font-size: 2vh !important;
   }
   .TechContainer h2{
-    font-size: 2.5vh;
+    font-size: 3vh;
+  }
+  .ParallaxContainer5{
+    height: 30vh !important;
   }
 }
 
