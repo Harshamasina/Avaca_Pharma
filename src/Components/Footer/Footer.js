@@ -90,7 +90,6 @@ function Footer(){
                             </ul>
                         </li>
                         
-                        <li className="nav__item">
                             <address>
                                 Factory : <br></br>
                                 Avaca Pharma Private Limited,<br></br>
@@ -103,7 +102,6 @@ function Footer(){
                                 Andhra Pradesh,<br></br>
                                 India
                             </address>
-                        </li>
                     </ul>
                     
                     <div className="legal">

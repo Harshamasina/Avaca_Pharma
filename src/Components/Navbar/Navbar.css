@@ -90,6 +90,10 @@
 		.navbar_link{
 			margin-left: 5%;
 		}
+		.color-nav-scroll{
+			background: #3d5a80 !important;
+			position: absolute;
+		}
 		.color-nav{
 			background-color: #3d5a80 !important;
 			position: absolute;
@@ -109,6 +113,13 @@
 	/* #basic-nav-dropdown{
 		color: white !important;
 	} */
+	
+	@media screen and (min-width: 1000px) and (max-width: 1439px){
+		.navbar_link{
+			font-size: 0.32em !important;
+			letter-spacing: none;
+		}
+	}
 
 	.dropdown-menu{
 		background-color: #e0fbfc !important;

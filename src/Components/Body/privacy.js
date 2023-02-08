@@ -2,7 +2,7 @@ function Privacy(){
     return(
         <>
             <div className="Terms">
-                <img src="https://avaca-pharma-assets.s3.ap-south-1.amazonaws.com/privacy+-+2.jpg" alt="Terms"></img>
+                <img src="https://avaca-pharma-assets.s3.ap-south-1.amazonaws.com/close-up-hands-holding-smartphone-with-lock.jpg" alt="Terms"></img>
                 <h1>PRIVACY POLICY</h1>
             </div>
             <div className="TermsContent">
