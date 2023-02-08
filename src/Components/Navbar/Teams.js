@@ -1,42 +1,7 @@
-// import React, { useState } from "react";
 import { RiTeamLine } from "react-icons/ri";
-// import { IoCloseOutline } from "react-icons/io5";
 import { Helmet } from 'react-helmet';
 
 const Teams = () => {
-    // const data = [
-    //     {
-    //         id: 1,
-    //         imgSrc: 'https://avaca-pharma-assets.s3.ap-south-1.amazonaws.com/Team+1+-+1.jpg',
-    //         desc: 'Analytical Team',
-    //     },
-    //     {
-    //         id: 2,
-    //         imgSrc: 'https://avaca-pharma-assets.s3.ap-south-1.amazonaws.com/Team+10+(2).jpg',
-    //         desc: 'Formulation Team',
-    //     },
-    //     {
-    //         id: 3,
-    //         imgSrc: 'https://avaca-pharma-assets.s3.ap-south-1.amazonaws.com/Team+4.jpg',
-    //         desc: 'Chemical R&D Team',
-    //     },
-    //     {
-    //         id: 4,
-    //         imgSrc: 'https://avaca-pharma-assets.s3.ap-south-1.amazonaws.com/Team+11.jpg',
-    //         desc: 'Q&A Team',
-    //     },
-    //     {
-    //         id: 5,
-    //         imgSrc: 'https://avaca-pharma-assets.s3.ap-south-1.amazonaws.com/Team+12.jpg',
-    //         desc: 'Office Admin Team',
-    //     },
-    // ]
-    // const [model, setModel] = useState(false);
-    // const [tempImgSrc, setTempImgSrc] = useState('');
-    // const getImg = (imgSrc) => {
-    //     setTempImgSrc(imgSrc);
-    //     setModel(true);
-    // }
     return(
         <>
             <Helmet>

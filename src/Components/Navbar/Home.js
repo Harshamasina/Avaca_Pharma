@@ -11,7 +11,9 @@ function Home(){
         <>
                 <Helmet>
                     <title>Home | AvacaPharma</title>
-                    <meta name='description' content="AvacaPharma's Home Page"/>
+                    <meta name='description' content="Avaca Pharma is developing novel formulation and targeted delivery technologies to improve clinical outcomes of various dosage forms.
+                        Advancing drug discovery by applying the precise medicinal chemistry approaches to deliver superior drug candidates."
+                    />
                     <meta name='keywords' content="AvacaPharma Home, AvacaPharma Home page, What is AvacaPharma"/>
                 </Helmet>
                 <div className='landingpage'>
@@ -42,7 +44,7 @@ function Home(){
                                     <h1 className='Carouselh1'>Novel Drug Discovery and Medicinal Chemistry Capabilities</h1>
                                 </div> */}
                         </div>
-                        <Link className='homeBtn' to="/patents">Know More</Link>
+                        <Link className='homeBtn' to="/patents" rel='canonical'>Know More</Link>
                 </div>
                 <CgOrganisation className="PageIcon"></CgOrganisation>
                 <HomeContent></HomeContent>
