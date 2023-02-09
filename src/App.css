@@ -1648,6 +1648,12 @@ body{
     height: 3vh !important;
     margin-left: 9% !important;
   }
+  .ParallaxContainer3{
+    height: 50vh !important;
+  }
+  .ParallaxContainer{
+    height: 35vh !important;
+  }
 }
 
 .CUForm:hover{
