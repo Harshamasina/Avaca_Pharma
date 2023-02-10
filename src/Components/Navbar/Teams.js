@@ -49,11 +49,11 @@ const Teams = () => {
             <div className="Teams-container">
                 <div className="Teams-img1">
                     <h3>Analytical Team</h3>
-                    <img src="https://avaca-pharma-assets.s3.ap-south-1.amazonaws.com/Team+1+-+1.jpg" alt="Team 1"></img>
+                    <img src="https://avaca-pharma-assets.s3.ap-south-1.amazonaws.com/Team+1_5.jpg" alt="Team 1"></img>
                 </div>
                 <div className="Teams-img1">
                     <h3>Formulation Team</h3>
-                    <img src="https://avaca-pharma-assets.s3.ap-south-1.amazonaws.com/Team+10+(2).jpg" alt="Team 1"></img>
+                    <img src="https://avaca-pharma-assets.s3.ap-south-1.amazonaws.com/Team+10_4.jpg" alt="Team 1"></img>
                 </div>
                 <div className="Teams-img2">
                     <h3>Chemical R&D Team</h3>

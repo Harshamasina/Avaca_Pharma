@@ -53,7 +53,7 @@ function Gallery(){
             <Certificate></Certificate>
             <LabPics></LabPics>
             <div className="VideoContainer">
-                <h2><a href="https://player.vimeo.com/video/332239306?h=f9bd29e595" target="_blank" rel="noreferrer">WATCH AVACAPHARMA COMMERCIAL OPERATIONS (GMP)</a></h2>
+            <a className="vodea" href="https://player.vimeo.com/video/332239306?h=f9bd29e595" target="_blank" rel="noreferrer"><h2>WATCH AVACAPHARMA COMMERCIAL OPERATIONS (GMP)</h2></a>
             </div>
         </>
     )

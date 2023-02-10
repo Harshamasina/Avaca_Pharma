@@ -1973,7 +1973,8 @@ body{
 }
 
 .VideoContainer h2{
-  color: #305c8a;
+  color: #305c8a !important;
+  text-decoration: none;
 }
 
 .VideoContainer h2:hover{
@@ -1997,6 +1998,8 @@ body{
 
 .pics img{
   border-radius: 5px !important;
+  width: 100%;
+  cursor: pointer;
 }
 
 .WebGallery .pics:hover{
@@ -2361,6 +2364,7 @@ body{
 .grid-images img{
   width: 100%;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 @media (max-width: 768px){
@@ -2545,6 +2549,7 @@ body{
   border-radius: 5px;
   box-shadow: 0 0 20px 2px rgba(0, 0 , 0 , .1);
   transition: 1s;
+  cursor: pointer;
 }
 
 .Teams-img1 img:hover{
@@ -2559,6 +2564,7 @@ body{
   border-radius: 5px;
   box-shadow: 0 0 20px 2px rgba(0, 0 , 0 , .1);
   transition: 1s;
+  cursor: pointer;
 }
 
 .Teams-img2 img:hover{
