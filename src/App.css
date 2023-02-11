@@ -2024,7 +2024,7 @@ body{
 .CertGallery{
   display: flex;
   flex-direction: row;
-  margin-left: 37%;
+  margin-left: 38%;
   margin-bottom: 3%;
 }
 
@@ -2059,7 +2059,7 @@ body{
 
 @media screen and (min-width: 2500px){
   .CertGallery{
-    margin-left: 41% !important;
+    margin-left: 41.5% !important;
   }
 }
 
