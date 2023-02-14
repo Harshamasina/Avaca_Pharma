@@ -71,7 +71,7 @@ function Infra(){
                                 <td>2</td>
                                 <td>Cone mill</td>
                                 <td>FRD-EQ/002</td>
-                                <td>prism Pharma Machinery</td>
+                                <td>Prism Pharma Machinery</td>
                                 <td>PCOM:50/ 50 kg/hr</td>
                             </tr>
 
