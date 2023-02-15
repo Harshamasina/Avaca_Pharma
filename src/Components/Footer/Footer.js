@@ -29,47 +29,47 @@ function Footer(){
                             {/* <h2 className="nav__title">Technology</h2> */}
                             <ul className="nav__ul nav__ul--extra">
                                     <li>
-                                        <Link className='navbar_link' to="/home">Home</Link>
+                                        <Link className='footer-links' to="/home">Home</Link>
                                     </li>
                                     
                                     <li>
-                                        <Link className='navbar_link' to="/aboutus">About Us</Link>
+                                        <Link className='footer-links' to="/aboutus">About Us</Link>
                                     </li>
                                     
                                     <li>
-                                        <Link className='navbar_link' to="/discovery">Discovery</Link>
+                                        <Link className='footer-links' to="/discovery">Discovery</Link>
                                     </li>
 
                                     <li>
-                                        <Link className='navbar_link' to="/patents">Patents</Link>
+                                        <Link className='footer-links' to="/patents">Patents</Link>
                                     </li>
                                     
                                     <li>
-                                        <Link className='navbar_link' to="/services">Services</Link>
+                                        <Link className='footer-links' to="/services">Services</Link>
                                     </li>
                                     
                                     <li>
-                                        <Link className='navbar_link' to="/infra">Infrastructure</Link>
+                                        <Link className='footer-links' to="/infra">Infrastructure</Link>
                                     </li>
 
                                     <li>
-                                        <Link className='navbar_link' to="/leadership">Leadership</Link>
+                                        <Link className='footer-links' to="/leadership">Leadership</Link>
                                     </li>
 
                                     <li>
-                                        <Link className='navbar_link' to="/media">Media</Link>
+                                        <Link className='footer-links' to="/media">Media</Link>
                                     </li>
 
                                     <li>
-                                        <Link className='navbar_link' to="/gallery">Gallery</Link>
+                                        <Link className='footer-links' to="/gallery">Gallery</Link>
                                     </li>
 
                                     <li>
-                                        <Link className='navbar_link' to="/careers">Careers</Link>
+                                        <Link className='footer-links' to="/careers">Careers</Link>
                                     </li>
 
                                     <li>
-                                        <Link className='navbar_link' to="/contactus">Contact Us</Link>
+                                        <Link className='footer-links' to="/contactus">Contact Us</Link>
                                     </li>
                             </ul>
                         </li>
@@ -77,15 +77,15 @@ function Footer(){
                         <li className="nav__item">
                             <ul className="nav__ul">
                                 <li>
-                                    <Link className="navbar_link" to="/privacy">Privacy Policy</Link>
+                                    <Link className="footer-links" to="/privacy">Privacy Policy</Link>
                                 </li>
                                 
                                 <li>
-                                    <Link className="navbar_link" to="/terms">Terms of Use</Link>
+                                    <Link className="footer-links" to="/terms">Terms of Use</Link>
                                 </li>
                                 
                                 <li>
-                                    <Link className="navbar_link" to="/home">Sitemap</Link>
+                                    <Link className="footer-links" to="/home">Sitemap</Link>
                                 </li>
                             </ul>
                         </li>
