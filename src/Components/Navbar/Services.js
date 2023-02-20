@@ -81,7 +81,7 @@ function Services(){
             <div className="servicesTableContainer">
                 <div className="servicesTable">
                     <SlChemistry className="servicesIcon"></SlChemistry>
-                    <h3>FORMULATION DEVELOPMENT</h3>
+                    <h4>FORMULATION DEVELOPMENT</h4>
                     <p>We have highly skilled, experienced personnel with modern equipment's within our formulation lab in tune with latest formulation and technology innovations. Development capabilities include: ANDA, NCE, 505 (b) 2, pre-clinical toxicology, late stage clinical formulations.</p>
                     <ul>
                         <li>Drug-excipient compatibility study</li>
@@ -99,7 +99,7 @@ function Services(){
                 
                 <div className="servicesTable">
                     <GiGears className="servicesIcon"></GiGears>
-                    <h3>ANALYTICAL DEVELOPMENT</h3>
+                    <h4>ANALYTICAL DEVELOPMENT</h4>
                     <p>Our analytical services laboratory is fully equipped with skilled analytical team. The lab provides method development, formulation, stability study support. The lab maintains access controls, tractability and and systems to ensure integrity of data generated.</p>
                     <ul>
                         <li>Solubility studies</li>
@@ -113,7 +113,7 @@ function Services(){
                 
                 <div className="servicesTable">
                     <BsMinecartLoaded className="servicesIcon"></BsMinecartLoaded>
-                    <h3>COMMERCIAL SUPPLY</h3>
+                    <h4>COMMERCIAL SUPPLY</h4>
                     <p>The upcoming commercial site will house modern manufacturing technologies providing operational flexibility. The cGMP site will include manufacturing, packaging, analytical testing and warehousing operations. AvacaPharma also provide project management, regulatory CMC, quality and technical services support to clients.</p>
                     <ul>
                         <li>Manufacturing</li>

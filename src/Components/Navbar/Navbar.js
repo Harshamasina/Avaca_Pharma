@@ -42,7 +42,7 @@ function NavBar(){
                  className={changeNavbar ? 'color-nav' : 'color-nav-scroll'}
                  >
                     <Logo></Logo>
-                    <Navbar.Brand href="#"></Navbar.Brand>
+                    <Navbar.Brand></Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" className='toggle' />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav

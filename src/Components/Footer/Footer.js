@@ -88,20 +88,19 @@ function Footer(){
                                     <Link className="footer-links" to="/home">Sitemap</Link>
                                 </li>
                             </ul>
-                        </li>
-                        
                             <address>
-                                Factory : <br></br>
-                                Avaca Pharma Private Limited,<br></br>
-                                CAE1605258,<br></br>
-                                SY NO: 41 - 1A1<br></br>
-                                Dondpadu Road Street,<br></br>
-                                Mukteswarapuram Village,<br></br>
-                                Jaggayyapeta Mandal,<br></br>
-                                Ntr District,<br></br>
-                                Andhra Pradesh,<br></br>
-                                India
+                                    Factory : <br></br>
+                                    Avaca Pharma Private Limited,<br></br>
+                                    CAE1605258,<br></br>
+                                    SY NO: 41 - 1A1<br></br>
+                                    Dondpadu Road Street,<br></br>
+                                    Mukteswarapuram Village,<br></br>
+                                    Jaggayyapeta Mandal,<br></br>
+                                    Ntr District,<br></br>
+                                    Andhra Pradesh,<br></br>
+                                    India
                             </address>
+                        </li>
                     </ul>
                     
                     <div className="legal">
