@@ -64,6 +64,20 @@ function Patents(){
                         <tbody>
                             <tr>
                                 <td></td>
+                                <td><a className="wipoNo" href="https://www.cellixbio.com/patentInfo/WO2023031755" target="_blank" rel="noreferrer">WO2023031755</a></td>
+                                <td>FORMULATIONS, COMPOSITIONS AND METHODS FOR THE DELIVERY OF NEURODEGENERATIVE DRUGS THEREOF</td>
+                                <td>09.03.2023</td>
+                            </tr>
+
+                            <tr>
+                                <td></td>
+                                <td><a className="wipoNo" href="https://www.cellixbio.com/patentInfo/WO2023012610" target="_blank" rel="noreferrer">WO2023012610</a></td>
+                                <td>FORMULATIONS, COMPOSITIONS AND METHODS FOR THE TREATMENT OF STROKE</td>
+                                <td>09.02.2023</td>
+                            </tr>
+
+                            <tr>
+                                <td></td>
                                 <td><a className="wipoNo" href="https://www.cellixbio.com/patentInfo/WO2023002338" target="_blank" rel="noreferrer">WO2023002338</a></td>
                                 <td>COMPOSITIONS, METHODS OF MAKING AND USING SAME FOR THE DELIVERY OF ULCEROGENIC DRUGS THEREOF</td>
                                 <td>26.01.2023</td>
