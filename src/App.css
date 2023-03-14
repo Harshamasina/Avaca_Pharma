@@ -1816,6 +1816,11 @@ body{
   text-decoration: none !important;
 }
 
+.wipoNo:hover{
+  color: #cc6360 !important;
+  text-decoration: underline 2px #cc6360 !important;
+}
+
 .PatentTableImg{
   width: 100px !important;
 }
@@ -2602,4 +2607,94 @@ body{
   display: block;
   text-align: center;
   color: #ee6c4d;
+}
+
+.modal-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: none !important;
+  background: rgba(48, 92, 138, .8)  !important;
+  border-radius: 15px !important;
+}
+
+.modal-header {
+  border-bottom: none !important;
+}
+
+.modal-footer {
+  border-top: none !important;
+}
+
+.ModalBody{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100%;
+  padding-top: 20px;
+  padding-left: 5px;
+  padding-right: 4px;
+}
+
+.ModalBody h4{
+  font-size: 2.5vw;
+  color: #e0fbfc;
+  text-align: center;
+}
+
+.ModalBody p{
+  font-size: 1.3vw;
+  color: #e0fbfc;
+  text-align: center;
+}
+
+.ModalBody img{
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+.ModalBody span{
+  font-size: 2vw;
+  color: #ee6c4d;
+  padding: 5px 20px 15px 20px;
+  transition: .3s;
+}
+
+.ModalBody span:hover{
+  background: #ee6c4d;
+  color: #e0fbfc;
+  border: 2px solid #ee6c4d;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 600px) {
+  .ModalBody h4{
+    font-size: 2.5vh !important;
+  }
+
+  .ModalBody p{
+    font-size: 2.2vh !important;
+  }
+
+  .ModalBody span{
+    font-size: 3vh !important;
+  }
+}
+
+@media screen and (max-width:768px) and (min-width:601px) {
+  .ModalBody h4{
+    font-size: 2.5vh !important;
+  }
+
+  .ModalBody p{
+    font-size: 2.2vh !important;
+  }
+
+  .ModalBody span{
+    font-size: 3vh !important;
+  }
 }

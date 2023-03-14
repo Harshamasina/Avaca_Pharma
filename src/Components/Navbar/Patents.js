@@ -8,7 +8,7 @@ function Patents(){
             <Helmet>
                 <title>Patents | AvacaPharma</title>
                 <meta name="description" content="Patents filed by AvacaPharma in 2022 AND 2023" />
-                <meta name="keywords" content="patents, cellix bio avacapharma patents, WO2023002338, US20230020927, 
+                <meta name="keywords" content="patents, cellix bio avacapharma patents, WO2023012610, WO2023002338, WO2023031755, US20230020927, 
                     WO2022190030, WO2022175829, WO2022157564, WO2022157563, WO2022157587, WO2022130040, WO2022123511, ALLERGIC DISEASES OF SKIN, ORAL MUCOSITIS AND ULCERS, 
                     GASTRITIS, GASTRIC ULCERS, SKIN DISEASES" 
                 />
@@ -65,77 +65,77 @@ function Patents(){
                             <tr>
                                 <td></td>
                                 <td><a className="wipoNo" href="https://www.cellixbio.com/patentInfo/WO2023031755" target="_blank" rel="noreferrer">WO2023031755</a></td>
-                                <td>FORMULATIONS, COMPOSITIONS AND METHODS FOR THE DELIVERY OF NEURODEGENERATIVE DRUGS THEREOF</td>
+                                <td><a className="wipoNo" href="https://www.cellixbio.com/patentInfo/WO2023031755" target="_blank" rel="noreferrer">FORMULATIONS, COMPOSITIONS AND METHODS FOR THE DELIVERY OF NEURODEGENERATIVE DRUGS THEREOF</a></td>
                                 <td>09.03.2023</td>
                             </tr>
 
                             <tr>
                                 <td></td>
                                 <td><a className="wipoNo" href="https://www.cellixbio.com/patentInfo/WO2023012610" target="_blank" rel="noreferrer">WO2023012610</a></td>
-                                <td>FORMULATIONS, COMPOSITIONS AND METHODS FOR THE TREATMENT OF STROKE</td>
+                                <td><a className="wipoNo" href="https://www.cellixbio.com/patentInfo/WO2023012610" target="_blank" rel="noreferrer">FORMULATIONS, COMPOSITIONS AND METHODS FOR THE TREATMENT OF STROKE</a></td>
                                 <td>09.02.2023</td>
                             </tr>
 
                             <tr>
                                 <td></td>
                                 <td><a className="wipoNo" href="https://www.cellixbio.com/patentInfo/WO2023002338" target="_blank" rel="noreferrer">WO2023002338</a></td>
-                                <td>COMPOSITIONS, METHODS OF MAKING AND USING SAME FOR THE DELIVERY OF ULCEROGENIC DRUGS THEREOF</td>
+                                <td><a className="wipoNo" href="https://www.cellixbio.com/patentInfo/WO2023012610" target="_blank" rel="noreferrer">COMPOSITIONS, METHODS OF MAKING AND USING SAME FOR THE DELIVERY OF ULCEROGENIC DRUGS THEREOF</a></td>
                                 <td>26.01.2023</td>
                             </tr>
 
                             <tr>
                                 <td></td>
                                 <td><a className="wipoNo" href="https://www.cellixbio.com/patentInfo/US20230020927" target="_blank" rel="noreferrer">US20230020927</a></td>
-                                <td>treatment of allergic conditions/diseases of skin</td>
+                                <td><a className="wipoNo" href="https://www.cellixbio.com/patentInfo/US20230020927" target="_blank" rel="noreferrer">treatment of allergic conditions/diseases of skin</a></td>
                                 <td>19.01.2023</td>
                             </tr>
 
                             <tr>
                                 <td></td>
                                 <td><a className="wipoNo" href="https://www.cellixbio.com/patentInfo/WO2022190030" target="_blank" rel="noreferrer">WO2022190030</a></td>
-                                <td>TREATMENT OF SKIN DISEASES</td>
+                                <td><a className="wipoNo" href="https://www.cellixbio.com/patentInfo/US20230020927" target="_blank" rel="noreferrer">TREATMENT OF SKIN DISEASES</a></td>
                                 <td>15.09.2022</td>
                             </tr>
 
                             <tr>
                                 <td></td>
                                 <td className="wipoNo"><a className="wipoNo" href="https://www.cellixbio.com/patentInfo/WO2022175829" target="_blank" rel="noreferrer">WO2022175829</a></td>
-                                <td>treatment of allergic diseases of skin</td>
+                                <td><a className="wipoNo" href="https://www.cellixbio.com/patentInfo/WO2022175829" target="_blank" rel="noreferrer">treatment of allergic diseases of skin</a></td>
                                 <td>25.08.2022</td>
                             </tr>
 
                             <tr>
                                 <td></td>
                                 <td className="wipoNo"><a className="wipoNo" href="https://www.cellixbio.com/patentInfo/WO2022157564" target="_blank" rel="noreferrer">WO2022157564</a></td>
-                                <td>treatment of oral mucositis, gastritis, gastric ulcers</td>
+                                <td><a className="wipoNo" href="https://www.cellixbio.com/patentInfo/WO2022157564" target="_blank" rel="noreferrer">treatment of oral mucositis, gastritis, gastric ulcers</a></td>
                                 <td>28.07.2022</td>
                             </tr>
 
                             <tr>
                                 <td></td>
                                 <td className="wipoNo"><a className="wipoNo" href="https://www.cellixbio.com/patentInfo/WO2022157563" target="_blank" rel="noreferrer">WO2022157563</a></td>
-                                <td>treatment of mucositis, oral mucositis</td>
+                                <td className="wipoNo"><a className="wipoNo" href="https://www.cellixbio.com/patentInfo/WO2022157563" target="_blank" rel="noreferrer">treatment of mucositis, oral mucositis</a></td>
                                 <td>28.07.2022</td>
                             </tr>
 
                             <tr>
                                 <td></td>
                                 <td className="wipoNo"><a className="wipoNo" href="https://www.cellixbio.com/patentInfo/WO2022157587" target="_blank" rel="noreferrer">WO2022157587</a></td>
-                                <td>treatment of oral mucositis and ulcers</td>
+                                <td><a className="wipoNo" href="https://www.cellixbio.com/patentInfo/WO2022157587" target="_blank" rel="noreferrer">treatment of oral mucositis and ulcers</a></td>
                                 <td>28.07.2022</td>
                             </tr>
 
                             <tr>
                                 <td></td>
                                 <td className="wipoNo"><a className="wipoNo" href="https://www.cellixbio.com/patentInfo/WO2022130040" target="_blank" rel="noreferrer">WO2022130040</a></td>
-                                <td>treatment of urticaria, atopic dermatitis, pruritus</td>
+                                <td><a className="wipoNo" href="https://www.cellixbio.com/patentInfo/WO2022130040" target="_blank" rel="noreferrer">treatment of urticaria, atopic dermatitis, pruritus</a></td>
                                 <td>23.06.2022</td>
                             </tr>
 
                             <tr>
                                 <td></td>
                                 <td className="wipoNo"><a className="wipoNo" href="https://www.cellixbio.com/patentInfo/WO2022123511" target="_blank" rel="noreferrer">WO2022123511</a></td>
-                                <td>treatment of allergic diseases</td>
+                                <td><a className="wipoNo" href="https://www.cellixbio.com/patentInfo/WO2022123511" target="_blank" rel="noreferrer">treatment of allergic diseases</a></td>
                                 <td>16.06.2022</td>
                             </tr>
                         </tbody>
