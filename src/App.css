@@ -2673,11 +2673,11 @@ body{
 
 @media screen and (max-width: 600px) {
   .ModalBody h4{
-    font-size: 4.5vh !important;
+    font-size: 3vh !important;
   }
 
   .ModalBody p{
-    font-size: 2.5vh !important;
+    font-size: 2vh !important;
   }
 
   .ModalBody span{

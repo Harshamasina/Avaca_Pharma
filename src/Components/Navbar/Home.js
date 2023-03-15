@@ -30,7 +30,6 @@ function Home(){
                                 <h4>AVACA PHARMA</h4>
                                 <p>An Operating Subsidiary of Cellix Bio Pharma</p>
                                 <a href='https://www.cellixbiopharma.com/' target="_blank" rel="noreferrer"><img src='https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/cbp+-+2.png' alt='cbp' /></a>
-                                <p>And Cellix Bio</p>
                                 <a href='https://www.cellixbio.com/' target="_blank" rel="noreferrer"><img src='https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/CellixBio.Icon.png' alt='cbp' /></a>
                                 <span onClick={handleCloseModal}> <MdClose /></span>
                             </div>
