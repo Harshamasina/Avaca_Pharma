@@ -64,6 +64,20 @@ function Patents(){
                         <tbody>
                             <tr>
                                 <td></td>
+                                <td><a className="wipoNo" href="https://www.cellixbio.com/patentInfo/WO2023052974" target="_blank" rel="noreferrer">WO2023052974</a></td>
+                                <td><a className="wipoNo" href="https://www.cellixbio.com/patentInfo/WO2023052974" target="_blank" rel="noreferrer">TREATMENT OF OPHTHALMIC DISEASES AND DISORDERS</a></td>
+                                <td>06.04.2023</td>
+                            </tr>
+
+                            <tr>
+                                <td></td>
+                                <td><a className="wipoNo" href="https://www.cellixbio.com/patentInfo/WO2023052977" target="_blank" rel="noreferrer">WO2023052977</a></td>
+                                <td><a className="wipoNo" href="https://www.cellixbio.com/patentInfo/WO2023052977" target="_blank" rel="noreferrer">COMPOSITIONS, METHODS AND USES THEREOF</a></td>
+                                <td>06.04.2023</td>
+                            </tr>
+
+                            <tr>
+                                <td></td>
                                 <td><a className="wipoNo" href="https://www.cellixbio.com/patentInfo/WO2023031755" target="_blank" rel="noreferrer">WO2023031755</a></td>
                                 <td><a className="wipoNo" href="https://www.cellixbio.com/patentInfo/WO2023031755" target="_blank" rel="noreferrer">FORMULATIONS, COMPOSITIONS AND METHODS FOR THE DELIVERY OF NEURODEGENERATIVE DRUGS THEREOF</a></td>
                                 <td>09.03.2023</td>
